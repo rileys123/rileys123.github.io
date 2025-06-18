@@ -31,6 +31,14 @@ A browser-based Flappy Bird remake with personalized characters and pixel art, d
 **Links:** [▶️ Play on Replit](#) 
 
 ---
+### 📱 Cook the Fish Game  
+**Tech:** JavaScript, p5.play on Replit 
+**Date:** July 2023  
+A fun life-or-death choose your own adventure game! Built to explore JavaScript visuals.
+**Links:** [▶️ Play on Replit](https://replit.com/@rosalinalina100/CYOA-Game-Riley-S?v=1)
+
+---
+
 
 ### 🏝 Adventure Game  
 **Tech:** JavaScript, p5.play on Replit  
