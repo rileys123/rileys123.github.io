@@ -14,7 +14,7 @@ Here’s a showcase of all the apps, games, and tools I’ve developed across An
 **Tech:** Java, Android Studio  
 **Date:** November 2023  
 An educational flashcard app that helps users explore Roman culture through images and concise descriptions. Designed to be interactive, visual, and rooted in historical research.  
-**Links:** [📥 Download APK](#) | [💻 GitHub (if public)](#)
+**Links:** [📥 Download on the Google Play Store](#)
 
 ---
 
@@ -22,7 +22,7 @@ An educational flashcard app that helps users explore Roman culture through imag
 **Tech:** JavaScript, p5.play on Replit  
 **Date:** July 2023  
 A browser-based Flappy Bird remake with personalized characters and pixel art, developed using the p5.play library.  
-**Links:** [▶️ Play on Replit](#) | [💻 GitHub (if public)](#)
+**Links:** [▶️ Play on Replit](#) 
 
 ---
 
@@ -30,7 +30,7 @@ A browser-based Flappy Bird remake with personalized characters and pixel art, d
 **Tech:** JavaScript, p5.play on Replit  
 **Date:** July 2023  
 A two-part browser game combining a collectible island adventure and a maze escape challenge. Built to showcase exploration mechanics and level transitions.  
-**Links:** [▶️ Play on Replit](#) | [💻 GitHub (if public)](#)
+**Links:** [▶️ Play on Replit](#) 
 
 ---
 
@@ -38,7 +38,7 @@ A two-part browser game combining a collectible island adventure and a maze esca
 **Tech:** MIT App Inventor, AI Chatbot Extension  
 **Date:** November 2023  
 An app that uses user input and an AI extension to generate fun, festive Thanksgiving recipe ideas and step-by-step instructions.  
-**Links:** [📥 Download APK](#) | [Demo Video](#)
+**Links:** [📥 Download APK](#) 
 
 ---
 
@@ -62,7 +62,7 @@ This app lets users choose a destination using voice input and then generates tu
 **Tech:** MIT App Inventor + OpenAI API  
 **Date:** March 2024  
 An AI art app that connects to OpenAI's DALL·E to let users input any prompt and receive a generated image.  
-**Links:** [📥 Download APK](#) | [📷 Sample Gallery](#)
+**Links:** [📥 Download APK](#) 
 
 ---
 
@@ -78,7 +78,7 @@ Displays interactive graphs showing temperature trends, ice coverage, and other 
 **Tech:** JavaScript, p5.play  
 **Date:** December 2024  
 A twist on classic Rock-Paper-Scissors with four animal characters, themed sound effects, and background music.  
-**Links:** [▶️ Play on Replit](#) | [💻 GitHub (if public)](#)
+**Links:** [▶️ Play on Replit](#) 
 
 ---
 
