@@ -40,7 +40,7 @@ A fun life-or-death choose your own adventure game! Built to explore JavaScript 
 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 1em;">
-  <img src="/assets/img/cook1.png" alt="Scene 1" style="width: 30%; border-radius: 8px;">
+  <img src="/assets/img/cook1.png" alt="Scene 1" style="width: 30%; border-radius: 18px;">
   <img src="/assets/img/cook2.png" alt="Scene 2" style="width: 30%; border-radius: 8px;">
   <img src="/assets/img/cook3.png" alt="Scene 3" style="width: 30%; border-radius: 8px;">
 </div>
