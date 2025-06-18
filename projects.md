@@ -9,7 +9,26 @@ permalink: /projects/
 Here’s a showcase of all the apps, games, and tools I’ve developed across Android Studio, MIT App Inventor, Replit, and IntelliJ! Each project was a fun way to explore applications of programming.
 
 ---
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 2em;">
 
+  <img src="/assets/img/cultura-app.png" alt="Cultura App Screenshot" width="200" style="border-radius: 8px;" />
+
+  <div>
+    <h3>📱 Cultura App</h3>
+    <p><strong>Tech:</strong> Java, Android Studio<br>
+    <strong>Date:</strong> November 2023</p>
+
+    <p>An educational flashcard app that helps users explore Roman culture through images and concise descriptions. Designed to be interactive, visual, and rooted in historical research.</p>
+
+    <p>
+      🔗 <a href="#">Download APK</a> &nbsp;|&nbsp;
+      <a href="#">GitHub Repo</a>
+    </p>
+  </div>
+
+</div>
+
+/*
 ### 📱 Cultura App  
 **Tech:** Java, Android Studio  
 **Date:** November 2023  
@@ -18,6 +37,8 @@ An educational flashcard app that helps users explore Roman culture through imag
 <p align="center">
   <img src="/assets/img/cultura.png" width="400" alt="Cultura Screenshot">
 </p>
+
+*/
 
 
 **Links:** [📥 Download on the Google Play Store](#) 🎥 [Watch Demo Video on YouTube](https://youtu.be/jO6_zigRMcg)
