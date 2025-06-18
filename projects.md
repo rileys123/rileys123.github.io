@@ -11,7 +11,7 @@ Here’s a showcase of all the apps, games, and tools I’ve developed across An
 ---
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 2em;">
 
-  <img src="/assets/img/cultura-app.png" alt="Cultura App Screenshot" width="200" style="border-radius: 8px;" />
+  <img src="/assets/img/cultura.png" alt="Cultura App Screenshot" width="200" style="border-radius: 8px;" />
 
   <div>
     <h3>📱 Cultura App</h3>
