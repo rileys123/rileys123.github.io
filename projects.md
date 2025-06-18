@@ -13,7 +13,7 @@ Here’s a showcase of all the apps, games, and tools I’ve developed across An
 <img src="/assets/img/cultura-removebg-preview.png" alt="Cultura App" width="200" align="left" style="margin-right: 20px; margin-bottom: 10px; border-radius: 8px;">
 
 ### 📱 Cultura App  
-**Tech:** Java, Android Studio  
+**Tech:** Java, Android App Studio  
 **Date:** November 2023  
 An educational flashcard app that helps users explore Roman culture through images and concise descriptions. Designed to be interactive, visual, and rooted in historical research.  
 
@@ -25,9 +25,9 @@ An educational flashcard app that helps users explore Roman culture through imag
 ---
 
 ### 🐯 Animal Kingdom Rock Paper Scissors  
-**Tech:** JavaScript, p5.play  
+**Tech:** Java, IntelliJ
 **Date:** December 2024  
-A twist on classic Rock-Paper-Scissors with four animal characters, themed sound effects, and background music.  
+A twist on a classic Rock-Paper-Scissors with four animal characters, themed sound effects, and suspenseful background music.  
 **Links:** [▶️ Play on Replit](#) 
 
 ---
