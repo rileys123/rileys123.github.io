@@ -10,7 +10,8 @@ Here’s a showcase of all the apps, games, and tools I’ve developed across An
 
 ---
 
-<img src="/assets/img/cultura.png" alt="Cultura App" width="200" align="left" style="margin-right: 20px; margin-bottom: 10px; border-radius: 8px;">
+<img src="/assets/img/cultura-removebg-preview.png" alt="Cultura App" width="200" align="left" style="margin-right: 20px; margin-bottom: 10px; border-radius: 8px;">
+
 ### 📱 Cultura App  
 **Tech:** Java, Android Studio  
 **Date:** November 2023  
