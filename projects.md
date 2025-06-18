@@ -24,10 +24,10 @@ An educational flashcard app that helps users explore Roman culture through imag
 
 ---
 
-### 🕹 Flappy Bird Game  
-**Tech:** JavaScript, p5.play on Replit  
-**Date:** July 2023  
-A browser-based Flappy Bird remake with personalized characters and pixel art, developed using the p5.play library.  
+### 🐯 Animal Kingdom Rock Paper Scissors  
+**Tech:** JavaScript, p5.play  
+**Date:** December 2024  
+A twist on classic Rock-Paper-Scissors with four animal characters, themed sound effects, and background music.  
 **Links:** [▶️ Play on Replit](#) 
 
 ---
@@ -94,13 +94,17 @@ An AI art app that connects to OpenAI's DALL·E to let users input any prompt an
 Displays interactive graphs showing temperature trends, ice coverage, and other lake data directly from Google Sheets in visual formats.  
 **Links:** [📥 Download APK](#)
 
+
+
 ---
 
-### 🐯 Animal Kingdom Rock Paper Scissors  
-**Tech:** JavaScript, p5.play  
-**Date:** December 2024  
-A twist on classic Rock-Paper-Scissors with four animal characters, themed sound effects, and background music.  
+### 🕹 Flappy Bird Game  
+**Tech:** JavaScript, p5.play on Replit  
+**Date:** July 2023  
+A browser-based Flappy Bird remake with personalized characters and pixel art, developed using the p5.play library.  
 **Links:** [▶️ Play on Replit](#) 
 
 ---
+
+
 
