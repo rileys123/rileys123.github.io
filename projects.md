@@ -27,8 +27,8 @@ An educational flashcard app that helps users explore Roman culture through imag
 ### 🐯 Animal Kingdom Rock Paper Scissors  
 **Tech:** Java, IntelliJ
 **Date:** December 2024  
-A twist on a classic Rock-Paper-Scissors with four animal characters, themed sound effects, and suspenseful background music.  
-**Links:** [▶️ Play on Replit](#) 
+A twist on a classic Rock-Paper-Scissors game with four animal characters, themed sound effects, and suspenseful background music.  
+**Links:** [▶️ GitHub Link ](https://github.com/rileys123/animal_kingdom.git) 
 
 ---
 
