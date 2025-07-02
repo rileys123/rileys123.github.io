@@ -47,7 +47,7 @@ permalink: /projects/
     <div class="project-meta">
       <span class="tech-tag game">Game</span>
       <span class="tech-tag java">Java</span>
-      <span class="date">Dec 2023</span>
+      <span class="date">Dec 2024</span>
     </div>
     
     <p>Rock-paper-scissors with animal characters and sound effects.</p>
