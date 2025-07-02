@@ -1,5 +1,12 @@
-<nav>
-  {% for item in site.navigation %}
-    <a href="{{ item.file | relative_url }}">{{ item.title }}</a>
-  {% endfor %}
+<nav class="site-nav">
+  <ul>
+    {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}"
+           {% if page.url == item.url %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </nav>
