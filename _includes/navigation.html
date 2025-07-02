@@ -1,12 +1,5 @@
-<nav class="site-nav">
-  <ul>
-    {% for item in site.navigation %}
-      <li>
-        <a href="{{ item.file | replace: '.md', '/' | relative_url }}"
-           {% if page.url == item.file | replace: '.md', '/' %}class="active"{% endif %}>
-          {{ item.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<nav>
+  {% for item in site.navigation %}
+    <a href="{{ item.file | relative_url }}">{{ item.title }}</a>
+  {% endfor %}
 </nav>
