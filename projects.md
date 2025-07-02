@@ -62,6 +62,72 @@ permalink: /projects/
     </div>
   </div>
 
+<div class="project-card" id="cook-the-fish">
+  <div class="project-header">
+    <span class="emoji-icon">🎣</span>
+    <h3>Cook the Fish Game</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/cook1.png" alt="Cook the Fish - Starting screen" loading="lazy">
+    <img src="/assets/img/cook2.png" alt="Cook the Fish - Gameplay" loading="lazy">
+    <img src="/assets/img/cook3.png" alt="Cook the Fish - Ending scene" loading="lazy">
+  </div>
+
+  <div class="project-meta">
+    <span class="tech-tag game">Game</span>
+    <span class="tech-tag javascript">JavaScript</span>
+    <span class="date">July 2023</span>
+  </div>
+
+  <p>A choose-your-own-adventure browser game where you must survive on a deserted island by making strategic decisions about fishing and cooking.</p>
+
+  <div class="project-links">
+    <a href="https://replit.com/@rosalinalina100/CYOA-Game-Riley-S?v=1" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> Play Game
+    </a>
+    <a href="#cook-the-fish-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
+
+<!-- Details Section -->
+<div id="cook-the-fish-details" class="project-details">
+  <h3>About "Cook the Fish"</h3>
+  
+  <div class="details-grid">
+    <div>
+      <h4>Game Features:</h4>
+      <ul>
+        <li>Multiple story branches with 8 possible endings</li>
+        <li>Interactive decision points every 3 scenes</li>
+        <li>Original pixel art graphics</li>
+        <li>Survival score system</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h4>Technical Details:</h4>
+      <ul>
+        <li><strong>Engine:</strong> p5.play (JavaScript)</li>
+        <li><strong>Assets:</strong> Custom pixel art</li>
+        <li><strong>Development Time:</strong> 3 weeks</li>
+      </ul>
+    </div>
+  </div>
+
+  <h4>Development Challenges:</h4>
+  <p>Creating the branching narrative system required careful state management. I implemented a scene router that tracks player choices and modifies available options.</p>
+  
+  <div class="screenshot-showcase">
+    <img src="/assets/img/cook1.png" alt="Starting screen" class="highlight">
+    <img src="/assets/img/cook2.png" alt="Decision point">
+    <img src="/assets/img/cook3.png" alt="Game over screen">
+  </div>
+</div>
+
   <!-- Project Details Sections -->
   <div id="cultura-app" class="project-details">
     <h3>📱 Cultura App Details</h3>
