@@ -2,9 +2,22 @@
 <html>
 <head>
   {% include head.html %}
+  <title>{{ page.title }} | {{ site.title }}</title>
 </head>
 <body>
-  {% include navigation.html %} <!-- Important for menu links! -->
-  {{ content }}
+  <header>
+    <h1>{{ site.title }}</h1>
+    {% include navigation.html %}
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    {% for link in site.external %}
+      <a href="{{ link.url }}"><i class="fab fa-{{ link.icon }}"></i></a>
+    {% endfor %}
+  </footer>
 </body>
 </html>
