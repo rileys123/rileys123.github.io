@@ -14,6 +14,11 @@ permalink: /projects/
       <h3>Cultura App</h3>
     </div>
     
+ <div class="project-screenshot-container">
+    <img src="/assets/img/cultura-screenshot1.png" alt="Cultura App Screenshot" loading="lazy">
+    <img src="/assets/img/cultura-screenshot2.png" alt="Cultura App Flashcards" loading="lazy">
+  </div>
+    
     <div class="project-meta">
       <span class="tech-tag android">Android</span>
       <span class="tech-tag java">Java</span>
