@@ -1,30 +1,30 @@
 <div class="projects-container">
-  <!-- Project 1 -->
+  <!-- Project 1 - Cultura App -->
   <div class="project-card">
     <div class="project-header">
       <div class="project-icon">📱</div>
-      <h2>Cultura App</h2>
+      <h3>Cultura App</h3>
     </div>
     <div class="project-tags">
       <span class="tag-android">Android</span>
       <span class="tag-java">Java</span>
     </div>
-    <p>Educational flashcard app for Roman culture with images and descriptions.</p>
+    <p>Educational flashcard app for exploring Roman culture with images and descriptions.</p>
     <div class="project-links">
-      <a href="https://youtu.be/jO6_zigRMcg" target="_blank">
+      <a href="https://youtu.be/jO6_zigRMcg" target="_blank" rel="noopener">
         <i class="fas fa-play"></i> Demo
       </a>
-      <a href="#" target="_blank">
-        <i class="fab fa-google-play"></i> Play Store
+      <a href="/projects/cultura/" class="project-link">
+        <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
   </div>
 
-  <!-- Project 2 -->
+  <!-- Project 2 - Animal Kingdom -->
   <div class="project-card">
     <div class="project-header">
       <div class="project-icon">🐯</div>
-      <h2>Animal Kingdom RPS</h2>
+      <h3>Animal Kingdom RPS</h3>
     </div>
     <div class="project-tags">
       <span class="tag-game">Game</span>
@@ -32,11 +32,61 @@
     </div>
     <p>Rock-paper-scissors with 4 animal characters and themed sound effects.</p>
     <div class="project-links">
-      <a href="https://github.com/rileys123/animal_kingdom.git" target="_blank">
+      <a href="https://github.com/rileys123/animal_kingdom.git" target="_blank" rel="noopener">
         <i class="fab fa-github"></i> Code
+      </a>
+      <a href="/projects/animal-kingdom/" class="project-link">
+        <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
   </div>
 
-  <!-- Add more projects following the same format -->
+  <!-- Project 3 - Cook the Fish -->
+  <div class="project-card">
+    <div class="project-header">
+      <div class="project-icon">🎣</div>
+      <h3>Cook the Fish Game</h3>
+    </div>
+    <div class="project-tags">
+      <span class="tag-game">Game</span>
+      <span class="tag-js">JavaScript</span>
+    </div>
+    <p>Choose-your-own-adventure game built with p5.play.</p>
+    <div class="project-links">
+      <a href="https://replit.com/@rosalinalina100/CYOA-Game-Riley-S?v=1" target="_blank" rel="noopener">
+        <i class="fas fa-gamepad"></i> Play
+      </a>
+      <a href="/projects/cook-the-fish/" class="project-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
+    </div>
+  </div>
 </div>
+
+<style>
+/* Embedded fallback styles in case CSS doesn't load */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 2rem 0;
+}
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 4px solid #6C63FF;
+}
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  background: #E0DDFF;
+  color: #4A42CC;
+  font-size: 0.9rem;
+}
+</style>
