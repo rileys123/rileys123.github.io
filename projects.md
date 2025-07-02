@@ -72,7 +72,7 @@ permalink: /projects/
       <li>Historical accuracy</li>
       <li>Image-based learning</li>
     </ul>
-    <img src="/assets/img/cultura-screenshot.png" alt="Cultura App Screenshot" class="project-screenshot">
+    <img src="/assets/img/cultura.png" alt="Cultura App Screenshot" class="project-screenshot">
   </div>
 
   <div id="animal-kingdom" class="project-details">
