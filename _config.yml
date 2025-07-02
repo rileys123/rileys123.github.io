@@ -24,10 +24,13 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home"}
-  - {file: "/projects/", title: "Projects"}
-  - {file: "/artwork/", title: "Artwork"}
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "Projects"
+    url: "/projects/"
+  - name: "Artwork"
+    url: "/artwork/"
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rileys435123@gmail.com"}
