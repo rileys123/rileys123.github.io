@@ -24,10 +24,16 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 navigation:
   - name: "Home"
     url: "/"
-  - name: "Projects"
+  - name: "Projects" 
     url: "/projects/"
   - name: "Artwork"
     url: "/artwork/"
