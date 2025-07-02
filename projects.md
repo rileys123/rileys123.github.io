@@ -93,38 +93,28 @@ permalink: /projects/
   </div>
 </div>
 
-<!-- Details Section -->
+<!-- cook the fish Details Section -->
 <div id="cook-the-fish-details" class="project-details">
   <h3>About "Cook the Fish"</h3>
   
-  <div class="details-grid">
-    <div>
-      <h4>Game Features:</h4>
-      <ul>
-        <li>Multiple story branches with 8 possible endings</li>
-        <li>Interactive decision points every 3 scenes</li>
-        <li>Original pixel art graphics</li>
-        <li>Survival score system</li>
-      </ul>
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Multiple story branches with 8 endings</li>
+      <li>Interactive decision points</li>
+      <li>Original pixel art graphics</li>
+    </ul>
+    
+    <div class="screenshot-showcase">
+      <img src="/assets/img/cook1.png" alt="Starting screen">
+      <img src="/assets/img/cook2.png" alt="Decision point">
+      <img src="/assets/img/cook3.png" alt="Game over">
     </div>
     
-    <div>
-      <h4>Technical Details:</h4>
-      <ul>
-        <li><strong>Engine:</strong> p5.play (JavaScript)</li>
-        <li><strong>Assets:</strong> Custom pixel art</li>
-        <li><strong>Development Time:</strong> 3 weeks</li>
-      </ul>
-    </div>
-  </div>
-
-  <h4>Development Challenges:</h4>
-  <p>Creating the branching narrative system required careful state management. I implemented a scene router that tracks player choices and modifies available options.</p>
-  
-  <div class="screenshot-showcase">
-    <img src="/assets/img/cook1.png" alt="Starting screen" class="highlight">
-    <img src="/assets/img/cook2.png" alt="Decision point">
-    <img src="/assets/img/cook3.png" alt="Game over screen">
+    <h4>Technical Details:</h4>
+    <p>The game uses p5.play's scene management system with custom state tracking for player choices.</p>
+    
+    <img src="/assets/img/cook2.png" alt="Code example" class="featured-screenshot">
   </div>
 </div>
 
