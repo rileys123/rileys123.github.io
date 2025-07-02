@@ -2,6 +2,81 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+/* PROJECTS PAGE STYLES */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 4px solid var(--accent);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.project-icon {
+  font-size: 1.5rem;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.tag-android { background: #3ddc84; color: white; }
+.tag-java { background: #5382a1; color: white; }
+.tag-game { background: #ff6b6b; color: white; }
+/* Add more tag colors as needed */
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.project-links a {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: var(--light-accent);
+  color: var(--dark-accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-links a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.projects-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
 <style>
 :root {
   --accent: #6C63FF;
