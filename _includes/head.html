@@ -170,13 +170,86 @@ footer a {
 
 
 /* Project Screenshots */
+/* ===== Project Screenshot Styles ===== */
+/* Container for grid layout screenshots */
 .project-screenshot-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
   margin: 1rem 0;
+}
+
+/* Container for horizontal scrolling screenshots */
+.screenshot-showcase {
+  display: flex;
+  gap: 15px;
+  padding: 10px 5px;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+/* Base image styles */
+.project-details img,
+.screenshot-showcase img,
+.project-screenshot-container img {
+  max-width: 100%;
   border-radius: 8px;
-  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #eee;
+  transition: transform 0.3s ease;
+}
+
+/* Specific styles for showcase images */
+.screenshot-showcase img {
+  height: 160px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Hover effects */
+.project-details img:hover,
+.screenshot-showcase img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Featured screenshot style */
+.featured-screenshot {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid var(--accent);
+}
+
+/* Scrollbar styling */
+.screenshot-showcase::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-showcase::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.screenshot-showcase::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-screenshot-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .screenshot-showcase img {
+    height: 120px;
+  }
+  
+  .featured-screenshot {
+    max-width: 95%;
+  }
 }
 
 .project-screenshot-container img {
