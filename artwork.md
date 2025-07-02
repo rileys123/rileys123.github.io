@@ -13,7 +13,7 @@ Explore my original designs and illustrations across different mediums and style
 <div class="art-gallery">
   <!-- Design 1 -->
   <div class="art-item">
-    <img src="/assets/art/tshirt-design1.jpg" alt="Geometric Wolf T-Shirt Design" loading="lazy">
+    <img src="/assets/art/vex.png" alt="Geometric Wolf T-Shirt Design" loading="lazy">
     <div class="art-info">
       <h3>Geometric Wolf</h3>
       <p>Vector illustration | 2023</p>
@@ -26,7 +26,7 @@ Explore my original designs and illustrations across different mediums and style
 
   <!-- Design 2 -->
   <div class="art-item">
-    <img src="/assets/art/hoodie-design1.jpg" alt="Cyberpunk Hoodie Design" loading="lazy">
+    <img src="/assets/art/vex.png" alt="Cyberpunk Hoodie Design" loading="lazy">
     <div class="art-info">
       <h3>Cyberpunk Neon</h3>
       <p>Digital painting | 2024</p>
@@ -43,7 +43,7 @@ Explore my original designs and illustrations across different mediums and style
 <div class="art-gallery">
   <!-- Illustration 1 -->
   <div class="art-item">
-    <img src="/assets/art/sketch1.jpg" alt="Character Concept Sketch" loading="lazy">
+    <img src="/assets/art/vex.png" alt="Character Concept Sketch" loading="lazy">
     <div class="art-info">
       <h3>Warrior Concept</h3>
       <p>Pencil sketch | 2023</p>
@@ -56,7 +56,7 @@ Explore my original designs and illustrations across different mediums and style
 
   <!-- Illustration 2 -->
   <div class="art-item">
-    <img src="/assets/art/digital1.jpg" alt="Fantasy Landscape" loading="lazy">
+    <img src="/assets/art/vex.png" alt="Fantasy Landscape" loading="lazy">
     <div class="art-info">
       <h3>Mystic Valley</h3>
       <p>Digital painting | Procreate</p>
@@ -68,30 +68,3 @@ Explore my original designs and illustrations across different mediums and style
   </div>
 </div>
 
-## 🛍️ Available Designs
-
-<div class="store-grid">
-  <div class="store-item">
-    <img src="/assets/art/tshirt-mockup1.jpg" alt="Geometric Wolf T-Shirt Mockup" class="store-image">
-    <div class="store-actions">
-      <a href="#" class="store-link">
-        <i class="fas fa-shopping-cart"></i> Purchase
-      </a>
-      <a href="/assets/art/tshirt-design1-full.jpg" class="store-link lightbox-trigger">
-        <i class="fas fa-expand"></i> View Full Design
-      </a>
-    </div>
-  </div>
-  
-  <div class="store-item">
-    <img src="/assets/art/hoodie-mockup1.jpg" alt="Cyberpunk Hoodie Mockup" class="store-image">
-    <div class="store-actions">
-      <a href="#" class="store-link">
-        <i class="fas fa-shopping-cart"></i> Purchase
-      </a>
-      <a href="/assets/art/hoodie-design1-full.jpg" class="store-link lightbox-trigger">
-        <i class="fas fa-expand"></i> View Full Design
-      </a>
-    </div>
-  </div>
-</div>
