@@ -25,7 +25,7 @@ permalink: /projects/
       <span class="date">Nov 2023</span>
     </div>
     
-    <p>Educational flashcard app for Roman culture with images and descriptions.</p>
+    <p>An educational flashcard app for Roman culture with images and descriptions. Available on the Google Play Store!</p>
     
     <div class="project-links">
       <a href="https://youtu.be/jO6_zigRMcg" target="_blank">
@@ -104,9 +104,9 @@ permalink: /projects/
   <div class="details-content">
     <h4>Key Features:</h4>
     <ul>
-      <li>Multiple story branches with 8 endings</li>
+      <li>Multiple story branches with different endings</li>
       <li>Interactive decision points</li>
-      <li>Original pixel art graphics</li>
+      <li>Original graphics created to explore Javascript</li>
     </ul>
     
     <div class="screenshot-showcase">
@@ -116,7 +116,7 @@ permalink: /projects/
     </div>
     
     <h4>Technical Details:</h4>
-    <p>The game uses p5.play's scene management system with custom state tracking for player choices.</p>
+    <p>The game was made as a part of Girls Who Code's Summer Immersion Program with Javascript in Replit. Click on 'play game' to access the Replit code!</p>
     
     <img src="/assets/img/cook4.png" alt="Code example" class="featured-screenshot">
   </div>
@@ -125,12 +125,12 @@ permalink: /projects/
   <!-- Project Details Sections -->
   <div id="cultura-app" class="project-details">
     <h3>📱 Cultura App Details</h3>
-    <p><strong>Tech Stack:</strong> Java, Android Studio</p>
+    <p><strong>Tech Stack:</strong> Java, Android Studio, Google Play Developer Console</p>
     <p>This app features:</p>
     <ul>
       <li>Interactive flashcards</li>
       <li>Historical accuracy</li>
-      <li>Image-based learning</li>
+      <li>Image-based Roman culture learning</li>
     </ul>
     <img src="/assets/img/cultura.png" alt="Cultura App Screenshot" class="project-screenshot">
   </div>
