@@ -174,14 +174,14 @@ permalink: /projects/
   <div class="details-content">
     <h4>Key Features:</h4>
     <ul>
-      <li>Multiple story branches with different endings</li>
-      <li>Interactive decision points</li>
-      <li>Original graphics created to explore Javascript</li>
+      <li>Use arrow keys to move basket left and right</li>
+      <li>Score system with replay game option</li>
+      <li>Exploring Javascript p5.play library with interactive sprites</li>
     </ul>
     
     <div class="screenshot-showcase">
       <img src="/assets/img/crab1.png" alt="Starting screen">
-      <img src="/assets/img/crab2.png" alt="Decision point">
+      <img src="/assets/img/crab2.png" alt="Ending screen">
     </div>
     
     <h4>Technical Details:</h4>
