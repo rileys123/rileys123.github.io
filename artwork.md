@@ -121,7 +121,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/latin4.png" alt="NatCon 2025" loading="lazy">
+      <img src="/assets/art/latin4.png" alt="Latin 2025" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -130,7 +130,7 @@ permalink: /artwork/
       <span class="date">Mar 2024</span>
     </div>
     
-    <p>Horatii brothers</p>
+    <p>Oath of the Horatii with Pencils</p>
     
     <div class="project-links">
       <a href="#wolf-details" class="details-link">
