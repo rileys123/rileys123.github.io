@@ -26,7 +26,7 @@ Explore my original designs and illustrations across different mediums and style
 
   <!-- Design 2 -->
   <div class="art-item">
-    <img src="/assets/art/vex.png" alt="Cyberpunk Hoodie Design" loading="lazy">
+    <img src="/assets/art/saxes.png" alt="Cyberpunk Hoodie Design" loading="lazy">
     <div class="art-info">
       <h3>Cyberpunk Neon</h3>
       <p>Digital painting | 2024</p>
