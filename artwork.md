@@ -226,6 +226,58 @@ permalink: /artwork/
       </a>
     </div>
   </div>
+
+    <!-- Sketch-->
+  <div class="project-card" id="mystic-valley">
+    <div class="project-header">
+      <span class="emoji-icon">🖌️</span>
+      <h3>Angel Statue</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/IMG_7055.jpg" alt="Angel Sketch" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag traditional">Traditional</span>
+      <span class="tech-tag landscape">Landscape</span>
+      <span class="date">Nov 2023</span>
+    </div>
+    
+    <p>Graphite pencil sketch of statue in clouds.</p>
+    
+    <div class="project-links">
+      <a href="#mystic-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Process
+      </a>
+    </div>
+  </div>
+
+      <!-- Markers-->
+  <div class="project-card" id="mystic-valley">
+    <div class="project-header">
+      <span class="emoji-icon">🖌️</span>
+      <h3>Marker Landscape Collection</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/IMG_7058.jpg" alt="Angel Sketch" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag traditional">Traditional</span>
+      <span class="tech-tag landscape">Landscape</span>
+      <span class="date">Nov 2023</span>
+    </div>
+    
+    <p>Collection of architecture scenes on index cards</p>
+    
+    <div class="project-links">
+      <a href="#mystic-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Process
+      </a>
+    </div>
+  </div>
 </div>
 
 
