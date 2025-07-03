@@ -224,7 +224,7 @@ permalink: /projects/
     <a href="https://gallery.appinventor.mit.edu/?galleryid=649fac42-9f83-4543-9cd4-1d1eefe1c80a" target="_blank" rel="noopener">
       <i class="fas fa-gamepad"></i> Gallery Link
     </a>
-    <a href="#shop-details" class="details-link">
+    <a href="#patient-details" class="details-link">
       <i class="fas fa-info-circle"></i> Project Details
     </a>
   </div>
@@ -309,7 +309,7 @@ permalink: /projects/
 
 
 <!-- Shop Details Section -->
-<div id="map-details" class="project-details">
+<div id="shop-details" class="project-details">
   <h3>🛍️ Shopping List App Details</h3>
   
   <div class="details-content">
@@ -330,7 +330,7 @@ permalink: /projects/
 
 
 <!-- Patient Details Section -->
-<div id="map-details" class="project-details">
+<div id="patient-details" class="project-details">
   <h3>🚑 Patient Alert App Details</h3>
   
   <div class="details-content">
