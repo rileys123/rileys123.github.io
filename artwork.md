@@ -4,120 +4,128 @@ title: Artwork
 permalink: /artwork/
 ---
 
-# 🎨 My Creative Works
+# 🎨 My Art Portfolio
 
 ## 👕 Apparel Designs
 
-<div class="art-section">
+<div class="projects-grid">
   <!-- Hoodie Design -->
-  <div class="art-card" id="cyber-hoodie">
-    <div class="art-preview">
-      <img src="/assets/art/vex.png" alt="Cyberpunk Hoodie" loading="lazy">
-      <div class="art-info">
-        <h3>Cyberpunk Neon Hoodie</h3>
-        <div class="art-tags">
-          <span class="tag-apparel">Hoodie</span>
-          <span class="tag-digital">Digital</span>
-        </div>
-        <button class="details-btn" onclick="toggleDetails('hoodie-details')">
-          <i class="fas fa-chevron-down"></i> Details
-        </button>
-      </div>
+  <div class="project-card" id="cyber-hoodie">
+    <div class="project-header">
+      <span class="emoji-icon">🧥</span>
+      <h3>Cyberpunk Hoodie</h3>
     </div>
-
-    <div id="hoodie-details" class="art-details">
-      <div class="detail-grid">
-        <img src="/assets/art/vex.png" alt="Front View">
-        <img src="/assets/art/saxes.png" alt="Back Design">
-      </div>
-      <div class="detail-text">
-        <h4>Design Concept</h4>
-        <p>Neon cyberpunk aesthetic with glow-in-the-dark elements. Designed for streetwear brand "Neon Dreams".</p>
-        <h4>Specifications</h4>
-        <ul>
-          <li>100% cotton heavyweight hoodie</li>
-          <li>Screen printed design</li>
-          <li>Unisex sizing</li>
-        </ul>
-      </div>
+    
+    <div class="project-screenshot-container">
+      <img src="/assets/art/hoodie-front.jpg" alt="Front Design" loading="lazy">
+      <img src="/assets/art/hoodie-back.jpg" alt="Back Design" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag apparel">Apparel</span>
+      <span class="tech-tag digital">Digital</span>
+      <span class="date">Jan 2024</span>
+    </div>
+    
+    <p>Neon cyberpunk design with glow-in-the-dark elements.</p>
+    
+    <div class="project-links">
+      <a href="/assets/art/hoodie-flat.jpg" target="_blank">
+        <i class="fas fa-expand"></i> Full Design
+      </a>
+      <a href="#hoodie-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
     </div>
   </div>
 
   <!-- T-Shirt Design -->
-  <div class="art-card" id="wolf-tshirt">
-    <div class="art-preview">
-      <img src="/assets/art/saxes.png" alt="Wolf Graphic Tee" loading="lazy">
-      <div class="art-info">
-        <h3>Geometric Wolf Tee</h3>
-        <div class="art-tags">
-          <span class="tag-apparel">T-Shirt</span>
-          <span class="tag-vector">Vector</span>
-        </div>
-        <button class="details-btn" onclick="toggleDetails('tshirt-details')">
-          <i class="fas fa-chevron-down"></i> Details
-        </button>
-      </div>
+  <div class="project-card" id="wolf-tee">
+    <div class="project-header">
+      <span class="emoji-icon">👕</span>
+      <h3>Wolf Graphic Tee</h3>
     </div>
-
-    <div id="tshirt-details" class="art-details">
-      <div class="detail-grid">
-        <img src="/assets/art/vex.png" alt="T-Shirt Mockup">
-        <img src="/assets/art/saxes.png" alt="Flat Design">
-      </div>
-      <div class="detail-text">
-        <h4>Design Process</h4>
-        <p>Minimalist wolf design created using geometric shapes in Illustrator. Part of my wildlife series.</p>
-        <h4>Production Details</h4>
-        <ul>
-          <li>Softstyle cotton tee</li>
-          <li>DTG printing</li>
-          <li>Available in 5 colors</li>
-        </ul>
-      </div>
+    
+    <div class="project-screenshot-container">
+      <img src="/assets/art/tshirt-mockup.jpg" alt="T-Shirt Mockup" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag apparel">Apparel</span>
+      <span class="tech-tag vector">Vector</span>
+      <span class="date">Mar 2024</span>
+    </div>
+    
+    <p>Minimalist wolf design using geometric shapes.</p>
+    
+    <div class="project-links">
+      <a href="/assets/art/tshirt-flat.jpg" target="_blank">
+        <i class="fas fa-expand"></i> Full Design
+      </a>
+      <a href="#tshirt-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
     </div>
   </div>
 </div>
 
-## ✏️ Drawings & Illustrations
+## ✏️ Illustrations
 
-<div class="art-section">
-  <!-- Illustration 1 -->
-  <div class="art-card" id="fantasy-illustration">
-    <div class="art-preview">
-      <img src="/assets/art/fantasy-art.jpg" alt="Fantasy Landscape" loading="lazy">
-      <div class="art-info">
-        <h3>Mystic Valley</h3>
-        <div class="art-tags">
-          <span class="tag-traditional">Traditional</span>
-          <span class="tag-concept">Concept Art</span>
-        </div>
-        <button class="details-btn" onclick="toggleDetails('illustration-details')">
-          <i class="fas fa-chevron-down"></i> Details
-        </button>
-      </div>
+<div class="projects-grid">
+  <!-- Digital Art -->
+  <div class="project-card" id="fantasy-art">
+    <div class="project-header">
+      <span class="emoji-icon">🖌️</span>
+      <h3>Mystic Valley</h3>
     </div>
-
-    <div id="illustration-details" class="art-details">
-      <div class="detail-single">
-        <img src="/assets/art/fantasy-detail.jpg" alt="Detail Shot">
-      </div>
-      <div class="detail-text">
-        <h4>Techniques</h4>
-        <p>Mixed media on bristol board using watercolor, ink, and colored pencils.</p>
-        <h4>Inspiration</h4>
-        <p>Inspired by fantasy novels and Japanese landscape paintings.</p>
-      </div>
+    
+    <div class="project-screenshot-container">
+      <img src="/assets/art/fantasy-full.jpg" alt="Fantasy Illustration" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag traditional">Traditional</span>
+      <span class="tech-tag landscape">Landscape</span>
+      <span class="date">Nov 2023</span>
+    </div>
+    
+    <p>Watercolor and ink fantasy landscape.</p>
+    
+    <div class="project-links">
+      <a href="/assets/art/fantasy-detail.jpg" target="_blank">
+        <i class="fas fa-expand"></i> Detail View
+      </a>
+      <a href="#fantasy-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Process
+      </a>
     </div>
   </div>
 </div>
 
-<script>
-function toggleDetails(id) {
-  const details = document.getElementById(id);
-  const btn = details.previousElementSibling.querySelector('.details-btn');
-  details.classList.toggle('active');
-  btn.innerHTML = details.classList.contains('active') ? 
-    '<i class="fas fa-chevron-up"></i> Hide Details' : 
-    '<i class="fas fa-chevron-down"></i> Details';
-}
-</script>
+<!-- Details Sections -->
+<div id="hoodie-details" class="project-details">
+  <h3>Hoodie Design Details</h3>
+  <div class="details-content">
+    <h4>Specifications:</h4>
+    <ul>
+      <li>100% cotton heavyweight hoodie</li>
+      <li>Screen printed design</li>
+      <li>Glow-in-the-dark ink</li>
+    </ul>
+    
+    <div class="screenshot-showcase">
+      <img src="/assets/art/hoodie-flat.jpg" alt="Flat Design">
+      <img src="/assets/art/hoodie-detail.jpg" alt="Design Detail">
+    </div>
+  </div>
+</div>
+
+<div id="tshirt-details" class="project-details">
+  <h3>T-Shirt Production</h3>
+  <p>Direct-to-garment printed on premium cotton tees. Available in sizes S-XXL.</p>
+</div>
+
+<div id="fantasy-details" class="project-details">
+  <h3>Art Process</h3>
+  <p>Created with watercolor washes and ink detailing. Inspired by Japanese landscapes.</p>
+</div>
