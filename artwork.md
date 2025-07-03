@@ -142,7 +142,7 @@ permalink: /artwork/
   <!-- Sax hoodie 2 -->
   <div class="project-card" id="Marching Saxes 2022">
     <div class="project-header">
-      <span class="emoji-icon">👕</span>
+      
       <h3>2022 Marching Saxes Hoodie</h3>
     </div>
     
