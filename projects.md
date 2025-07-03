@@ -46,7 +46,8 @@ permalink: /projects/
     </div>
 
  <div class="project-screenshot-container">
-    <img src="/assets/img/animal.png" alt="Cultura App Screenshot" loading="lazy">
+    <img src="/assets/img/animal0.png" alt="RPS Screenshot" loading="lazy">
+    <img src="/assets/img/animal.png" alt="RPS Screenshot" loading="lazy">
   </div>
     
     <div class="project-meta">
