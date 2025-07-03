@@ -52,7 +52,7 @@ permalink: /projects/
       <span class="date">Dec 2024</span>
     </div>
     
-    <p>Rock-paper-scissors with animal characters and sound effects.</p>
+    <p>4-way rock-paper-scissors with animal characters and sound effects.</p>
     
     <div class="project-links">
       <a href="https://github.com/rileys123/animal_kingdom.git" target="_blank">
