@@ -293,6 +293,35 @@ permalink: /projects/
 </div>
 
 
+<div class="project-card" id="PIC">
+  <div class="project-header">
+    <span class="emoji-icon">🔍</span>
+    <h3>Personal Image Classifier App</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/PIC1.png" alt="image" loading="lazy">
+  </div>
+
+<div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">March 2024</span>
+  </div>
+
+  <p>Trained machine learning model to classify video as me, not me, or weird faces.</p>
+
+  <div class="project-links">
+    <a href="https://drive.google.com/drive/folders/1V1rZ0z1nrOLS4n8WNS7GEqhIm5J5UdNh?usp=drive_link" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> AIA Link
+    </a>
+    <a href="#PIC-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
+
 
 
 
@@ -443,7 +472,7 @@ permalink: /projects/
     <ul>
       <li>Toggle camera on and off</li>
       <li>Point camera at object and classify object</li>
-      <li>Recieve top 5 objects and percentages</li>
+      <li>Receive top 5 objects and percentages</li>
     </ul>
     
     
@@ -453,6 +482,28 @@ permalink: /projects/
     <img src="/assets/img/what1.jpg" alt="app example" class="featured-screenshot">
   </div>
 </div>
+
+
+<!-- PIC Details Section -->
+<div id="PIC-details" class="project-details">
+  <h3>🔍 Personal Image Classifier App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Toggle camera on and off</li>
+      <li>Uses Google Teachable Machine model to classify data</li>
+      <li>Changes screen color based on most probable category and displays percentages</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/PIC1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
+
 
 
 
