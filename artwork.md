@@ -12,7 +12,7 @@ permalink: /artwork/
 <!-- GJCL -->
   <div class="project-card" id="NJCL Convention 2025 Georgia State T-Shirt">
     <div class="project-header">
-      <span class="emoji-icon">👕</span>
+      
       <h3>NJCL Convention 2025 Georgia State T-Shirt</h3>
     </div>
     
