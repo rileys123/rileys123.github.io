@@ -69,7 +69,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/1684.jpg" alt="Marching Saxes 2022 Hoodie" loading="lazy">
+      <img src="/assets/art/1684.JPG" alt="Marching Saxes 2022 Hoodie" loading="lazy">
     </div>
     
     <div class="project-meta">
