@@ -106,7 +106,7 @@ permalink: /projects/
 
 <div class="project-card" id="Catch">
   <div class="project-header">
-    <span class="emoji-icon">🎣</span>
+    <span class="emoji-icon">🦀</span>
     <h3>Crab Collection Game</h3>
   </div>
 
@@ -144,7 +144,7 @@ permalink: /projects/
 
 <!-- cook the fish Details Section -->
 <div id="cook-the-fish-details" class="project-details">
-  <h3>About "Cook the Fish"</h3>
+  <h3>🎣 Cook the Fish Game Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
@@ -169,7 +169,7 @@ permalink: /projects/
 
 <!-- Collect Section -->
 <div id="collect-details" class="project-details">
-  <h3>About "Crab Collection Game"</h3>
+  <h3>🦀 Crab Collection Game Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
@@ -203,7 +203,7 @@ permalink: /projects/
   </div>
 
   <div id="animal-kingdom" class="project-details">
-    <h3>🐯 Animal Kingdom Details</h3>
+    <h3>🐯 Animal Kingdom Rock-Paper-Scissors Details</h3>
     <p><strong>Tech Stack:</strong> Java, IntelliJ</p>
     <p>Game features include:</p>
     <ul>
