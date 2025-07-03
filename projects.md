@@ -113,7 +113,7 @@ permalink: /projects/
   <!-- Screenshot Gallery -->
   <div class="project-screenshot-container">
     <img src="/assets/img/crab1.png" alt="Collection Game" loading="lazy">
-    
+    <img src="/assets/img/crab2.png" alt="Collection Game" loading="lazy">
   </div>
 
   <div class="project-meta">
@@ -179,13 +179,11 @@ permalink: /projects/
       <li>Exploring Javascript p5.play library with interactive sprites</li>
     </ul>
     
-    <div class="screenshot-showcase">
-      <img src="/assets/img/crab1.png" alt="Starting screen">
-      <img src="/assets/img/crab2.png" alt="Ending screen">
-    </div>
+    
     
     <h4>Technical Details:</h4>
     <p>The game was made as a part of Girls Who Code's Summer Immersion Program with Javascript in Replit. Click on 'play game' to access the Replit code!</p>
+    <img src="/assets/img/crab1.png" alt="Crab game" class="featured-screenshot">
     
   </div>
 </div>
