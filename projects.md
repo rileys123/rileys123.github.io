@@ -138,6 +138,36 @@ permalink: /projects/
 
 
 
+<div class="project-card" id="map">
+  <div class="project-header">
+    <span class="emoji-icon">🎣</span>
+    <h3>Voice to Directions App</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/map1.png" alt="map - Starting screen" loading="lazy">
+  </div>
+
+  <div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">Feb 2024</span>
+  </div>
+
+  <p>A navigation app: speak your destination and receive directions.</p>
+
+  <div class="project-links">
+    <a href="https://gallery.appinventor.mit.edu/?galleryid=3a021838-9cfd-4f6d-a591-4f4d20414a0e" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> Gallery Link
+    </a>
+    <a href="#map-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+
+</div>
+
 
 
 
@@ -187,6 +217,30 @@ permalink: /projects/
     
   </div>
 </div>
+
+
+
+<!-- Map Details Section -->
+<div id="map-details" class="project-details">
+  <h3>🎣 Voice to Directions App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Voice recording to text</li>
+      <li>Map with directions</li>
+      <li>Spoken directions</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/map1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
+
+
 
   <!-- Project Details Sections -->
   <div id="cultura-app" class="project-details">
