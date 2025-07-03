@@ -182,7 +182,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7048.jpg" alt="Color Pencil" loading="lazy">
+      <img src="/assets/art/IMG_7048 (1).jpg" alt="Color Pencil" loading="lazy">
     </div>
     
     <div class="project-meta">
