@@ -235,7 +235,7 @@ permalink: /projects/
 
 <div class="project-card" id="Dance">
   <div class="project-header">
-    <span class="emoji-icon">🚑</span>
+    <span class="emoji-icon">💃</span>
     <h3>AI Dance App</h3>
   </div>
 
@@ -384,7 +384,7 @@ permalink: /projects/
 
 <!-- Dance Details Section -->
 <div id="dance-details" class="project-details">
-  <h3>🚑 AI Dance App Details</h3>
+  <h3>💃 AI Dance App Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
