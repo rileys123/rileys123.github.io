@@ -95,7 +95,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/saxes.png" alt="Marching Saxes 2023 Hoodie" loading="lazy">
+      <img src="/assets/art/clarinet.png" alt="Marching Clarinets 2024 Hoodie" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -104,7 +104,7 @@ permalink: /artwork/
       <span class="date">Mar 2024</span>
     </div>
     
-    <p>Hand-drawn saxophone-playing figures</p>
+    <p>Cute character design graphics</p>
     
     <div class="project-links">
       <a href="#wolf-details" class="details-link">
