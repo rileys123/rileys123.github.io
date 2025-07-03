@@ -261,7 +261,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7058.jpg" alt="Angel Sketch" loading="lazy">
+      <img src="/assets/art/IMG_7068.jpg" alt="Angel Sketch" loading="lazy">
     </div>
     
     <div class="project-meta">
