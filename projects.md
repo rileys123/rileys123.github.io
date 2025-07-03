@@ -204,7 +204,7 @@ permalink: /projects/
 <div class="project-card" id="Patient">
   <div class="project-header">
     <span class="emoji-icon">🚑</span>
-    <h3>Patient App</h3>
+    <h3>Patient Alert App</h3>
   </div>
 
   <!-- Screenshot Gallery -->
