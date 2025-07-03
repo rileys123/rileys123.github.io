@@ -17,8 +17,8 @@ permalink: /artwork/
     </div>
     
     <div class="project-screenshot-container">
-      <img src="/assets/art/vex.png" alt="Back Design" loading="lazy">
-      <img src="/assets/art/vex.png" alt="Back Design" loading="lazy">
+      <img src="/assets/art/vex.png" alt="Design" loading="lazy">
+      <img src="/assets/art/vex1.png" alt="Mockup" loading="lazy">
     </div>
     
     <div class="project-meta">
