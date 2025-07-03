@@ -4,21 +4,20 @@ title: Artwork
 permalink: /artwork/
 ---
 
-# 🎨 Welcom to My Art Portfolio!
+# 🎨 Welcome to My Art Portfolio!
 
 ## 👕 Apparel Designs
 
 <div class="projects-grid">
   <!-- Hoodie Design -->
-  <div class="project-card" id="cyber-hoodie">
+  <div class="project-card" id="vex-crewneck">
     <div class="project-header">
       <span class="emoji-icon">🧥</span>
       <h3>VEX Team Crewneck</h3>
     </div>
     
-    <div class="project-screenshot-container">
-      <img src="/assets/art/vex.png" alt="Design" loading="lazy">
-      <img src="/assets/art/vex1.png" alt="Mockup" loading="lazy">
+    <div class="artwork-preview">
+      <img src="/assets/art/vex.png" alt="VEX Crewneck Design" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -29,10 +28,12 @@ permalink: /artwork/
     
     <p>Graffiti-like VEX Team Crewneck designed for Worlds.</p>
     
-    
+    <div class="project-links">
+      <a href="#vex-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
+    </div>
   </div>
-
-
 
   <!-- T-Shirt Design -->
   <div class="project-card" id="wolf-tee">
@@ -41,8 +42,8 @@ permalink: /artwork/
       <h3>Wolf Graphic Tee</h3>
     </div>
     
-    <div class="project-screenshot-container">
-      <img src="/assets/art/tshirt-mockup.jpg" alt="T-Shirt Mockup" loading="lazy">
+    <div class="artwork-preview">
+      <img src="/assets/art/tshirt-mockup.jpg" alt="Wolf T-Shirt Mockup" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -54,8 +55,7 @@ permalink: /artwork/
     <p>Minimalist wolf design using geometric shapes.</p>
     
     <div class="project-links">
-      
-      <a href="#tshirt-details" class="details-link">
+      <a href="#wolf-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
@@ -66,13 +66,13 @@ permalink: /artwork/
 
 <div class="projects-grid">
   <!-- Digital Art -->
-  <div class="project-card" id="fantasy-art">
+  <div class="project-card" id="mystic-valley">
     <div class="project-header">
       <span class="emoji-icon">🖌️</span>
       <h3>Mystic Valley</h3>
     </div>
     
-    <div class="project-screenshot-container">
+    <div class="artwork-preview">
       <img src="/assets/art/fantasy-full.jpg" alt="Fantasy Illustration" loading="lazy">
     </div>
     
@@ -85,10 +85,7 @@ permalink: /artwork/
     <p>Watercolor and ink fantasy landscape.</p>
     
     <div class="project-links">
-      <a href="/assets/art/fantasy-detail.jpg" target="_blank">
-        <i class="fas fa-expand"></i> Detail View
-      </a>
-      <a href="#fantasy-details" class="details-link">
+      <a href="#mystic-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -96,29 +93,54 @@ permalink: /artwork/
 </div>
 
 <!-- Details Sections -->
-<div id="hoodie-details" class="project-details">
-  <h3>Hoodie Design Details</h3>
+<div id="vex-details" class="project-details">
+  <h3>VEX Crewneck Details</h3>
   <div class="details-content">
-    <h4>Specifications:</h4>
+    <h4>Design Features:</h4>
     <ul>
-      <li>100% cotton heavyweight hoodie</li>
+      <li>Graffiti-style team logo</li>
+      <li>100% cotton crewneck</li>
       <li>Screen printed design</li>
-      <li>Glow-in-the-dark ink</li>
     </ul>
     
-    <div class="screenshot-showcase">
-      <img src="/assets/art/hoodie-flat.jpg" alt="Flat Design">
-      <img src="/assets/art/hoodie-detail.jpg" alt="Design Detail">
+    <div class="artwork-gallery">
+      <img src="/assets/art/vex1.png" alt="Mockup Front">
+      <img src="/assets/art/vex2.png" alt="Mockup Back">
+      <img src="/assets/art/vex-flat.jpg" alt="Flat Design">
     </div>
   </div>
 </div>
 
-<div id="tshirt-details" class="project-details">
-  <h3>T-Shirt Production</h3>
-  <p>Direct-to-garment printed on premium cotton tees. Available in sizes S-XXL.</p>
+<div id="wolf-details" class="project-details">
+  <h3>Wolf Tee Details</h3>
+  <div class="details-content">
+    <h4>Production Info:</h4>
+    <ul>
+      <li>Direct-to-garment printing</li>
+      <li>Premium cotton fabric</li>
+      <li>Sizes S-XXL</li>
+    </ul>
+    
+    <div class="artwork-gallery">
+      <img src="/assets/art/wolf-flat.jpg" alt="Vector Design">
+      <img src="/assets/art/wolf-mockup.jpg" alt="Product Mockup">
+    </div>
+  </div>
 </div>
 
-<div id="fantasy-details" class="project-details">
-  <h3>Art Process</h3>
-  <p>Created with watercolor washes and ink detailing. Inspired by Japanese landscapes.</p>
+<div id="mystic-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>Watercolor on bristol board</li>
+      <li>Ink detailing</li>
+      <li>Digital touch-ups</li>
+    </ul>
+    
+    <div class="artwork-gallery">
+      <img src="/assets/art/fantasy-detail1.jpg" alt="Detail Closeup">
+      <img src="/assets/art/fantasy-sketch.jpg" alt="Initial Sketch">
+    </div>
+  </div>
 </div>
