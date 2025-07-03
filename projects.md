@@ -229,7 +229,7 @@ permalink: /projects/
     <ul>
       <li>Voice recording to text</li>
       <li>Map with directions</li>
-      <li>Spoken directions</li>
+      <li>Spoken directions back to you while you navigate!</li>
     </ul>
     
     
