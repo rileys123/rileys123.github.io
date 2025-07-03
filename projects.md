@@ -263,7 +263,34 @@ permalink: /projects/
 </div>
 
 
+<div class="project-card" id="What Is It">
+  <div class="project-header">
+    <span class="emoji-icon">💃</span>
+    <h3>Object Identifier App</h3>
+  </div>
 
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/what1.png" alt="image" loading="lazy">
+  </div>
+
+<div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">March 2024</span>
+  </div>
+
+  <p>Uses LookExtension to identify objects and return top 5 matches with percentages.</p>
+
+  <div class="project-links">
+    <a href="https://drive.google.com/drive/folders/1SqR6YDnZWx2HVlgiavufVzGMnurGnmQ-?usp=drive_link" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> AIA Link
+    </a>
+    <a href="#what-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
 
 
 
@@ -402,6 +429,26 @@ permalink: /projects/
   </div>
 </div>
 
+
+<!-- What is it Details Section -->
+<div id="what-details" class="project-details">
+  <h3>💃 Object Identifier App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Toggle camera on and off</li>
+      <li>Point camera at object and classify object</li>
+      <li>Recieve top 5 objects and percentages</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/what1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
 
 
 
