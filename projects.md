@@ -150,7 +150,10 @@ permalink: /projects/
       <li>Themed sound effects and suspenseful background music</li>
       <li>Score tracking; best out of 3 and ties</li>
     </ul>
+    <img src="/assets/img/animal0.png" alt="Animal Kingdom" class="project-screenshot">
     <img src="/assets/img/animal.png" alt="Animal Kingdom" class="project-screenshot">
+    <img src="/assets/img/animal3.png" alt="Animal Kingdom" class="project-screenshot">
+
     <img src="/assets/img/animal2.png" alt="Animal Kingdom2" class="project-screenshot">
   </div>
 </div>
