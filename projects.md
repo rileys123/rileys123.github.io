@@ -201,6 +201,39 @@ permalink: /projects/
 
 
 
+<div class="project-card" id="Patient">
+  <div class="project-header">
+    <span class="emoji-icon">🦀</span>
+    <h3>Patient App</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/patient1.png" alt="patient" loading="lazy">
+  </div>
+
+<div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">Jan 2024</span>
+  </div>
+
+  <p>Uses an accelerometer to detect patient motion with a text-to-speech and phone number function to alert for help.</p>
+
+  <div class="project-links">
+    <a href="https://gallery.appinventor.mit.edu/?galleryid=649fac42-9f83-4543-9cd4-1d1eefe1c80a" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> Gallery Link
+    </a>
+    <a href="#shop-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
+
+
+
+
+
 
 
 
@@ -294,6 +327,30 @@ permalink: /projects/
     <img src="/assets/img/shop1.png" alt="app example" class="featured-screenshot">
   </div>
 </div>
+
+
+<!-- Patient Details Section -->
+<div id="map-details" class="project-details">
+  <h3>🗺️ Patient Alert App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Add or remove emergency phone numbers</li>
+      <li>Detects patient falls with phone accelerometer</li>
+      <li>Text-to-speech alert for help</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/patient1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
+
+
+
 
 
 
