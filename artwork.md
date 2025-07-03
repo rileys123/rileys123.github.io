@@ -199,6 +199,33 @@ permalink: /artwork/
       </a>
     </div>
   </div>
+
+
+  <!-- Black Ink-->
+  <div class="project-card" id="mystic-valley">
+    <div class="project-header">
+      <span class="emoji-icon">🖌️</span>
+      <h3>Solitude in Stone</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/IMG_7049.jpg" alt="Black ink" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag traditional">Traditional</span>
+      <span class="tech-tag landscape">Landscape</span>
+      <span class="date">Nov 2023</span>
+    </div>
+    
+    <p>Black ink Caryatid with geometric patterns.</p>
+    
+    <div class="project-links">
+      <a href="#mystic-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Process
+      </a>
+    </div>
+  </div>
 </div>
 
 
