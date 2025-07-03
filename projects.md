@@ -169,6 +169,40 @@ permalink: /projects/
 </div>
 
 
+<div class="project-card" id="Shop">
+  <div class="project-header">
+    <span class="emoji-icon">🦀</span>
+    <h3>Shopping List App</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/shop1.png" alt="Shopping list" loading="lazy">
+  </div>
+
+<div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">Dec 2023</span>
+  </div>
+
+  <p>Create a shopping list by entering or removing your groceries.</p>
+
+  <div class="project-links">
+    <a href="https://gallery.appinventor.mit.edu/?galleryid=3f84f8be-97ae-49f2-8729-a8a799db493b" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> Gallery Link
+    </a>
+    <a href="#shop-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 
@@ -239,6 +273,28 @@ permalink: /projects/
     <img src="/assets/img/map1.png" alt="app example" class="featured-screenshot">
   </div>
 </div>
+
+
+<!-- Shop Details Section -->
+<div id="map-details" class="project-details">
+  <h3>🗺️ Shopping List App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Add or remove groceries</li>
+      <li>Track and search through list</li>
+      <li>Clear list</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/shop1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
+
 
 
 
