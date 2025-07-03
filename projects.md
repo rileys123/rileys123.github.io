@@ -140,7 +140,7 @@ permalink: /projects/
 
 <div class="project-card" id="map">
   <div class="project-header">
-    <span class="emoji-icon">🎣</span>
+    <span class="emoji-icon">🗺️</span>
     <h3>Voice to Directions App</h3>
   </div>
 
@@ -222,7 +222,7 @@ permalink: /projects/
 
 <!-- Map Details Section -->
 <div id="map-details" class="project-details">
-  <h3>🎣 Voice to Directions App Details</h3>
+  <h3>🗺️ Voice to Directions App Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
