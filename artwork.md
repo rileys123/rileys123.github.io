@@ -9,6 +9,32 @@ permalink: /artwork/
 ## 👕 Apparel Designs
 
 <div class="projects-grid">
+<!-- GJCL -->
+  <div class="project-card" id="NJCL Convention 2025 Georgia State T-Shirt">
+    <div class="project-header">
+      <span class="emoji-icon">👕</span>
+      <h3>NatCon 2025</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/GJCL.png" alt="NatCon 2025" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag apparel">Apparel</span>
+      <span class="tech-tag vector">Vector</span>
+      <span class="date">Mar 2024</span>
+    </div>
+    
+    <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
+    
+    <div class="project-links">
+      <a href="#wolf-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
+    </div>
+  </div>
+  
   <!-- Hoodie Design -->
   <div class="project-card" id="vex-crewneck">
     <div class="project-header">
@@ -113,31 +139,7 @@ permalink: /artwork/
     </div>
   </div>
 
- <!-- GJCL -->
-  <div class="project-card" id="NatCon 2025">
-    <div class="project-header">
-      <span class="emoji-icon">👕</span>
-      <h3>NatCon 2025</h3>
-    </div>
-    
-    <div class="artwork-preview">
-      <img src="/assets/art/GJCL.png" alt="NatCon 2025" loading="lazy">
-    </div>
-    
-    <div class="project-meta">
-      <span class="tech-tag apparel">Apparel</span>
-      <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
-    </div>
-    
-    <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
-    
-    <div class="project-links">
-      <a href="#wolf-details" class="details-link">
-        <i class="fas fa-info-circle"></i> Details
-      </a>
-    </div>
-  </div>
+ 
 
 </div>
 
