@@ -171,7 +171,7 @@ permalink: /projects/
 
 <div class="project-card" id="Shop">
   <div class="project-header">
-    <span class="emoji-icon">🦀</span>
+    <span class="emoji-icon">🛍️</span>
     <h3>Shopping List App</h3>
   </div>
 
@@ -203,7 +203,7 @@ permalink: /projects/
 
 <div class="project-card" id="Patient">
   <div class="project-header">
-    <span class="emoji-icon">🦀</span>
+    <span class="emoji-icon">🚑</span>
     <h3>Patient App</h3>
   </div>
 
@@ -310,7 +310,7 @@ permalink: /projects/
 
 <!-- Shop Details Section -->
 <div id="map-details" class="project-details">
-  <h3>🗺️ Shopping List App Details</h3>
+  <h3>🛍️ Shopping List App Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
@@ -331,7 +331,7 @@ permalink: /projects/
 
 <!-- Patient Details Section -->
 <div id="map-details" class="project-details">
-  <h3>🗺️ Patient Alert App Details</h3>
+  <h3>🚑 Patient Alert App Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
