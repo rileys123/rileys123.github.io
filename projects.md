@@ -101,11 +101,70 @@ permalink: /projects/
       <i class="fas fa-info-circle"></i> Project Details
     </a>
   </div>
+
+<div class="project-card" id="Catch">
+  <div class="project-header">
+    <span class="emoji-icon">🎣</span>
+    <h3>Crab Collection Game</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/cook1.png" alt="Collection Game" loading="lazy">
+    
+  </div>
+
+  <div class="project-meta">
+    <span class="tech-tag game">Game</span>
+    <span class="tech-tag java">JavaScript</span>
+    <span class="tech-tag android">Replit</span>
+
+    <span class="date">July 2023</span>
+  </div>
+
+  <p>A collection style game where you catch crabs to score.</p>
+
+  <div class="project-links">
+    <a href="https://replit.com/@rosalinalina100/Collection-Style-Game-Riley-S?v=1" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> Play Game
+    </a>
+    <a href="#collect-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+
+
+  
 </div>
 
 <!-- cook the fish Details Section -->
 <div id="cook-the-fish-details" class="project-details">
   <h3>About "Cook the Fish"</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Multiple story branches with different endings</li>
+      <li>Interactive decision points</li>
+      <li>Original graphics created to explore Javascript</li>
+    </ul>
+    
+    <div class="screenshot-showcase">
+      <img src="/assets/img/cook1.png" alt="Starting screen">
+      <img src="/assets/img/cook2.png" alt="Decision point">
+      <img src="/assets/img/cook3.png" alt="Game over">
+    </div>
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made as a part of Girls Who Code's Summer Immersion Program with Javascript in Replit. Click on 'play game' to access the Replit code!</p>
+    
+    <img src="/assets/img/cook4.png" alt="Code example" class="featured-screenshot">
+  </div>
+</div>
+
+<!-- Collect Section -->
+<div id="collect-details" class="project-details">
+  <h3>About "Crab Collection Game"</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
