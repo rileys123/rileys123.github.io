@@ -4,7 +4,7 @@ title: Artwork
 permalink: /artwork/
 ---
 
-# 🎨 My Art Portfolio
+# 🎨 Welcom to My Art Portfolio!
 
 ## 👕 Apparel Designs
 
@@ -13,12 +13,11 @@ permalink: /artwork/
   <div class="project-card" id="cyber-hoodie">
     <div class="project-header">
       <span class="emoji-icon">🧥</span>
-      <h3>Cyberpunk Hoodie</h3>
+      <h3>VEX Team Crewneck</h3>
     </div>
     
     <div class="project-screenshot-container">
-      <img src="/assets/art/hoodie-front.jpg" alt="Front Design" loading="lazy">
-      <img src="/assets/art/hoodie-back.jpg" alt="Back Design" loading="lazy">
+      <img src="/assets/art/vex.png" alt="Back Design" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -27,7 +26,7 @@ permalink: /artwork/
       <span class="date">Jan 2024</span>
     </div>
     
-    <p>Neon cyberpunk design with glow-in-the-dark elements.</p>
+    <p>Graffiti-like VEX Team Crewneck designed for Worlds.</p>
     
     <div class="project-links">
       <a href="/assets/art/hoodie-flat.jpg" target="_blank">
@@ -38,6 +37,8 @@ permalink: /artwork/
       </a>
     </div>
   </div>
+
+
 
   <!-- T-Shirt Design -->
   <div class="project-card" id="wolf-tee">
