@@ -47,6 +47,8 @@ permalink: /projects/
     <div class="project-meta">
       <span class="tech-tag game">Game</span>
       <span class="tech-tag java">Java</span>
+      <span class="tech-tag android">IntelliJ</span>
+
       <span class="date">Dec 2024</span>
     </div>
     
@@ -78,6 +80,8 @@ permalink: /projects/
   <div class="project-meta">
     <span class="tech-tag game">Game</span>
     <span class="tech-tag javascript">JavaScript</span>
+    <span class="tech-tag android">Replit</span>
+
     <span class="date">July 2023</span>
   </div>
 
