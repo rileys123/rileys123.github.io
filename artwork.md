@@ -173,15 +173,16 @@ permalink: /artwork/
 ## ✏️ Illustrations
 
 <div class="projects-grid">
-  <!-- Digital Art -->
+  
+  <!-- 3-color Color Pencil Study-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
       <span class="emoji-icon">🖌️</span>
-      <h3>Mystic Valley</h3>
+      <h3>3-color Color Pencil Study</h3>
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/fantasy-full.jpg" alt="Fantasy Illustration" loading="lazy">
+      <img src="/assets/art/IMG_7048.jpg" alt="Color Pencil" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -199,6 +200,9 @@ permalink: /artwork/
     </div>
   </div>
 </div>
+
+
+
 
 <!-- Details Sections -->
 <div id="vex-details" class="project-details">
@@ -241,7 +245,7 @@ permalink: /artwork/
   <div class="details-content">
     <h4>Materials:</h4>
     <ul>
-      <li>Watercolor on bristol board</li>
+      <li>3-color Color Pencil Study</li>
       <li>Ink detailing</li>
       <li>Digital touch-ups</li>
     </ul>
