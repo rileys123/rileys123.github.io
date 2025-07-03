@@ -186,12 +186,12 @@ permalink: /artwork/
     </div>
     
     <div class="project-meta">
-      <span class="tech-tag traditional">Traditional</span>
-      <span class="tech-tag landscape">Landscape</span>
+      <span class="tech-tag traditional">Color Pencil</span>
+      <span class="tech-tag landscape">Still Life</span>
       <span class="date">Nov 2023</span>
     </div>
     
-    <p>Watercolor and ink fantasy landscape.</p>
+    <p>14x17 in. Color pencil still life.</p>
     
     <div class="project-links">
       <a href="#mystic-details" class="details-link">
@@ -213,12 +213,12 @@ permalink: /artwork/
     </div>
     
     <div class="project-meta">
-      <span class="tech-tag traditional">Traditional</span>
-      <span class="tech-tag landscape">Landscape</span>
+      <span class="tech-tag traditional">Black Ink</span>
+      <span class="tech-tag landscape">Drawing</span>
       <span class="date">Nov 2023</span>
     </div>
     
-    <p>Black ink Caryatid with geometric patterns.</p>
+    <p>14x17 in. Black ink Caryatid with geometric patterns.</p>
     
     <div class="project-links">
       <a href="#mystic-details" class="details-link">
@@ -239,12 +239,12 @@ permalink: /artwork/
     </div>
     
     <div class="project-meta">
-      <span class="tech-tag traditional">Traditional</span>
-      <span class="tech-tag landscape">Landscape</span>
+      <span class="tech-tag traditional">Pencil</span>
+      <span class="tech-tag landscape">Drawing</span>
       <span class="date">Nov 2023</span>
     </div>
     
-    <p>Graphite pencil sketch of statue in clouds.</p>
+    <p>14x17 in. Graphite pencil sketch of statue in clouds.</p>
     
     <div class="project-links">
       <a href="#mystic-details" class="details-link">
@@ -265,7 +265,7 @@ permalink: /artwork/
     </div>
     
     <div class="project-meta">
-      <span class="tech-tag traditional">Traditional</span>
+      <span class="tech-tag traditional">Color Marker</span>
       <span class="tech-tag landscape">Landscape</span>
       <span class="date">Nov 2023</span>
     </div>
