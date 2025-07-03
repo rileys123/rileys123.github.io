@@ -18,12 +18,13 @@ permalink: /artwork/
     
     <div class="project-screenshot-container">
       <img src="/assets/art/vex.png" alt="Back Design" loading="lazy">
+      <img src="/assets/art/vex.png" alt="Back Design" loading="lazy">
     </div>
     
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag digital">Digital</span>
-      <span class="date">Jan 2024</span>
+      <span class="date">April 2024</span>
     </div>
     
     <p>Graffiti-like VEX Team Crewneck designed for Worlds.</p>
