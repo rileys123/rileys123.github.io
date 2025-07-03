@@ -114,7 +114,7 @@ permalink: /projects/
     <h4>Technical Details:</h4>
     <p>The game uses p5.play's scene management system with custom state tracking for player choices.</p>
     
-    <img src="/assets/img/cook2.png" alt="Code example" class="featured-screenshot">
+    <img src="/assets/img/cook4.png" alt="Code example" class="featured-screenshot">
   </div>
 </div>
 
