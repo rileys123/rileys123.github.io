@@ -91,7 +91,7 @@ permalink: /projects/
     <span class="date">July 2023</span>
   </div>
 
-  <p>A choose-your-own-adventure browser game where you must survive on a deserted island by making strategic decisions about fishing and cooking.</p>
+  <p>A life or death choose-your-own-adventure game where you must make strategic decisions about cooking a fish.</p>
 
   <div class="project-links">
     <a href="https://replit.com/@rosalinalina100/CYOA-Game-Riley-S?v=1" target="_blank" rel="noopener">
