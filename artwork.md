@@ -177,7 +177,7 @@ permalink: /artwork/
   <!-- 3-color Color Pencil Study-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
-      <span class="emoji-icon">🖌️</span>
+      
       <h3>3-color Color Pencil Study</h3>
     </div>
     
@@ -204,7 +204,7 @@ permalink: /artwork/
   <!-- Black Ink-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
-      <span class="emoji-icon">🖌️</span>
+      
       <h3>Solitude in Stone</h3>
     </div>
     
@@ -230,7 +230,7 @@ permalink: /artwork/
     <!-- Sketch-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
-      <span class="emoji-icon">🖌️</span>
+      
       <h3>Angel Statue</h3>
     </div>
     
@@ -256,7 +256,7 @@ permalink: /artwork/
       <!-- Markers-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
-      <span class="emoji-icon">🖌️</span>
+      
       <h3>Marker Landscape Collection</h3>
     </div>
     
@@ -282,7 +282,7 @@ permalink: /artwork/
         <!-- Paint-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
-      <span class="emoji-icon">🖌️</span>
+      
       <h3>Acrylic Paint Collection</h3>
     </div>
     
@@ -291,8 +291,8 @@ permalink: /artwork/
     </div>
     
     <div class="project-meta">
-      <span class="tech-tag traditional">Traditional</span>
-      <span class="tech-tag landscape">Landscape</span>
+      <span class="tech-tag traditional">Acrylic</span>
+      <span class="tech-tag landscape">Painting</span>
       <span class="date">Nov 2023</span>
     </div>
     
