@@ -12,7 +12,7 @@ permalink: /artwork/
   <!-- Hoodie Design -->
   <div class="art-card" id="cyber-hoodie">
     <div class="art-preview">
-      <img src="/assets/art/hoodie-design.jpg" alt="Cyberpunk Hoodie" loading="lazy">
+      <img src="/assets/art/vex.png" alt="Cyberpunk Hoodie" loading="lazy">
       <div class="art-info">
         <h3>Cyberpunk Neon Hoodie</h3>
         <div class="art-tags">
@@ -27,8 +27,8 @@ permalink: /artwork/
 
     <div id="hoodie-details" class="art-details">
       <div class="detail-grid">
-        <img src="/assets/art/hoodie-mockup-front.jpg" alt="Front View">
-        <img src="/assets/art/hoodie-mockup-back.jpg" alt="Back Design">
+        <img src="/assets/art/vex.png" alt="Front View">
+        <img src="/assets/art/saxes.png" alt="Back Design">
       </div>
       <div class="detail-text">
         <h4>Design Concept</h4>
@@ -46,7 +46,7 @@ permalink: /artwork/
   <!-- T-Shirt Design -->
   <div class="art-card" id="wolf-tshirt">
     <div class="art-preview">
-      <img src="/assets/art/tshirt-design.jpg" alt="Wolf Graphic Tee" loading="lazy">
+      <img src="/assets/art/saxes.png" alt="Wolf Graphic Tee" loading="lazy">
       <div class="art-info">
         <h3>Geometric Wolf Tee</h3>
         <div class="art-tags">
@@ -61,8 +61,8 @@ permalink: /artwork/
 
     <div id="tshirt-details" class="art-details">
       <div class="detail-grid">
-        <img src="/assets/art/tshirt-mockup.jpg" alt="T-Shirt Mockup">
-        <img src="/assets/art/tshirt-flat.jpg" alt="Flat Design">
+        <img src="/assets/art/vex.png" alt="T-Shirt Mockup">
+        <img src="/assets/art/saxes.png" alt="Flat Design">
       </div>
       <div class="detail-text">
         <h4>Design Process</h4>
