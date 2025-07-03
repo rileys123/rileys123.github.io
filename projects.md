@@ -295,7 +295,7 @@ permalink: /projects/
 
 <div class="project-card" id="PIC">
   <div class="project-header">
-    <span class="emoji-icon">🔍</span>
+    <span class="emoji-icon">🤓</span>
     <h3>Personal Image Classifier App</h3>
   </div>
 
@@ -313,7 +313,7 @@ permalink: /projects/
   <p>Trained machine learning model to classify video as me, not me, or weird faces.</p>
 
   <div class="project-links">
-    <a href="https://drive.google.com/drive/folders/1V1rZ0z1nrOLS4n8WNS7GEqhIm5J5UdNh?usp=drive_link" target="_blank" rel="noopener">
+    <a href="https://drive.google.com/drive/folders/1Ez_U_ue-IxvEfQUUyuXG-hQQfCHBDqLZ?usp=drive_link" target="_blank" rel="noopener">
       <i class="fas fa-gamepad"></i> AIA Link
     </a>
     <a href="#PIC-details" class="details-link">
@@ -486,7 +486,7 @@ permalink: /projects/
 
 <!-- PIC Details Section -->
 <div id="PIC-details" class="project-details">
-  <h3>🔍 Personal Image Classifier App Details</h3>
+  <h3>🤓 Personal Image Classifier App Details</h3>
   
   <div class="details-content">
     <h4>Key Features:</h4>
