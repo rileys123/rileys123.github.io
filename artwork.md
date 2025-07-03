@@ -35,15 +35,15 @@ permalink: /artwork/
     </div>
   </div>
 
-  <!-- T-Shirt Design -->
-  <div class="project-card" id="wolf-tee">
+  <!-- Sax hoodie 1 -->
+  <div class="project-card" id="Marching Saxes 2023">
     <div class="project-header">
       <span class="emoji-icon">👕</span>
-      <h3>Wolf Graphic Tee</h3>
+      <h3>Marching Saxes 2023 Hoodie</h3>
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/tshirt-mockup.jpg" alt="Wolf T-Shirt Mockup" loading="lazy">
+      <img src="/assets/art/saxes.png" alt="Marching Saxes 2023 Hoodie" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -52,7 +52,7 @@ permalink: /artwork/
       <span class="date">Mar 2024</span>
     </div>
     
-    <p>Minimalist wolf design using geometric shapes.</p>
+    <p>Hand-drawn saxophone-playing figures</p>
     
     <div class="project-links">
       <a href="#wolf-details" class="details-link">
