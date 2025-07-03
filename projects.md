@@ -233,6 +233,39 @@ permalink: /projects/
 
 
 
+<div class="project-card" id="Dance">
+  <div class="project-header">
+    <span class="emoji-icon">🚑</span>
+    <h3>AI Dance App</h3>
+  </div>
+
+  <!-- Screenshot Gallery -->
+  <div class="project-screenshot-container">
+    <img src="/assets/img/dance1.png" alt="patient" loading="lazy">
+  </div>
+
+<div class="project-meta">
+    <span class="tech-tag java">MIT App Inventor</span>
+
+    <span class="date">May 2024</span>
+  </div>
+
+  <p>Uses PoseNet AI to detect when you hit the right dance moves and earn points.</p>
+
+  <div class="project-links">
+    <a href="https://drive.google.com/drive/folders/1SqR6YDnZWx2HVlgiavufVzGMnurGnmQ-?usp=drive_link" target="_blank" rel="noopener">
+      <i class="fas fa-gamepad"></i> AIA Link
+    </a>
+    <a href="#dance-details" class="details-link">
+      <i class="fas fa-info-circle"></i> Project Details
+    </a>
+  </div>
+</div>
+
+
+
+
+
 
 
 
@@ -349,7 +382,25 @@ permalink: /projects/
   </div>
 </div>
 
-
+<!-- Dance Details Section -->
+<div id="dance-details" class="project-details">
+  <h3>🚑 AI Dance App Details</h3>
+  
+  <div class="details-content">
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Hit certain moves to earn points</li>
+      <li>Track your score</li>
+      <li>Maps points to your body using your camera</li>
+    </ul>
+    
+    
+    <h4>Technical Details:</h4>
+    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    
+    <img src="/assets/img/dance1.png" alt="app example" class="featured-screenshot">
+  </div>
+</div>
 
 
 
