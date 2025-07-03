@@ -138,6 +138,7 @@ permalink: /projects/
       <li>Historical accuracy</li>
       <li>Image-based Roman culture learning</li>
     </ul>
+    <p>This app was made to both practice my programming and promote the study of the classics!</p>
     <img src="/assets/img/cultura.png" alt="Cultura App Screenshot" class="project-screenshot">
   </div>
 
