@@ -7,6 +7,7 @@ permalink: /projects/
 # 👩‍💻 My Coding Projects
 
 <div class="projects-grid">
+  
   <!-- Project 1 -->
   <div class="project-card">
     <div class="project-header">
@@ -43,6 +44,10 @@ permalink: /projects/
       <span class="emoji-icon">🐯</span>
       <h3>Animal Kingdom RPS</h3>
     </div>
+
+ <div class="project-screenshot-container">
+    <img src="/assets/img/animal.png" alt="Cultura App Screenshot" loading="lazy">
+  </div>
     
     <div class="project-meta">
       <span class="tech-tag game">Game</span>
