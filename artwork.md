@@ -54,9 +54,7 @@ permalink: /artwork/
     <p>Minimalist wolf design using geometric shapes.</p>
     
     <div class="project-links">
-      <a href="/assets/art/tshirt-flat.jpg" target="_blank">
-        <i class="fas fa-expand"></i> Full Design
-      </a>
+      
       <a href="#tshirt-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
