@@ -394,7 +394,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/map1.png" alt="app example" class="featured-screenshot">
   </div>
@@ -415,7 +415,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/shop1.png" alt="app example" class="featured-screenshot">
   </div>
@@ -436,7 +436,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/patient1.png" alt="app example" class="featured-screenshot">
   </div>
@@ -456,7 +456,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/dance1.png" alt="app example" class="featured-screenshot">
   </div>
@@ -477,7 +477,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/what1.jpg" alt="app example" class="featured-screenshot">
   </div>
@@ -498,7 +498,7 @@ permalink: /projects/
     
     
     <h4>Technical Details:</h4>
-    <p>The game was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
+    <p>The app was made using MIT App Inventor and is available on Android devices. Check out my MIT App Inventor gallery for more!</p>
     
     <img src="/assets/img/PIC1.png" alt="app example" class="featured-screenshot">
   </div>
