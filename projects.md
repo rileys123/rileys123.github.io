@@ -140,9 +140,11 @@ permalink: /projects/
     <p><strong>Tech Stack:</strong> Java, IntelliJ</p>
     <p>Game features include:</p>
     <ul>
-      <li>4 unique animal characters</li>
-      <li>Themed sound effects</li>
-      <li>Score tracking</li>
+      <li>4 unique animal characters with rock-paper-scissors hierarchy</li>
+      <li>Themed sound effects and suspenseful background music</li>
+      <li>Score tracking; best out of 3 and ties</li>
     </ul>
+    <img src="/assets/img/animal.png" alt="Animal Kingdom" class="project-screenshot">
+    <img src="/assets/img/animal2.png" alt="Animal Kingdom2" class="project-screenshot">
   </div>
 </div>
