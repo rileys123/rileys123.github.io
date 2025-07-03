@@ -102,6 +102,7 @@ permalink: /projects/
     </a>
   </div>
 
+</div>
 <div class="project-card" id="Catch">
   <div class="project-header">
     <span class="emoji-icon">🎣</span>
@@ -132,10 +133,6 @@ permalink: /projects/
       <i class="fas fa-info-circle"></i> Project Details
     </a>
   </div>
-
-
-  
-</div>
 
 <!-- cook the fish Details Section -->
 <div id="cook-the-fish-details" class="project-details">
