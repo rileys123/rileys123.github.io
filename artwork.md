@@ -38,8 +38,8 @@ permalink: /artwork/
   <!-- Hoodie Design -->
   <div class="project-card" id="vex-crewneck">
     <div class="project-header">
-      <span class="emoji-icon">🧥</span>
-      <h3>VEX Team Crewneck</h3>
+      
+      <h3>2024 VEX Team Crewneck</h3>
     </div>
     
     <div class="artwork-preview">
@@ -64,8 +64,8 @@ permalink: /artwork/
   <!-- Sax hoodie 1 -->
   <div class="project-card" id="Marching Saxes 2023">
     <div class="project-header">
-      <span class="emoji-icon">👕</span>
-      <h3>Marching Saxes 2023 Hoodie</h3>
+      
+      <h3>2023 Marching Saxes Hoodie</h3>
     </div>
     
     <div class="artwork-preview">
@@ -89,8 +89,8 @@ permalink: /artwork/
 <!-- Clarinet hoodie -->
   <div class="project-card" id="Marching Clarinets 2024">
     <div class="project-header">
-      <span class="emoji-icon">👕</span>
-      <h3>Marching Clarinets 2024 Hoodie</h3>
+      
+      <h3>2024 Marching Clarinets Hoodie</h3>
     </div>
     
     <div class="artwork-preview">
@@ -130,7 +130,7 @@ permalink: /artwork/
       <span class="date">Mar 2024</span>
     </div>
     
-    <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
+    <p>Horatii brothers</p>
     
     <div class="project-links">
       <a href="#wolf-details" class="details-link">
@@ -143,7 +143,7 @@ permalink: /artwork/
   <div class="project-card" id="Marching Saxes 2022">
     <div class="project-header">
       <span class="emoji-icon">👕</span>
-      <h3>Marching Saxes 2022 Hoodie</h3>
+      <h3>2022 Marching Saxes Hoodie</h3>
     </div>
     
     <div class="artwork-preview">
