@@ -60,6 +60,33 @@ permalink: /artwork/
       </a>
     </div>
   </div>
+
+  <!-- Sax hoodie 2 -->
+  <div class="project-card" id="Marching Saxes 2022">
+    <div class="project-header">
+      <span class="emoji-icon">👕</span>
+      <h3>Marching Saxes 2022 Hoodie</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/saxes.png" alt="Marching Saxes 2023 Hoodie" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag apparel">Apparel</span>
+      <span class="tech-tag vector">Vector</span>
+      <span class="date">Mar 2024</span>
+    </div>
+    
+    <p>Hand-drawn saxophone-playing figures</p>
+    
+    <div class="project-links">
+      <a href="#wolf-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Details
+      </a>
+    </div>
+  </div>
+  
 </div>
 
 ## ✏️ Illustrations
