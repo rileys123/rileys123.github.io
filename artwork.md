@@ -29,13 +29,13 @@ permalink: /artwork/
     <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
     
     <div class="project-links">
-      <a href="#wolf-details" class="details-link">
+      <a href="#GJCL-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
   </div>
   
-  <!-- Hoodie Design -->
+  <!-- VEX Design -->
   <div class="project-card" id="vex-crewneck">
     <div class="project-header">
       
@@ -316,26 +316,25 @@ permalink: /artwork/
     <h4>Design Features:</h4>
     <ul>
       <li>Graffiti-style team logo</li>
-      <li>100% cotton crewneck</li>
-      <li>Screen printed design</li>
+      <li>Printed for 6 person team</li>
+      <li>Designed on Word</li>
     </ul>
     
     <div class="artwork-gallery">
       <img src="/assets/art/vex1.png" alt="Mockup Front">
-      <img src="/assets/art/vex2.png" alt="Mockup Back">
-      <img src="/assets/art/vex-flat.jpg" alt="Flat Design">
+
     </div>
   </div>
 </div>
 
-<div id="wolf-details" class="project-details">
+<div id="GJCL-details" class="project-details">
   <h3>Wolf Tee Details</h3>
   <div class="details-content">
-    <h4>Production Info:</h4>
+    <h4>Merch Info:</h4>
     <ul>
-      <li>Direct-to-garment printing</li>
-      <li>Premium cotton fabric</li>
-      <li>Sizes S-XXL</li>
+      <li>Made for National Latin Convention, Georgia State t-shirt</li>
+      <li>80+ t-shirts sold</li>
+      <li>Designed on Concepts</li>
     </ul>
     
     <div class="artwork-gallery">
