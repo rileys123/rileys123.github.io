@@ -309,6 +309,14 @@ permalink: /artwork/
 
 
 
+
+
+
+
+
+
+
+
 <!-- Details Sections -->
 <div id="vex-details" class="project-details">
   <h3>VEX Crewneck Details</h3>
@@ -321,7 +329,7 @@ permalink: /artwork/
     </ul>
     
     <div class="artwork-gallery">
-      <img src="/assets/art/vex1.png" alt="Mockup Front">
+      <img src="/assets/art/vex1.png" alt="Mockup Front" class="featured-screenshot">
 
     </div>
   </div>
