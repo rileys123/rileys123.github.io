@@ -329,14 +329,14 @@ permalink: /artwork/
     </ul>
     
     <div class="artwork-gallery">
-      <img src="/assets/art/vex1.png" alt="Mockup Front" class="featured-screenshot">
+    <img src="/assets/art/vex1.png" alt="Vex Screenshot" class="project-screenshot">
 
     </div>
   </div>
 </div>
 
 <div id="GJCL-details" class="project-details">
-  <h3>Wolf Tee Details</h3>
+  <h3>GJCL State T-shirt Details</h3>
   <div class="details-content">
     <h4>Merch Info:</h4>
     <ul>
