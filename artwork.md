@@ -81,11 +81,13 @@ permalink: /artwork/
     <p>Hand-drawn saxophone-playing figures</p>
     
     <div class="project-links">
-      <a href="#wolf-details" class="details-link">
+      <a href="#sax-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
   </div>
+
+  
 <!-- Clarinet hoodie -->
   <div class="project-card" id="Marching Clarinets 2024">
     <div class="project-header">
@@ -346,11 +348,31 @@ permalink: /artwork/
     </ul>
     
     <div class="artwork-gallery">
+      <img src="/assets/art/sax.png" alt="Sax Screenshot" class="project-screenshot">
+    </div>
+  </div>
+</div>
+
+
+<div id="sax-details" class="project-details">
+  <h3>2023 Marching Saxes Details</h3>
+  <div class="details-content">
+    <h4>Merch Info:</h4>
+    <ul>
+      <li>Made for 2023 Marching Saxophone Section</li>
+      <li>30+ hoodies sold to saxophonists and other students and teachers</li>
+      <li>Designed on paper and digitized</li>
+    </ul>
+    
+    <div class="artwork-gallery">
       <img src="/assets/art/wolf-flat.jpg" alt="Vector Design">
       <img src="/assets/art/wolf-mockup.jpg" alt="Product Mockup">
     </div>
   </div>
 </div>
+
+
+
 
 <div id="mystic-details" class="project-details">
   <h3>Illustration Process</h3>
