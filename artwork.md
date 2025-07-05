@@ -108,7 +108,7 @@ permalink: /artwork/
     <p>Cute character design graphics</p>
     
     <div class="project-links">
-      <a href="#wolf-details" class="details-link">
+      <a href="#clarinet-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
@@ -369,7 +369,20 @@ permalink: /artwork/
   </div>
 </div>
 
+<div id="clarinet-details" class="project-details">
+  <h3>2024 Marching Clarinets Details</h3>
+  <div class="details-content">
+    <h4>Merch Info:</h4>
+    <ul>
+      <li>Made for 2023 Marching Saxophone Section</li>
+      <li>30+ hoodies sold to saxophonists and other students and teachers</li>
+      <li>Designed on paper and digitized</li>
+    </ul>
+    
+     <img src="/assets/art/clarinet (1).png" alt="Clarinet Screenshot" class="project-screenshot">
 
+  </div>
+</div>
 
 
 <div id="mystic-details" class="project-details">
