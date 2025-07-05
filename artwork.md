@@ -364,10 +364,8 @@ permalink: /artwork/
       <li>Designed on paper and digitized</li>
     </ul>
     
-    <div class="artwork-gallery">
-      <img src="/assets/art/wolf-flat.jpg" alt="Vector Design">
-      <img src="/assets/art/wolf-mockup.jpg" alt="Product Mockup">
-    </div>
+     <img src="/assets/art/sax.png" alt="Sax Screenshot" class="project-screenshot">
+
   </div>
 </div>
 
