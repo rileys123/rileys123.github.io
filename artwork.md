@@ -374,9 +374,9 @@ permalink: /artwork/
   <div class="details-content">
     <h4>Merch Info:</h4>
     <ul>
-      <li>Made for 2023 Marching Saxophone Section</li>
-      <li>30+ hoodies sold to saxophonists and other students and teachers</li>
-      <li>Designed on paper and digitized</li>
+      <li>Made for 2024 Marching Clarinet Section</li>
+      <li>30+ hoodies sold to clarinetists and other students</li>
+      <li>Designed on Concepts and Canva</li>
     </ul>
     
      <img src="/assets/art/clarinet (1).png" alt="Clarinet Screenshot" class="project-screenshot">
