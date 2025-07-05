@@ -330,10 +330,10 @@ permalink: /artwork/
       <li>Designed on Word</li>
     </ul>
     
-    <div class="artwork-gallery">
+    
     <img src="/assets/art/vex1.png" alt="Vex Screenshot" class="project-screenshot">
 
-    </div>
+    
   </div>
 </div>
 
@@ -347,9 +347,9 @@ permalink: /artwork/
       <li>Designed on Concepts</li>
     </ul>
     
-    <div class="artwork-gallery">
+    
       <img src="/assets/art/sax.png" alt="Sax Screenshot" class="project-screenshot">
-    </div>
+    
   </div>
 </div>
 
