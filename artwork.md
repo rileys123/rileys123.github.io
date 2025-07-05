@@ -326,8 +326,8 @@ permalink: /artwork/
     <h4>Design Features:</h4>
     <ul>
       <li>Graffiti-style team logo</li>
-      <li>Printed for 6 person team</li>
-      <li>Designed on Word</li>
+      <li>Printed for 6 person team + sponsors</li>
+      <li>Designed on Microsoft Word</li>
     </ul>
     
     
