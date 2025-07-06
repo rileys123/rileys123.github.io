@@ -459,6 +459,7 @@ permalink: /artwork/
     <ul>
       <li>Black ink sketch</li>
       <li>1st Place National Latin Convention</li>
+      <li>Scholastic Drawing & Illustration Regional Honorable Mention</li>
       <li>reference to lone Caryatid from Erechtheion temple on Athens Acropolis, currently in British Musuem</li>
     </ul>
     
