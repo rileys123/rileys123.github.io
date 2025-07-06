@@ -211,7 +211,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7049.jpg" alt="Black ink" loading="lazy">
+      <img src="/assets/art/IMG_7049 (1).jpg" alt="Black ink" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -223,7 +223,7 @@ permalink: /artwork/
     <p>14x17 in. Black ink Caryatid with geometric patterns.</p>
     
     <div class="project-links">
-      <a href="#mystic-details" class="details-link">
+      <a href="#ink-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -448,5 +448,20 @@ permalink: /artwork/
     </ul>
     
     <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Screenshot" class="project-screenshot">
+  </div>
+</div>
+
+
+<div id="ink-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>Black ink sketch</li>
+      <li>1st Place National Latin Convention</li>
+      <li>reference to lone Caryatid from Erechtheion temple on Athens Acropolis, currently in British Musuem</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
   </div>
 </div>
