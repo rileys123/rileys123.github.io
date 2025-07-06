@@ -176,7 +176,7 @@ permalink: /artwork/
 
 <div class="projects-grid">
   
-  <!-- 3-color Color Pencil Study-->
+  <!-- 4-color Color Pencil Study-->
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
       
@@ -233,11 +233,11 @@ permalink: /artwork/
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
       
-      <h3>Angel Statue</h3>
+      <h3>Angel with the Holy Lance Statue</h3>
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7055.jpg" alt="Angel Sketch" loading="lazy">
+      <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Sketch" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -249,7 +249,7 @@ permalink: /artwork/
     <p>14x17 in. Graphite pencil sketch of statue in clouds.</p>
     
     <div class="project-links">
-      <a href="#mystic-details" class="details-link">
+      <a href="#angel-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -433,5 +433,20 @@ permalink: /artwork/
     </ul>
     
     <img src="/assets/art/IMG_7048.jpg" alt="Color Screenshot" class="project-screenshot">
+  </div>
+</div>
+
+
+<div id="angel-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>Graphite pencil sketch</li>
+      <li>4th Place National Latin Convention</li>
+      <li>reference of Angel with the Holy Lance of Longinus</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Screenshot" class="project-screenshot">
   </div>
 </div>
