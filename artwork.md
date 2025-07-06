@@ -23,7 +23,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
+      <span class="date">June 2025</span>
     </div>
     
     <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
@@ -75,7 +75,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
+      <span class="date">Aug 2023</span>
     </div>
     
     <p>Hand-drawn saxophone-playing figures</p>
@@ -102,7 +102,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
+      <span class="date">Sept 2024</span>
     </div>
     
     <p>Cute character design graphics</p>
@@ -129,7 +129,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
+      <span class="date">Mar 2025</span>
     </div>
     
     <p>Oath of the Horatii with Pencils</p>
@@ -155,7 +155,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag apparel">Apparel</span>
       <span class="tech-tag vector">Vector</span>
-      <span class="date">Mar 2024</span>
+      <span class="date">Aug 2022</span>
     </div>
     
     <p>Totoro playing the saxophone</p>
