@@ -524,9 +524,9 @@ permalink: /artwork/
     </ul>
     
     <img src="/assets/art/IMG_7078.jpg" alt="Acrylic Screenshot1" class="project-screenshot">
-    <img src="/assets/art/IMG_7079.jpg" alt="Acrylic Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7073.jpg" alt="Acrylic Screenshot2" class="project-screenshot">
     <img src="/assets/art/IMG_7077.jpg" alt="Acrylic Screenshot3" class="project-screenshot">
-    <img src="/assets/art/IMG_7073.jpg" alt="Acrylic Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7079.jpg" alt="Acrylic Screenshot4" class="project-screenshot">
     <img src="/assets/art/IMG_7080.jpg" alt="Acrylic Screenshot5" class="project-screenshot">
 
 
