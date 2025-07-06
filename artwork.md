@@ -289,7 +289,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7077.jpg" alt="Paint Chips" loading="lazy">
+      <img src="/assets/art/IMG_7077 (1).jpg" alt="Paint Chips" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -523,11 +523,11 @@ permalink: /artwork/
       <li>mouse inspired by Stuart Dunkel</li>
     </ul>
     
-    <img src="/assets/art/IMG_7078.jpg" alt="Acrylic Screenshot1" class="project-screenshot">
-    <img src="/assets/art/IMG_7073.jpg" alt="Acrylic Screenshot2" class="project-screenshot">
-    <img src="/assets/art/IMG_7077.jpg" alt="Acrylic Screenshot3" class="project-screenshot">
-    <img src="/assets/art/IMG_7079.jpg" alt="Acrylic Screenshot4" class="project-screenshot">
-    <img src="/assets/art/IMG_7080.jpg" alt="Acrylic Screenshot5" class="project-screenshot">
+    <img src="/assets/art/IMG_7078 (1).jpg" alt="Acrylic Screenshot1" class="project-screenshot">
+    <img src="/assets/art/IMG_7073 (1).jpg" alt="Acrylic Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7077 (1).jpg" alt="Acrylic Screenshot3" class="project-screenshot">
+    <img src="/assets/art/IMG_7079 (1).jpg" alt="Acrylic Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7080 (1).jpg" alt="Acrylic Screenshot5" class="project-screenshot">
 
 
   </div>
