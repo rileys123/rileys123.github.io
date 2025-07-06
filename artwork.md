@@ -145,7 +145,7 @@ permalink: /artwork/
   <div class="project-card" id="Marching Saxes 2022">
     <div class="project-header">
       
-      <h3>2022 Marching Saxes Hoodie</h3>
+      <h3>2022 Marching Saxes Crewneck</h3>
     </div>
     
     <div class="artwork-preview">
@@ -158,10 +158,10 @@ permalink: /artwork/
       <span class="date">Mar 2024</span>
     </div>
     
-    <p>Hand-drawn saxophone-playing figures</p>
+    <p>Totoro playing the saxophone</p>
     
     <div class="project-links">
-      <a href="#wolf-details" class="details-link">
+      <a href="#sax2-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
@@ -326,7 +326,7 @@ permalink: /artwork/
     <h4>Design Features:</h4>
     <ul>
       <li>Graffiti-style team logo</li>
-      <li>Printed for 6 person team + sponsors</li>
+      <li>Printed for 6 person team + sponsors to wear to 2024 VEX Worlds Championships</li>
       <li>Designed on Microsoft Word</li>
     </ul>
     
@@ -395,6 +395,22 @@ permalink: /artwork/
     </ul>
     
      <img src="/assets/art/latin24.png" alt="Latin Club Screenshot" class="project-screenshot">
+
+  </div>
+</div>
+
+
+<div id="sax2-details" class="project-details">
+  <h3>2022 Marching Saxes Crewneck Details</h3>
+  <div class="details-content">
+    <h4>Merch Info:</h4>
+    <ul>
+      <li>Made for 2022 Marching Saxophone Section</li>
+      <li>30+ crewnecks sold to marching saxophone section</li>
+      <li>Designed on paper and digitized</li>
+    </ul>
+    
+     <img src="/assets/art/saxes2.png" alt="Sax Screenshot" class="project-screenshot">
 
   </div>
 </div>
