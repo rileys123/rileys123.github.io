@@ -180,7 +180,7 @@ permalink: /artwork/
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
       
-      <h3>3-color Color Pencil Study</h3>
+      <h3>4-color Color Pencil Study</h3>
     </div>
     
     <div class="artwork-preview">
@@ -196,7 +196,7 @@ permalink: /artwork/
     <p>14x17 in. Color pencil still life.</p>
     
     <div class="project-links">
-      <a href="#mystic-details" class="details-link">
+      <a href="#color-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -422,19 +422,16 @@ permalink: /artwork/
 
 
 
-<div id="mystic-details" class="project-details">
+<div id="color-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
     <h4>Materials:</h4>
     <ul>
-      <li>3-color Color Pencil Study</li>
-      <li>Ink detailing</li>
-      <li>Digital touch-ups</li>
+      <li>4-color Color Pencil Study using yellow, brown, teal, and red</li>
+      <li>7th Place National Latin Convention</li>
+      <li>rendition of Still Life and Woman by Perkilis Pantazis</li>
     </ul>
     
-    <div class="artwork-gallery">
-      <img src="/assets/art/fantasy-detail1.jpg" alt="Detail Closeup">
-      <img src="/assets/art/fantasy-sketch.jpg" alt="Initial Sketch">
-    </div>
+    <img src="/assets/art/IMG_7048.jpg" alt="Color Screenshot" class="project-screenshot">
   </div>
 </div>
