@@ -7,6 +7,7 @@ permalink: /
 # Welcome to My Portfolio! 👋
 
 **I'm Riley Shen** - Developer & Creative Designer
+<p>These coding projects, apps, merch designs, illustrations, and paintings are all my blood, sweat, and tears. With everything all in one, this website is my magnum opus. Enjoy!</p>
 
 <div class="home-grid">
   <div class="card">
