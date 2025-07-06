@@ -495,18 +495,25 @@ permalink: /artwork/
 
 
 
-<div id="ink-details" class="project-details">
+<div id="marker-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
     <h4>Materials:</h4>
     <ul>
       <li>collection of Crayola marker on standard index cards</li>
-      <li>linework with black ink</li>
+      <li>linework done with black ink</li>
     </ul>
     
-    <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
+    <img src="/assets/art/IMG_7070.jpg" alt="Marker Screenshot1" class="project-screenshot">
+    <img src="/assets/art/IMG_7069.jpg" alt="Marker Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7068 (1).jpg" alt="Marker Screenshot3" class="project-screenshot">
+    <img src="/assets/art/IMG_7071.jpg" alt="Marker Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7072.jpg" alt="Marker Screenshot5" class="project-screenshot">
   </div>
 </div>
+
+
+
 
 
 <div id="arch-details" class="project-details">
