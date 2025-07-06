@@ -7,6 +7,7 @@ permalink: /artwork/
 # 🎨 Welcome to My Art Portfolio!
 
 ## 👕 Apparel Designs
+<p>If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
 
 <div class="projects-grid">
 <!-- GJCL -->
@@ -173,6 +174,7 @@ permalink: /artwork/
 </div>
 
 ## ✏️ Illustrations
+<p>Below is a gallery of my artwork. Enjoy!</p>
 
 <div class="projects-grid">
   
