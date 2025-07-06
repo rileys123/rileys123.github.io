@@ -135,7 +135,7 @@ permalink: /artwork/
     <p>Oath of the Horatii with Pencils</p>
     
     <div class="project-links">
-      <a href="#wolf-details" class="details-link">
+      <a href="#latin-details" class="details-link">
         <i class="fas fa-info-circle"></i> Details
       </a>
     </div>
@@ -383,6 +383,27 @@ permalink: /artwork/
 
   </div>
 </div>
+
+<div id="latin-details" class="project-details">
+  <h3>2024-25 Latin Club T-shirt Details</h3>
+  <div class="details-content">
+    <h4>Merch Info:</h4>
+    <ul>
+      <li>Made for 2024-25 Latin Club members</li>
+      <li>30+ t-shirts sold to club members</li>
+      <li>Designed on Concepts and Canva</li>
+    </ul>
+    
+     <img src="/assets/art/latin24.png" alt="Latin Club Screenshot" class="project-screenshot">
+
+  </div>
+</div>
+
+
+
+
+
+
 
 
 <div id="mystic-details" class="project-details">
