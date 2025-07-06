@@ -275,7 +275,7 @@ permalink: /artwork/
     <p>Collection of architecture scenes on index cards</p>
     
     <div class="project-links">
-      <a href="#mystic-details" class="details-link">
+      <a href="#marker-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -302,6 +302,32 @@ permalink: /artwork/
     
     <div class="project-links">
       <a href="#mystic-details" class="details-link">
+        <i class="fas fa-info-circle"></i> Process
+      </a>
+    </div>
+  </div>
+
+        <!-- Architecture-->
+  <div class="project-card" id="mystic-valley">
+    <div class="project-header">
+      
+      <h3>Marker Landscape Collection</h3>
+    </div>
+    
+    <div class="artwork-preview">
+      <img src="/assets/art/IMG_7059.jpg" alt="Ink Architecture" loading="lazy">
+    </div>
+    
+    <div class="project-meta">
+      <span class="tech-tag traditional">Black Ink</span>
+      <span class="tech-tag landscape">Landscape</span>
+      <span class="date">July 2021</span>
+    </div>
+    
+    <p>Casual black ink sketch</p>
+    
+    <div class="project-links">
+      <a href="#arch-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -464,5 +490,34 @@ permalink: /artwork/
     </ul>
     
     <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
+  </div>
+</div>
+
+
+
+<div id="ink-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>collection of Crayola marker on standard index cards</li>
+      <li>linework with black ink</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
+  </div>
+</div>
+
+
+<div id="arch-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>Black ink on copy paper</li>
+      <li>Architectural study</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7059.jpg" alt="Architecture Screenshot" class="project-screenshot">
   </div>
 </div>
