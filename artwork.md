@@ -326,7 +326,7 @@ permalink: /artwork/
       <span class="date">July 2021</span>
     </div>
     
-    <p>Casual black ink sketch</p>
+    <p>Black ink architectural sketch study</p>
     
     <div class="project-links">
       <a href="#arch-details" class="details-link">
