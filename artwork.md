@@ -289,7 +289,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7080.jpg" alt="Paint Chips" loading="lazy">
+      <img src="/assets/art/IMG_7077.jpg" alt="Paint Chips" loading="lazy">
     </div>
     
     <div class="project-meta">
