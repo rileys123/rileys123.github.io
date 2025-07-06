@@ -500,7 +500,7 @@ permalink: /artwork/
   <div class="details-content">
     <h4>Materials:</h4>
     <ul>
-      <li>collection of Crayola marker on standard index cards</li>
+      <li>collection of Crayola marker on standard 3x5 in. index cards</li>
       <li>linework done with black ink</li>
     </ul>
     
