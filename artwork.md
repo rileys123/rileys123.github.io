@@ -453,7 +453,7 @@ permalink: /artwork/
 <div id="color-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>4-color Color Pencil Study using yellow, brown, teal, and red</li>
       <li>7th Place National Latin Convention</li>
@@ -468,7 +468,7 @@ permalink: /artwork/
 <div id="angel-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>Graphite pencil sketch</li>
       <li>4th Place National Latin Convention</li>
@@ -483,7 +483,7 @@ permalink: /artwork/
 <div id="ink-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>Black ink sketch</li>
       <li>1st Place National Latin Convention</li>
@@ -500,7 +500,7 @@ permalink: /artwork/
 <div id="marker-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>collection of Crayola marker on standard 3x5 in. index cards</li>
       <li>linework done with black ink</li>
@@ -518,7 +518,7 @@ permalink: /artwork/
 <div id="acrylic-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>Acrylic paint on free paint samples obtained from Home Depot</li>
       <li>study of various pins and pictures on my pinterest feed</li>
@@ -540,7 +540,7 @@ permalink: /artwork/
 <div id="arch-details" class="project-details">
   <h3>Illustration Process</h3>
   <div class="details-content">
-    <h4>Materials:</h4>
+    <h4>Details:</h4>
     <ul>
       <li>Black ink on copy paper</li>
       <li>Architectural study</li>
