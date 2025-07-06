@@ -289,7 +289,7 @@ permalink: /artwork/
     </div>
     
     <div class="artwork-preview">
-      <img src="/assets/art/IMG_7060.jpg" alt="Paint Chips" loading="lazy">
+      <img src="/assets/art/IMG_7080.jpg" alt="Paint Chips" loading="lazy">
     </div>
     
     <div class="project-meta">
@@ -301,7 +301,7 @@ permalink: /artwork/
     <p>Collection of acrylic paint on paint sample chips</p>
     
     <div class="project-links">
-      <a href="#mystic-details" class="details-link">
+      <a href="#acrylic-details" class="details-link">
         <i class="fas fa-info-circle"></i> Process
       </a>
     </div>
@@ -311,7 +311,7 @@ permalink: /artwork/
   <div class="project-card" id="mystic-valley">
     <div class="project-header">
       
-      <h3>Marker Landscape Collection</h3>
+      <h3>Black Ink Architecture</h3>
     </div>
     
     <div class="artwork-preview">
@@ -513,6 +513,25 @@ permalink: /artwork/
 </div>
 
 
+<div id="acrylic-details" class="project-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Materials:</h4>
+    <ul>
+      <li>Acrylic paint on free paint samples obtained from Home Depot</li>
+      <li>study of various pins and pictures on my pinterest feed</li>
+      <li>mouse inspired by Stuart Dunkel</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7078.jpg" alt="Acrylic Screenshot1" class="project-screenshot">
+    <img src="/assets/art/IMG_7079.jpg" alt="Acrylic Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7077.jpg" alt="Acrylic Screenshot3" class="project-screenshot">
+    <img src="/assets/art/IMG_7073.jpg" alt="Acrylic Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7080.jpg" alt="Acrylic Screenshot5" class="project-screenshot">
+
+
+  </div>
+</div>
 
 
 
