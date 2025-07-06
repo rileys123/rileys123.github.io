@@ -348,7 +348,7 @@ permalink: /artwork/
     </ul>
     
     
-      <img src="/assets/art/sax.png" alt="Sax Screenshot" class="project-screenshot">
+      <img src="/assets/art/GJCL1.png" alt="Sax Screenshot" class="project-screenshot">
     
   </div>
 </div>
