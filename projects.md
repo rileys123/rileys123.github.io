@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 
 # 👩‍💻 My Coding Projects
+<p>This website is also one my coding projects! It's made with Javascript, HTML, and CSS.</p>
 
 <div class="projects-grid">
   
