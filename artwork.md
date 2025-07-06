@@ -190,7 +190,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag traditional">Color Pencil</span>
       <span class="tech-tag landscape">Still Life</span>
-      <span class="date">Nov 2023</span>
+      <span class="date">July 2023</span>
     </div>
     
     <p>14x17 in. Color pencil still life.</p>
@@ -217,7 +217,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag traditional">Black Ink</span>
       <span class="tech-tag landscape">Drawing</span>
-      <span class="date">Nov 2023</span>
+      <span class="date">July 2024</span>
     </div>
     
     <p>14x17 in. Black ink Caryatid with geometric patterns.</p>
@@ -243,7 +243,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag traditional">Pencil</span>
       <span class="tech-tag landscape">Drawing</span>
-      <span class="date">Nov 2023</span>
+      <span class="date">April 2023</span>
     </div>
     
     <p>14x17 in. Graphite pencil sketch of statue in clouds.</p>
@@ -269,7 +269,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag traditional">Color Marker</span>
       <span class="tech-tag landscape">Landscape</span>
-      <span class="date">Nov 2023</span>
+      <span class="date">Feb 2025</span>
     </div>
     
     <p>Collection of architecture scenes on index cards</p>
@@ -295,7 +295,7 @@ permalink: /artwork/
     <div class="project-meta">
       <span class="tech-tag traditional">Acrylic</span>
       <span class="tech-tag landscape">Painting</span>
-      <span class="date">Nov 2023</span>
+      <span class="date">Nov 2024</span>
     </div>
     
     <p>Collection of acrylic paint on paint sample chips</p>
