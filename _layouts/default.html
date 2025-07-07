@@ -5,6 +5,19 @@
   <title>{{ page.title }} | {{ site.title }}</title>
 </head>
 <body>
+    <!-- Add this desk container first -->
+  <div class="desk-container">
+    <img src="/assets/art/desk-bg.png" alt="Illustrated desk" class="desk-bg">
+    <a href="/projects/" class="desk-item laptop">
+      <img src="/assets/art/laptop-icon.png" alt="Coding Projects">
+    </a>
+    <a href="/artwork/" class="desk-item sketchbook">
+      <img src="/assets/art/sketchbook-icon.png" alt="Art Portfolio">
+    </a>
+    <a href="/about/" class="desk-item notebook">
+      <img src="/assets/art/notebook-icon.png" alt="About Me">
+    </a>
+  </div>
   <header>
     <h1>{{ site.title }}</h1>
     {% include navigation.html %}
