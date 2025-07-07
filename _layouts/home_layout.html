@@ -23,7 +23,7 @@
       </a>
     </div>
 
-{% if content != "" %}
+{% if content | strip_newlines | strip | size > 0 %}
   <main class="home-main-content">
     {{ content }}
   </main>
