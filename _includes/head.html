@@ -549,16 +549,23 @@ footer a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50vh; /* Adjust based on your needs */
+  height: 50vh; /* Keep fixed height or adjust as needed */
   z-index: -1;
-  overflow: hidden;
+  overflow: hidden; /* Keep this if you want to prevent scrollbars */
+  padding: 20px; /* Add padding here for a border effect */
+  box-sizing: border-box; /* Ensures padding is included in the 50vh height */
+  background-color: #f0f0f0; /* Optional: background color for the "border" */
 }
 
 .desk-bg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: bottom;
+  object-fit: contain; /* Change from 'cover' to 'contain' */
+  object-position: bottom; /* Keep or change to 'center' or 'top' if you want */
+  /* If you still want to adjust the image position within the "contain" space,
+     you can modify object-position. For example:
+     object-position: center bottom; // Centers horizontally, aligns to bottom vertically
+  */
 }
 
 /* Desk Items - Precise Positioning */
