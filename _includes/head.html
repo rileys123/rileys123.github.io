@@ -167,8 +167,6 @@ footer a {
   to { opacity: 1; }
 }
 
-
-
 /* Project Screenshots */
 /* ===== Project Screenshot Styles ===== */
 /* Container for grid layout screenshots */
@@ -329,7 +327,6 @@ footer a {
   }
 }
 
-
 /* ===== ARTWORK GALLERY ===== */
 .art-gallery {
   display: grid;
@@ -441,8 +438,7 @@ footer a {
   }
 }
 
-
-  /* ===== ARTWORK SECTIONS ===== */
+/* ===== ARTWORK SECTIONS ===== */
 .art-section {
   margin-bottom: 3rem;
 }
@@ -496,7 +492,6 @@ footer a {
 .tech-tag.traditional { background: #ff6b6b; } /* Red */
 .tech-tag.landscape { background: #2ed573; } /* Mint */
 
-
 /* Artwork-specific styles */
 .artwork-preview {
   margin: 0 -1.5rem;
@@ -540,9 +535,6 @@ footer a {
   }
 }
 
-
-
-
 /* Desk Container */
 .desk-container {
   position: fixed;
@@ -550,11 +542,9 @@ footer a {
   left: 0;
   width: 100%;
   height: 50vh; /* Keep fixed height or adjust as needed */
-  /* REMOVE z-index: -1; from here */
   overflow: hidden; /* Keep this if you want to prevent scrollbars */
   padding: 20px; /* Add padding here for a border effect */
   box-sizing: border-box; /* Ensures padding is included in the 50vh height */
-  
 }
 
 .desk-bg {
@@ -571,12 +561,14 @@ footer a {
   transition: transform 0.3s ease;
   z-index: 3; /* Increased z-index to ensure it's above other elements if any conflict */
 }
+
 .desk-item:hover {
   transform: scale(1.1); /* This is the actual hover effect */
 }
+
 /* Add this new rule for the images inside the clickable items */
 .desk-item img {
-    pointer-events: none; /* Crucial: Allows clicks to pass through the image to the <a> tag */
+  pointer-events: none; /* Crucial: Allows clicks to pass through the image to the <a> tag */
 }
 
 /* Specific Positions - Adjust these values to match your desk image */
@@ -646,5 +638,4 @@ main {
     left: 65%;
   }
 }
-  
 </style>
