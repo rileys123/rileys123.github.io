@@ -836,9 +836,59 @@ footer {
 }
 
 
+.carousel-slide {
+  transform: scale(0.95);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
+.carousel-slide:hover {
+  transform: scale(1);
+  box-shadow: 0 8px 25px rgba(255,107,158,0.3);
+}
 
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: var(--fun-pink);
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
 
+.details-link:hover {
+  background: var(--dark-accent);
+  transform: translateY(-2px);
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.carousel-nav button {
+  background: rgba(255,255,255,0.7);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--dark-accent);
+}
+
+@media (max-width: 768px) {
+  .carousel-nav {
+    display: none;
+  }
+}
+  
 
 
 
