@@ -1,5 +1,5 @@
 ---
-layout: home_layout 
+layout: default
 title: Home
 permalink: /
 ---
