@@ -596,14 +596,27 @@ footer a {
 }
 
 /* Content Area */
-main {
-  position: relative;
-  margin-top: 50vh; /* Should match desk height */
+/* Styles specifically for the main content when the desk is present */
+.home-main-content {
+  position: relative; /* Keep this */
+  margin-top: 50vh; /* This should match the desk-container height */
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
-  z-index: 1; /* Ensure main content is above the background image, but below clickable items if needed */
+  z-index: 1; /* Ensure it overlaps the fixed desk background visually */
+}
+
+/* Make sure the existing 'main' rule looks like this (without margin-top or z-index)
+   as it will now be applied only when NOT on the home_layout */
+main {
+  /* Removed position: relative, margin-top, background, padding, border-radius, box-shadow, z-index from here */
+  /* These will now be managed by .home-main-content or other specific rules */
+  line-height: 1.6; /* Keep general body/text styles */
+  color: #333; /* Keep general body/text styles */
+  max-width: 800px; /* Keep general body/text styles */
+  margin: 0 auto; /* Keep general body/text styles */
+  padding: 20px; /* Keep general body/text styles */
 }
 
 /* Mobile Responsiveness */
