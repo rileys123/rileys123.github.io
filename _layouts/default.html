@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  {% if page.layout == "home_layout" %}
+/*  {% if page.layout == "home_layout" %}
 <!-- Desk Background -->
   <div class="desk-container">
     <img src="{{ '/assets/art/desk1.jpg' | relative_url }}" class="desk-bg" alt="Illustrated desk">
@@ -46,6 +46,12 @@
       {{ content }}
     </main>
   {% endif %}
+  */
+{% if page.layout == "home_layout" %}
+    <p>Hello Home!</p>
+  {% else %}
+    {% endif %}
+  
 
   <footer>
     {% for link in site.external %}
