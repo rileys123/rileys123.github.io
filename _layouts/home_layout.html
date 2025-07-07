@@ -45,5 +45,15 @@
       <a href="{{ link.url }}"><i class="fab fa-{{ link.icon }}"></i></a>
     {% endfor %}
   </footer>
+  <script>
+  function moveCarousel(direction) {
+    const track = document.querySelector('.carousel-track');
+    const currentTransform = window.getComputedStyle(track).transform;
+    const matrix = new DOMMatrix(currentTransform);
+    const currentTranslateX = matrix.m41;
+    
+    track.style.transform = `translateX(${currentTranslateX + (direction * 300)}px)`;
+  }
+  </script>
 </body>
 </html>
