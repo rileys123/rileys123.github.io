@@ -1,3 +1,10 @@
+---
+layout: default
+title: Apparel
+permalink: /apparel/
+nav_order: 3 
+---
+
 ## 👕 Apparel Designs
 <p>If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
 
