@@ -543,14 +543,13 @@ footer a {
 
 
 
-  /* Desk Background */
-/* In head.html */
+/* Desk Container */
 .desk-container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 60vh; /* Reduced height */
+  width: 100%;
+  height: 50vh; /* Adjust based on your needs */
   z-index: -1;
   overflow: hidden;
 }
@@ -558,48 +557,71 @@ footer a {
 .desk-bg {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures full image is visible */
-  object-position: bottom; /* Anchors to bottom */
+  object-fit: cover;
+  object-position: bottom;
 }
 
-/* Content adjustment */
-main {
-  margin-top: 60vh; /* Matches desk height */
+/* Desk Items - Precise Positioning */
+.desk-item {
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
 }
 
-
-
-
-  
-  /* Position items using percentages */
+/* Specific Positions - Adjust these values to match your desk image */
 .laptop {
-  width: 7%;
-  top: 20%;
-  left: 5%;
+  top: 40%;
+  left: 25%;
+}
+
+.tshirt {
+  top: 55%;
+  left: 60%;
 }
 
 .sketchbook {
-  width: 6%;
-  top: 70%;
-  left: 75%;
+  top: 50%;
+  left: 70%;
 }
 
-.notebook {
-  width: 4%;
-  top: 55%;
-  left: 50%;
+/* Content Area */
+main {
+  position: relative;
+  margin-top: 50vh; /* Should match desk height */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
 }
 
-/* Visual feedback */
-.desk-item {
-  position: absolute;
-  transition: all 0.3s;
-  cursor: pointer;
-  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
-}
-
-.desk-item:hover {
-  transform: scale(1.1);
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .desk-container {
+    height: 40vh;
+  }
+  
+  main {
+    margin-top: 40vh;
+  }
+  
+  .desk-item img {
+    width: 50px !important;
+  }
+  
+  /* Adjust positions for mobile */
+  .laptop {
+    top: 35%;
+    left: 15%;
+  }
+  .tshirt {
+    top: 50%;
+    left: 55%;
+  }
+  .sketchbook {
+    top: 45%;
+    left: 65%;
+  }
 }
   
 </style>
