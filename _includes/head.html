@@ -588,8 +588,8 @@ footer a {
 }
 
 /* Content Area */
-/* Styles specifically for the main content when the desk is present */
-.home-main-content {
+/* Styles specifically for the main content when the desk is present
+  .home-main-content {
   position: relative; /* Keep this */
   margin-top: 50vh; /* This should match the desk-container height */
   background: rgba(255, 255, 255, 0.9);
@@ -597,6 +597,16 @@ footer a {
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
   z-index: 1; /* Ensure it overlaps the fixed desk background visually */
+}*/
+.home-main-content {
+  padding-top: 0; /* Remove extra top padding */
+  margin-top: 70vh; /* Should match desk height */
+}
+
+/* If there's still space, add this */
+body > main.home-main-content {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* Make sure the existing 'main' rule looks like this (without margin-top or z-index)
