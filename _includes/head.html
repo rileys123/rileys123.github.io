@@ -610,8 +610,6 @@ footer a {
 /* Make sure the existing 'main' rule looks like this (without margin-top or z-index)
    as it will now be applied only when NOT on the home_layout */
 main {
-  /* Removed position: relative, margin-top, background, padding, border-radius, box-shadow, z-index from here */
-  /* These will now be managed by .home-main-content or other specific rules */
   line-height: 1.6; /* Keep general body/text styles */
   color: #333; /* Keep general body/text styles */
   max-width: 800px; /* Keep general body/text styles */
@@ -621,8 +619,8 @@ main {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .desk-container {
-    height: 40vh;
+  .home-main-content {
+    margin-top: 40vh; /* Match mobile desk-container height */
   }
   
   main {
