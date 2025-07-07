@@ -550,10 +550,12 @@ footer a {
   left: 0;
   width: 100%;
   height: 50vh; /* Keep fixed height or adjust as needed */
-  z-index: -1;
+  /* REMOVE z-index: -1; from here */
   overflow: hidden; /* Keep this if you want to prevent scrollbars */
   padding: 20px; /* Add padding here for a border effect */
   box-sizing: border-box; /* Ensures padding is included in the 50vh height */
+  /* Optional: Add a background color for the border if you removed it */
+  background-color: #f0f0f0;
 }
 
 .desk-bg {
@@ -561,7 +563,6 @@ footer a {
   height: 100%;
   object-fit: contain; /* Change from 'cover' to 'contain' */
   object-position: bottom; /* Keep or change to 'center' or 'top' if you want */
- 
 }
 
 /* Desk Items - Precise Positioning */
@@ -569,7 +570,12 @@ footer a {
   position: absolute;
   cursor: pointer;
   transition: transform 0.3s ease;
-  z-index: 2;
+  z-index: 3; /* Increased z-index to ensure it's above other elements if any conflict */
+}
+
+/* Add this new rule for the images inside the clickable items */
+.desk-item img {
+    pointer-events: none; /* Crucial: Allows clicks to pass through the image to the <a> tag */
 }
 
 /* Specific Positions - Adjust these values to match your desk image */
@@ -596,6 +602,7 @@ main {
   padding: 2rem;
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+  z-index: 1; /* Ensure main content is above the background image, but below clickable items if needed */
 }
 
 /* Mobile Responsiveness */
@@ -610,6 +617,7 @@ main {
   
   .desk-item img {
     width: 50px !important;
+    pointer-events: none; /* Ensure this is also applied on mobile */
   }
   
   /* Adjust positions for mobile */
