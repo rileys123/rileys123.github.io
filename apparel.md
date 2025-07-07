@@ -167,7 +167,15 @@
 
 
 
+## 🎨 Custom Design Services
 
+<div class="store-cta">
+  <h3>Need custom merch for your team or organization?</h3>
+  <p>I offer custom apparel design services for clubs, teams, and events.</p>
+  <a href="mailto:rileys435123@gmail.com" class="store-button">
+    <i class="fas fa-envelope"></i> Contact for Commissions
+  </a>
+</div>
 
 
 
