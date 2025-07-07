@@ -45,15 +45,30 @@
       <a href="{{ link.url }}"><i class="fab fa-{{ link.icon }}"></i></a>
     {% endfor %}
   </footer>
-  <script>
-  function moveCarousel(direction) {
-    const track = document.querySelector('.carousel-track');
-    const currentTransform = window.getComputedStyle(track).transform;
-    const matrix = new DOMMatrix(currentTransform);
-    const currentTranslateX = matrix.m41;
+ <script>
+function moveCarousel(direction) {
+  const track = document.querySelector('.carousel-track');
+  const currentScroll = track.scrollLeft;
+  track.scrollTo({
+    left: currentScroll + (direction * 300),
+    behavior: 'smooth'
+  });
+}
+
+// Auto-scroll functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const carousels = document.querySelectorAll('.carousel-container');
+  
+  carousels.forEach(carousel => {
+    const track = carousel.querySelector('.carousel-track');
+    const slides = carousel.querySelectorAll('.carousel-slide');
     
-    track.style.transform = `translateX(${currentTranslateX + (direction * 300)}px)`;
-  }
-  </script>
+    // Clone slides for infinite effect
+    slides.forEach(slide => {
+      track.appendChild(slide.cloneNode(true));
+    });
+  });
+});
+</script>
 </body>
 </html>
