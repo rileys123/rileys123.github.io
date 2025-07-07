@@ -1,0 +1,38 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - master # Set a branch to deploy from (e.g. master, main, gh-pages)
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # You can specify a Ruby version compatible with Jekyll 4.x, or check your local for what works. 3.1 is generally good.
+          bundler-cache: true # Install dependencies with Bundler
+
+      - name: Install Jekyll and Dependencies
+        run: |
+          bundle install --jobs 4 --retry 3 # Ensure all gems are installed
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build --verbose # Add --verbose for more output in logs
+
+      - name: Deploy to GitHub Pages
+        if: success() # Only deploy if the build step was successful
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site # Jekyll's default output directory
+          publish_branch: gh-pages # This will create and deploy to a gh-pages branch
+          force_orphan: true # Removes previous files in gh-pages and only puts new ones
