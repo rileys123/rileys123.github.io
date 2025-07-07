@@ -23,9 +23,11 @@
       </a>
     </div>
 
-    <main class="home-main-content">
-      {{ content }}
-    </main>
+{% if content != "" %}
+  <main class="home-main-content">
+    {{ content }}
+  </main>
+{% endif %}
 
   {% else %}
     <header>
