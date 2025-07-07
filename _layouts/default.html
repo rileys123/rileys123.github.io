@@ -40,24 +40,6 @@
   </footer>
 
   <!-- JavaScript for desk interactions -->
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Make sure desk items are clickable
-    document.querySelectorAll('.desk-item').forEach(item => {
-      item.addEventListener('click', function(e) {
-        // Only prevent default if you want to add animations
-        // window.location.href = this.href;
-      });
-      
-      // Visual feedback
-      item.addEventListener('mouseenter', function() {
-        this.style.transform = 'scale(1.1)';
-      });
-      item.addEventListener('mouseleave', function() {
-        this.style.transform = '';
-      });
-    });
-  });
-  </script>
+ 
 </body>
 </html>
