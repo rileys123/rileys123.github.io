@@ -7,17 +7,20 @@
 <body>
     <!-- Add this desk container first -->
   <div class="desk-container">
-    <img src="/assets/art/desk.jpg" alt="Illustrated desk" class="desk-bg">
-    <a href="/projects/" class="desk-item laptop">
-      <img src="/assets/art/laptop.jpg" alt="Coding Projects">
-    </a>
-    <a href="/artwork/" class="desk-item sketchbook">
-      <img src="/assets/art/sketchbook.png" alt="Art Portfolio">
-    </a>
-    <a href="/about/" class="desk-item tshirt">
-      <img src="/assets/art/shirt.jpg" alt="About Me">
-    </a>
-  </div>
+  <img src="{{ '/assets/art/desk.jpg' | relative_url }}" class="desk-bg">
+  
+  <a href="{{ '/projects/' | relative_url }}" class="desk-item laptop">
+    <img src="{{ '/assets/art/laptop.jpg' | relative_url }}" alt="Projects">
+  </a>
+  
+  <a href="{{ '/artwork/' | relative_url }}" class="desk-item sketchbook">
+    <img src="{{ '/assets/art/sketchbook.jpg' | relative_url }}" alt="Artwork">
+  </a>
+  
+  <a href="{{ '/about/' | relative_url }}" class="desk-item notebook">
+    <img src="{{ '/assets/art/shirt.jpg' | relative_url }}" alt="About">
+  </a>
+</div>
   <header>
     <h1>{{ site.title }}</h1>
     {% include navigation.html %}
