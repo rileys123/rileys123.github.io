@@ -566,5 +566,40 @@ footer a {
 main {
   margin-top: 60vh; /* Matches desk height */
 }
+
+
+
+
+  
+  /* Position items using percentages */
+.laptop {
+  width: 12%;
+  top: 45%;
+  left: 35%;
+}
+
+.sketchbook {
+  width: 10%;
+  top: 50%;
+  left: 65%;
+}
+
+.notebook {
+  width: 8%;
+  top: 55%;
+  left: 50%;
+}
+
+/* Visual feedback */
+.desk-item {
+  position: absolute;
+  transition: all 0.3s;
+  cursor: pointer;
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+}
+
+.desk-item:hover {
+  transform: scale(1.1);
+}
   
 </style>
