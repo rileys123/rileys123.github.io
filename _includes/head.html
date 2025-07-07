@@ -675,5 +675,86 @@ footer {
 .art-item:hover {
   animation: pinkPulse 2s infinite;
 }
+
+
+
+
+
+
+
+
+
+/* Apparel-specific styles */
+.apparel-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 2rem 0;
+}
+
+.apparel-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-top: 4px solid var(--fun-pink);
+}
+
+.apparel-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255,107,158,0.3);
+}
+
+.apparel-preview {
+  padding: 1rem;
+  text-align: center;
+}
+
+.apparel-preview img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+.store-cta {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: var(--light-accent);
+  border-radius: 12px;
+}
+
+.store-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--fun-pink);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.store-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255,107,158,0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 </style>
