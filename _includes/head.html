@@ -571,7 +571,9 @@ footer a {
   transition: transform 0.3s ease;
   z-index: 3; /* Increased z-index to ensure it's above other elements if any conflict */
 }
-
+.desk-item:hover {
+  transform: scale(1.1); /* This is the actual hover effect */
+}
 /* Add this new rule for the images inside the clickable items */
 .desk-item img {
     pointer-events: none; /* Crucial: Allows clicks to pass through the image to the <a> tag */
@@ -589,7 +591,7 @@ footer a {
 }
 
 .sketchbook {
-  top: 65%;
+  top: 63%;
   left: 73%;
 }
 
