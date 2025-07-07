@@ -3,34 +3,25 @@
 <head>
   {% include head.html %}
   <title>{{ page.title }} | {{ site.title }}</title>
-  <style>
-    /* Add this CSS to _includes/head.html */
-    .hidden {
-      display: none !important;
-    }
-  </style>
-</head>
+  </head>
 <body>
 
-/*  {% if page.layout == "home_layout" %}
-<!-- Desk Background -->
-  <div class="desk-container">
-    <img src="{{ '/assets/art/desk1.jpg' | relative_url }}" class="desk-bg" alt="Illustrated desk">
-    
-    <!-- Clickable Items - Adjusted sizes and positions -->
-    <a href="{{ '/projects/' | relative_url }}" class="desk-item laptop">
-      <img src="{{ '/assets/art/laptop1.png' | relative_url }}" alt="Coding Projects" style="width: 160px;">
-    </a>
-    
-    <a href="{{ '/artwork/' | relative_url }}" class="desk-item tshirt">
-      <img src="{{ '/assets/art/shirt1.png' | relative_url }}" alt="Artwork" style="width: 250px;">
-    </a>
-    
-    <a href="{{ '/about/' | relative_url }}" class="desk-item sketchbook">
-      <img src="{{ '/assets/art/sketchbook1.png' | relative_url }}" alt="About Me" style="width: 140px;">
-    </a>
-  </div>
-
+  {% if page.layout == "home_layout" %}
+    <div class="desk-container">
+      <img src="{{ '/assets/art/desk.jpg' | relative_url }}" class="desk-bg" alt="Illustrated desk">
+      
+      <a href="{{ '/projects/' | relative_url }}" class="desk-item laptop">
+        <img src="{{ '/assets/art/laptop.png' | relative_url }}" alt="Coding Projects" style="width: 160px;">
+      </a>
+      
+      <a href="{{ '/artwork/' | relative_url }}" class="desk-item tshirt">
+        <img src="{{ '/assets/art/shirt.png' | relative_url }}" alt="Artwork" style="width: 260px;">
+      </a>
+      
+      <a href="{{ '/about/' | relative_url }}" class="desk-item sketchbook">
+        <img src="{{ '/assets/art/sketchbook.png' | relative_url }}" alt="About Me" style="width: 140px;">
+      </a>
+    </div>
 
     <main class="home-main-content">
       {{ content }}
@@ -46,12 +37,6 @@
       {{ content }}
     </main>
   {% endif %}
-  */
-{% if page.layout == "home_layout" %}
-    <p>Hello Home!</p>
-  {% else %}
-    {% endif %}
-  
 
   <footer>
     {% for link in site.external %}
