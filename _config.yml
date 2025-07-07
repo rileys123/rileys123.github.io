@@ -37,6 +37,8 @@ navigation:
     url: "/projects/"
   - name: "Artwork"
     url: "/artwork/"
+  - name: "Apparel"
+    url: "/apparel/"
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rileys435123@gmail.com"}
