@@ -3,9 +3,17 @@
 <head>
   {% include head.html %}
   <title>{{ page.title }} | {{ site.title }}</title>
+  <style>
+    /* Add this CSS to _includes/head.html */
+    .hidden {
+      display: none !important;
+    }
+  </style>
 </head>
 <body>
-  <!-- Desk Background -->
+
+  {% if page.layout == "home_layout" %}
+<!-- Desk Background -->
   <div class="desk-container">
     <img src="{{ '/assets/art/desk1.jpg' | relative_url }}" class="desk-bg" alt="Illustrated desk">
     
@@ -23,23 +31,26 @@
     </a>
   </div>
 
-  <!-- Rest of your layout -->
-  <header>
-    <h1>{{ site.title }}</h1>
-    {% include navigation.html %}
-  </header>
 
-  <main>
-    {{ content }}
-  </main>
+    <main class="home-main-content">
+      {{ content }}
+    </main>
+
+  {% else %}
+    <header>
+      <h1>{{ site.title }}</h1>
+      {% include navigation.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  {% endif %}
 
   <footer>
     {% for link in site.external %}
       <a href="{{ link.url }}"><i class="fab fa-{{ link.icon }}"></i></a>
     {% endfor %}
   </footer>
-
-  <!-- JavaScript for desk interactions -->
- 
 </body>
 </html>
