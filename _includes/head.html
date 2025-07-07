@@ -560,10 +560,13 @@ footer a {
   cursor: pointer;
   transition: transform 0.3s ease;
   z-index: 3; /* Increased z-index to ensure it's above other elements if any conflict */
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+
 }
 
 .desk-item:hover {
   transform: scale(1.1); /* This is the actual hover effect */
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.3));
 }
 
 /* Add this new rule for the images inside the clickable items */
@@ -621,6 +624,9 @@ main {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .desk-container {
+    height: 50vh; /* Slightly smaller on mobile */
+  }
   .home-main-content {
     margin-top: 40vh; /* Match mobile desk-container height */
   }
@@ -630,7 +636,7 @@ main {
   }
   
   .desk-item img {
-    width: 50px !important;
+    width: 80px !important;
     pointer-events: none; /* Ensure this is also applied on mobile */
   }
   
