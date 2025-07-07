@@ -9,6 +9,10 @@ nav_order: 3
 <p>If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
 
 <div class="carousel-container">
+  <div class="carousel-nav">
+    <button onclick="moveCarousel(-1)">❮</button>
+    <button onclick="moveCarousel(1)">❯</button>
+  </div>
   <div class="carousel-track">
     <!-- Apparel Item 1 -->
     <div class="carousel-slide">
