@@ -6,8 +6,8 @@ nav_order: 3
 hide_desk: true
 ---
 
-## 👕 Apparel Designs
-<p>If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
+<h1 class="apparel-title">👕 Apparel Designs</h1>
+<p class="apparel-subtitle">If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
 
 <div class="carousel-container">
   <div class="carousel-nav">
