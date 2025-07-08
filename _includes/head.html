@@ -762,7 +762,8 @@ footer {
 /* Carousel Container */
 .carousel-container {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
   margin: 2rem auto;
   overflow: hidden;
 }
@@ -770,10 +771,10 @@ footer {
 /* Carousel Track - Horizontal Scroller */
 .carousel-track {
   display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
   gap: 20px;
-  padding: 10px 0;
-  animation: autoScroll 30s linear infinite;
-  width: max-content; /* Allows horizontal scrolling */
+  padding-bottom: 10px; /* Space for scrollbar */
 }
 
 /* Auto-scroll Animation */
@@ -789,9 +790,9 @@ footer {
 
 /* Carousel Slides */
 .carousel-slide {
-  position: relative;
   min-width: 300px;
   height: 350px;
+  position: relative;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -813,6 +814,7 @@ footer {
   background: rgba(255, 255, 255, 0.95);
   padding: 1.5rem;
   transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .carousel-slide:hover .carousel-caption {
@@ -842,8 +844,13 @@ footer {
   font-size: 1.2rem;
   color: var(--dark-accent);
   margin: 0 15px;
+  transition: all 0.2s ease;
 }
-
+.carousel-nav button:hover {
+  background: var(--fun-pink);
+  color: white;
+}
+  
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .carousel-slide {
