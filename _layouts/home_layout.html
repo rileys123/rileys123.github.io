@@ -40,46 +40,57 @@
   </footer>
   
   <script>
+// In your carousel.js file or before </body>
 document.addEventListener('DOMContentLoaded', function() {
-  const carousels = document.querySelectorAll('.carousel-container');
+  const track = document.querySelector('.carousel-track');
+  const slides = document.querySelectorAll('.carousel-slide');
+  const prevBtn = document.querySelector('.carousel-nav button:first-child');
+  const nextBtn = document.querySelector('.carousel-nav button:last-child');
   
-  carousels.forEach(carousel => {
-    const track = carousel.querySelector('.carousel-track');
-    const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
-    const prevBtn = carousel.querySelector('.carousel-nav button:first-child');
-    const nextBtn = carousel.querySelector('.carousel-nav button:last-child');
-    
-    let currentIndex = 0;
-    const slideWidth = slides[0].offsetWidth + 20; // Include gap
-    
-    // Clone slides for infinite effect
-    slides.forEach(slide => {
-      track.appendChild(slide.cloneNode(true));
-    });
-    
-    // Navigation functions
-    function moveToSlide(index) {
-      track.style.transform = `translateX(-${index * slideWidth}px)`;
-      currentIndex = index;
+  let currentPosition = 0;
+  const slideWidth = slides[0].offsetWidth + 30; // Include gap
+
+  function updateCarousel() {
+    track.style.transform = `translateX(-${currentPosition}px)`;
+  }
+
+  nextBtn.addEventListener('click', () => {
+    currentPosition += slideWidth;
+    if (currentPosition > (slides.length - 1) * slideWidth) {
+      currentPosition = 0;
     }
-    
-    function moveCarousel(direction) {
-      const slidesCount = slides.length;
-      currentIndex = (currentIndex + direction + slidesCount) % slidesCount;
-      moveToSlide(currentIndex);
+    updateCarousel();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    currentPosition -= slideWidth;
+    if (currentPosition < 0) {
+      currentPosition = (slides.length - 1) * slideWidth;
     }
-    
-    // Auto-scroll
-    let autoScroll = setInterval(() => moveCarousel(1), 3000);
-    
-    carousel.addEventListener('mouseenter', () => clearInterval(autoScroll));
-    carousel.addEventListener('mouseleave', () => {
-      autoScroll = setInterval(() => moveCarousel(1), 3000);
-    });
-    
-    // Button events
-    if (prevBtn) prevBtn.addEventListener('click', () => moveCarousel(-1));
-    if (nextBtn) nextBtn.addEventListener('click', () => moveCarousel(1));
+    updateCarousel();
+  });
+
+  // Optional: Auto-scroll
+  let autoScroll = setInterval(() => {
+    currentPosition += slideWidth;
+    if (currentPosition > (slides.length - 1) * slideWidth) {
+      currentPosition = 0;
+    }
+    updateCarousel();
+  }, 3000);
+
+  document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
+    clearInterval(autoScroll);
+  });
+
+  document.querySelector('.carousel-container').addEventListener('mouseleave', () => {
+    autoScroll = setInterval(() => {
+      currentPosition += slideWidth;
+      if (currentPosition > (slides.length - 1) * slideWidth) {
+        currentPosition = 0;
+      }
+      updateCarousel();
+    }, 3000);
   });
 });
   </script>
