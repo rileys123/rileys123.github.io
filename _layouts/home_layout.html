@@ -3,10 +3,10 @@
 <head>
   {% include head.html %}
   <title>{{ page.title }} | {{ site.title }}</title>
-</head>
+  </head>
 <body>
 
-  {% unless page.hide_desk %}  <!-- Only show desk if hide_desk isn't true -->
+  {% if page.layout == "home_layout" %}
     <div class="desk-container">
       <img src="{{ '/assets/art/desk1.jpg' | relative_url }}" class="desk-bg" alt="Illustrated desk">
       
@@ -22,16 +22,23 @@
         <img src="{{ '/assets/art/sketchbook.png' | relative_url }}" alt="About Me" style="width: 140px;">
       </a>
     </div>
-  {% else %}
-    <!-- Add navigation when desk is hidden -->
-    <header class="simple-header">
-      {% include navigation.html %}
-    </header>
-  {% endunless %}
 
-  <main class="{% if page.hide_desk %}no-desk{% else %}home-main-content{% endif %}">
+{% if content | strip_newlines | strip | size > 0 %}
+  <main class="home-main-content">
     {{ content }}
   </main>
+{% endif %}
+
+  {% else %}
+    <header>
+      <h1>{{ site.title }}</h1>
+      {% include navigation.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  {% endif %}
 
   <footer>
     {% for link in site.external %}
@@ -39,60 +46,49 @@
     {% endfor %}
   </footer>
   
-  <script>
-// In your carousel.js file or before </body>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
-  const track = document.querySelector('.carousel-track');
-  const slides = document.querySelectorAll('.carousel-slide');
-  const prevBtn = document.querySelector('.carousel-nav button:first-child');
-  const nextBtn = document.querySelector('.carousel-nav button:last-child');
+  const carousels = document.querySelectorAll('.carousel-container');
   
-  let currentPosition = 0;
-  const slideWidth = slides[0].offsetWidth + 30; // Include gap
-
-  function updateCarousel() {
-    track.style.transform = `translateX(-${currentPosition}px)`;
-  }
-
-  nextBtn.addEventListener('click', () => {
-    currentPosition += slideWidth;
-    if (currentPosition > (slides.length - 1) * slideWidth) {
-      currentPosition = 0;
+  carousels.forEach(carousel => {
+    const track = carousel.querySelector('.carousel-track');
+    const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+    const prevBtn = carousel.querySelector('.carousel-nav button:first-child');
+    const nextBtn = carousel.querySelector('.carousel-nav button:last-child');
+    
+    let currentIndex = 0;
+    const slideWidth = slides[0].offsetWidth + 20; // Include gap
+    
+    // Clone slides for infinite effect
+    slides.forEach(slide => {
+      track.appendChild(slide.cloneNode(true));
+    });
+    
+    // Navigation functions
+    function moveToSlide(index) {
+      track.style.transform = `translateX(-${index * slideWidth}px)`;
+      currentIndex = index;
     }
-    updateCarousel();
-  });
-
-  prevBtn.addEventListener('click', () => {
-    currentPosition -= slideWidth;
-    if (currentPosition < 0) {
-      currentPosition = (slides.length - 1) * slideWidth;
+    
+    function moveCarousel(direction) {
+      const slidesCount = slides.length;
+      currentIndex = (currentIndex + direction + slidesCount) % slidesCount;
+      moveToSlide(currentIndex);
     }
-    updateCarousel();
-  });
-
-  // Optional: Auto-scroll
-  let autoScroll = setInterval(() => {
-    currentPosition += slideWidth;
-    if (currentPosition > (slides.length - 1) * slideWidth) {
-      currentPosition = 0;
-    }
-    updateCarousel();
-  }, 3000);
-
-  document.querySelector('.carousel-container').addEventListener('mouseenter', () => {
-    clearInterval(autoScroll);
-  });
-
-  document.querySelector('.carousel-container').addEventListener('mouseleave', () => {
-    autoScroll = setInterval(() => {
-      currentPosition += slideWidth;
-      if (currentPosition > (slides.length - 1) * slideWidth) {
-        currentPosition = 0;
-      }
-      updateCarousel();
-    }, 3000);
+    
+    // Auto-scroll
+    let autoScroll = setInterval(() => moveCarousel(1), 3000);
+    
+    carousel.addEventListener('mouseenter', () => clearInterval(autoScroll));
+    carousel.addEventListener('mouseleave', () => {
+      autoScroll = setInterval(() => moveCarousel(1), 3000);
+    });
+    
+    // Button events
+    if (prevBtn) prevBtn.addEventListener('click', () => moveCarousel(-1));
+    if (nextBtn) nextBtn.addEventListener('click', () => moveCarousel(1));
   });
 });
-  </script>
+</script>
 </body>
 </html>
