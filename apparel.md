@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home_layout
 title: Apparel
 permalink: /apparel/
 nav_order: 3 
