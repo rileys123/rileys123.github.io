@@ -18,7 +18,7 @@ hide_desk: true
   <div class="carousel-track">
     <!-- Apparel Item 1 -->
     <div class="carousel-slide">
-      <img src="/assets/art/GJCL1.png" alt="NJCL Convention 2025">
+      <img src="/assets/art/GJCL1.png" class="carousel-image">
       <div class="carousel-caption">
         <h3>2025 NJCL Convention Georgia State T-Shirt</h3>
         <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
@@ -35,7 +35,7 @@ hide_desk: true
     
     <!-- Apparel Item 2 -->
     <div class="carousel-slide">
-      <img src="/assets/art/vex1.png" alt="VEX Crewneck Design">
+      <img src="/assets/art/vex1.png" class="carousel-image">
       <div class="carousel-caption">
         <h3>2024 VEX Team Crewneck</h3>
         <p>Graffiti-like VEX Team Crewneck designed for Worlds.</p>
@@ -54,6 +54,15 @@ hide_desk: true
   </div>
 </div>
 
+<style>
+.carousel-image {
+  width: 100%;
+  height: 280px; /* Fixed image height */
+  object-fit: contain; /* Show full design */
+  background: #f8f8f8; /* Neutral background */
+  padding: 20px;
+}
+</style>
 
 ## 🎨 Custom Design Services
 
