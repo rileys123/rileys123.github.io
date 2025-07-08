@@ -864,6 +864,24 @@ footer {
 }
 
 
+  /* Add to your existing CSS */
+.no-desk {
+  margin-top: 0 !important;
+  padding-top: 2rem;
+}
+
+/* Hide desk container when hide_desk is true */
+body > .desk-container {
+  display: none;
+}
+
+/* Adjust footer position when no desk */
+.no-desk + footer {
+  position: static;
+  margin-top: 3rem;
+  box-shadow: none;
+}
+
 
   
 </style>
