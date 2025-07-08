@@ -22,6 +22,11 @@
         <img src="{{ '/assets/art/sketchbook.png' | relative_url }}" alt="About Me" style="width: 140px;">
       </a>
     </div>
+  {% else %}
+    <!-- Simplified header with just navigation -->
+    <header class="simple-header">
+      {% include navigation.html %}
+    </header>
   {% endunless %}
 
   <main class="{% if page.hide_desk %}no-desk{% else %}home-main-content{% endif %}">
