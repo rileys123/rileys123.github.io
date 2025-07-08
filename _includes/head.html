@@ -765,20 +765,19 @@ footer {
 
 /* Carousel Container */
 .carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 2rem auto;
-  overflow: hidden;
+  width: 100vw; /* Full viewport width */
+  margin-left: calc(-50vw + 50%); /* Center align */
+  overflow: visible; /* Allow items to flow beyond */
+  padding: 20px 0;
+  background: rgba(255,255,255,0.9);
 }
 
 /* Carousel Track - Horizontal Scroller */
 .carousel-track {
   display: flex;
-  transition: transform 0.5s ease;
-  will-change: transform;
-  gap: 20px;
-  padding-bottom: 10px; /* Space for scrollbar */
+  gap: 20px; /* Increased gap between items */
+  padding: 0 10vw; /* Horizontal padding */
+  animation: autoScroll 30s linear infinite;
 }
 
 /* Auto-scroll Animation */
@@ -789,7 +788,8 @@ footer {
 
 /* Pause on hover */
 .carousel-container:hover .carousel-track {
-  animation-play-state: paused;
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-280px - 30px));
 }
 
 /* Carousel Slides */
