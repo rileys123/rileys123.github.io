@@ -3,6 +3,7 @@ layout: home_layout
 title: Apparel
 permalink: /apparel/
 nav_order: 3 
+hide_desk: true
 ---
 
 ## 👕 Apparel Designs
