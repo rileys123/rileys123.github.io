@@ -765,19 +765,20 @@ footer {
 
 /* Carousel Container */
 .carousel-container {
-  width: 100vw; /* Full viewport width */
-  margin-left: calc(-50vw + 50%); /* Center align */
-  overflow: visible; /* Allow items to flow beyond */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 2rem 0;
   padding: 20px 0;
-  background: rgba(255,255,255,0.9);
 }
 
 /* Carousel Track - Horizontal Scroller */
 .carousel-track {
   display: flex;
-  gap: 20px; /* Increased gap between items */
-  padding: 0 10vw; /* Horizontal padding */
-  animation: autoScroll 30s linear infinite;
+  gap: 30px;
+  transition: transform 0.5s ease;
+  will-change: transform;
+  padding: 0 calc((100vw - 800px)/2); /* Center align with max-width */
 }
 
 /* Auto-scroll Animation */
@@ -794,19 +795,23 @@ footer {
 
 /* Carousel Slides */
 .carousel-slide {
-  min-width: 300px;
-  height: 350px;
+  min-width: 280px;
+  height: 380px;
+  flex-shrink: 0;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  flex-shrink: 0;
+  transition: transform 0.3s ease;
 }
 
 .carousel-slide img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 280px;
+  object-fit: contain;
+  background: #f8f8f8;
+  padding: 20px;
+  display: block;
 }
 
 /* Caption (hidden by default) */
@@ -839,7 +844,7 @@ footer {
 
 .carousel-nav button {
   pointer-events: auto;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.9);
   border: none;
   width: 40px;
   height: 40px;
@@ -847,9 +852,10 @@ footer {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--dark-accent);
-  margin: 0 15px;
-  transition: all 0.2s ease;
+  margin: 0 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
+  
 .carousel-nav button:hover {
   background: var(--fun-pink);
   color: white;
