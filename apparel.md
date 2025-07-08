@@ -5,34 +5,12 @@ permalink: /apparel/
 nav_order: 3 
 hide_desk: true
 ---
-<div class="back-home">
-  <a href="/" class="artsy-button">
-    <i class="fas fa-arrow-left"></i> Back to Home
-  </a>
-</div>
+# Welcome to My Merch Closet!
 
-<style>
-.artsy-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: var(--fun-pink);
-  color: white;
-  border-radius: 30px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.5rem;
-  margin: 2rem auto;
-  text-align: center;
-  transition: all 0.3s ease;
-}
 
-.artsy-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(255,107,158,0.4);
-}
-</style>
 
-<h1 class="apparel-title">👕 Apparel Designs</h1>
-<p class="apparel-subtitle">If you or your club/organization are ever in need of some merch, I gotchu! 😉</p>
+## ✏️ Apparel
+<p>Below is a gallery of designs.</p>
 
 <div class="carousel-container">
   <div class="carousel-nav">
