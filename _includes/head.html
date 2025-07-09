@@ -766,6 +766,7 @@ footer {
 .carousel-container {
   position: relative;
   width: 100%;
+  min-height: 450px;
   max-width: 1200px;
   margin: 2rem auto;
   background-image: url('/assets/art/closet.png');
@@ -773,7 +774,18 @@ footer {
   background-position: center;
   overflow: hidden;
 }
-
+.carousel-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to bottom, 
+    rgba(139, 69, 19, 0.8) 0%, 
+    rgba(101, 67, 33, 0.6) 100%);
+  z-index: 1;
+}
 /* Carousel Track - Horizontal Scroller */
 .carousel-track {
   display: flex;
@@ -796,7 +808,7 @@ footer {
 
 /* Carousel Slides */
 .carousel-slide {
-  min-width: 300px;
+  width: 220px;
   height: 350px;
   position: relative;
   border-radius: 12px;
@@ -807,10 +819,25 @@ footer {
 
 .carousel-slide img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 300px;
+  object-fit: contain;
+  background: rgba(255,255,255,0.9);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  position: relative;
 }
-
+.carousel-slide img::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 15px;
+  background: #ccc;
+  border-radius: 5px 5px 0 0;
+}
 /* Caption (hidden by default) */
 .carousel-caption {
   position: absolute;
