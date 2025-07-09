@@ -18,7 +18,7 @@ hide_desk: true
   <div class="carousel-track">
     <!-- Apparel Item 1 -->
     <div class="carousel-slide">
-      <img src="/assets/art/GJCL1.png" alt="GJCL tshirt">
+      <img src="/assets/art/GJCL3.png" alt="GJCL tshirt">
       <div class="carousel-caption">
         <h3>2025 NJCL Convention Georgia State T-Shirt</h3>
         <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
