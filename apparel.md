@@ -48,7 +48,22 @@ hide_desk: true
       </div>
     </div>
     
-    <!-- Continue with other items -->
+    <!-- Apparel Item 3 -->
+    <div class="carousel-slide">
+      <img src="/assets/art/sax3.png" alt="vex crewneck">
+      <div class="carousel-caption">
+        <h3>2023 Marching Saxes</h3>
+        <p>Hand-drawn saxophone-playing figures.</p>
+        <div class="project-meta">
+          <span class="tech-tag apparel">Apparel</span>
+          <span class="tech-tag digital">Digital</span>
+          <span class="date">April 2024</span>
+        </div>
+        <a href="#sax-details" class="details-link">
+          <i class="fas fa-info-circle"></i> Details
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
