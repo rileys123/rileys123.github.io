@@ -33,7 +33,7 @@ hide_desk: true
     
     <!-- Apparel Item 2 -->
     <div class="carousel-slide">
-      <img src="/assets/art/vex2.png" alt="vex crewneck">
+      <img src="/assets/art/vex3.png" alt="vex crewneck">
       <div class="carousel-caption">
         <h3>2024 VEX Team Crewneck</h3>
         <p>Graffiti-like VEX Team Crewneck designed for Worlds.</p>
