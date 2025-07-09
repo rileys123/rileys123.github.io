@@ -79,6 +79,7 @@ hide_desk: true
     
     
     <img src="/assets/art/vex.png" alt="Vex Screenshot" class="project-screenshot">
+    <img src="/assets/art/vex1.png" alt="Vex Screenshot" class="project-screenshot">
 
     
   </div>
