@@ -50,7 +50,7 @@ hide_desk: true
     
     <!-- Apparel Item 3 -->
     <div class="carousel-slide">
-      <img src="/assets/art/sax3.png" alt="vex crewneck">
+      <img src="/assets/art/sax3.png" alt="sax hoodie">
       <div class="carousel-caption">
         <h3>2023 Marching Saxes</h3>
         <p>Hand-drawn saxophone-playing figures.</p>
@@ -64,6 +64,60 @@ hide_desk: true
         </a>
       </div>
     </div>
+
+    <!-- Apparel Item 4 -->
+    <div class="carousel-slide">
+      <img src="/assets/art/clarinet1.png" alt="clarinet hoodie">
+      <div class="carousel-caption">
+        <h3>2024 Marching Clarinets Hoodie</h3>
+        <p>Cute character design graphics</p>
+        <div class="project-meta">
+          <span class="tech-tag apparel">Apparel</span>
+          <span class="tech-tag digital">Digital</span>
+          <span class="date">April 2024</span>
+        </div>
+        <a href="#clarinet-details" class="details-link">
+          <i class="fas fa-info-circle"></i> Details
+        </a>
+      </div>
+    </div>
+
+
+
+    <!-- Apparel Item 5 -->
+    <div class="carousel-slide">
+      <img src="/assets/art/latin5.png" alt="latin club tee">
+      <div class="carousel-caption">
+        <h3>2024-25 Latin Club T-shirt</h3>
+        <p>Oath of the Horatii with Pencils</p>
+        <div class="project-meta">
+          <span class="tech-tag apparel">Apparel</span>
+          <span class="tech-tag digital">Digital</span>
+          <span class="date">April 2024</span>
+        </div>
+        <a href="#latin-details" class="details-link">
+          <i class="fas fa-info-circle"></i> Details
+        </a>
+      </div>
+    </div>
+
+    <!-- Apparel Item 6 -->
+    <div class="carousel-slide">
+      <img src="/assets/art/totoro.png" alt="sax crewneck">
+      <div class="carousel-caption">
+        <h3>2022 Marching Saxes Crewneck</h3>
+        <p>Totoro playing the saxophone</p>
+        <div class="project-meta">
+          <span class="tech-tag apparel">Apparel</span>
+          <span class="tech-tag digital">Digital</span>
+          <span class="date">April 2024</span>
+        </div>
+        <a href="#sax2-details" class="details-link">
+          <i class="fas fa-info-circle"></i> Details
+        </a>
+      </div>
+    </div>
+    
   </div>
 </div>
 
@@ -142,7 +196,7 @@ hide_desk: true
       <li>Designed on Concepts and Canva</li>
     </ul>
     
-     <img src="/assets/art/clarinet (1).png" alt="Clarinet Screenshot" class="project-screenshot">
+     <img src="/assets/art/clarinet.png" alt="Clarinet Screenshot" class="project-screenshot">
 
   </div>
 </div>
@@ -157,7 +211,7 @@ hide_desk: true
       <li>Designed on Concepts and Canva</li>
     </ul>
     
-     <img src="/assets/art/latin24.png" alt="Latin Club Screenshot" class="project-screenshot">
+     <img src="/assets/art/latin4.png" alt="Latin Club Screenshot" class="project-screenshot">
 
   </div>
 </div>
@@ -173,7 +227,7 @@ hide_desk: true
       <li>Designed on paper and digitized</li>
     </ul>
     
-     <img src="/assets/art/saxes2.png" alt="Sax Screenshot" class="project-screenshot">
+     <img src="/assets/art/1684.jpg" alt="Sax Screenshot" class="project-screenshot">
 
   </div>
 </div>
