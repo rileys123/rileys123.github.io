@@ -1161,6 +1161,39 @@ footer {
   margin-bottom: 30px;
   text-align: center;
 }
+  /* ===== MUSEUM SPOTLIGHTS ===== */
+.art-collection h2 {
+  position: relative;
+  padding-top: 40px; /* Make space for spotlight */
+}
+
+.art-collection h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 30px;
+  background: 
+    radial-gradient(ellipse at center, 
+      rgba(255,255,255,0.8) 0%,
+      rgba(255,255,255,0) 70%);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.art-collection h2::after {
+  content: "☀";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #D4AF37;
+  text-shadow: 0 0 10px #D4AF37;
+  z-index: 2;
+}
 
 .art-gallery-grid {
   display: grid;
