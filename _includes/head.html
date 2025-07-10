@@ -1128,6 +1128,161 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ===== MUSEUM-STYLE ART GALLERY ===== */
+.art-gallery-exhibit {
+  background-color: #f8f5f2; /* Museum off-white wall color */
+  padding: 40px 20px;
+  margin: 40px -20px;
+  border-top: 1px solid #e0d9d1;
+  border-bottom: 1px solid #e0d9d1;
+}
+
+.art-collection {
+  margin-bottom: 60px;
+}
+
+.art-collection h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 2px solid #e0d9d1;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.art-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+
+.art-piece {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Museum frame effect */
+.art-piece::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #e0d9d1;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.art-piece:hover::before {
+  opacity: 1;
+}
+
+/* Spotlight hover effect */
+.art-piece:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1), 
+              0 0 0 10px rgba(255,255,255,0.8),
+              0 0 40px 20px rgba(255,255,255,0.4);
+}
+
+.art-piece-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background: white;
+  margin-bottom: 15px;
+  border: 1px solid #f0f0f0;
+}
+
+.art-piece-plaque {
+  background: #f8f5f2;
+  padding: 15px;
+  border-left: 3px solid #6C63FF;
+  font-size: 0.9rem;
+}
+
+.art-piece-plaque h3 {
+  margin: 0 0 5px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+}
+
+.art-piece-plaque .medium {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.art-piece-plaque .date {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.art-piece-plaque .description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Process details styling */
+.art-process-details {
+  background: white;
+  padding: 30px;
+  margin-top: 30px;
+  border-left: 4px solid #6C63FF;
+}
+
+.art-process-details h3 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  margin-top: 0;
+}
+
+.process-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.process-images img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .art-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .art-piece-image {
+    height: 250px;
+  }
+}
+
+  
   
   
 </style>
