@@ -50,7 +50,7 @@ hide_desk: true
     
     <!-- Apparel Item 3 -->
     <div class="carousel-slide">
-      <img src="/assets/art/sax4.png" alt="sax hoodie">
+      <img src="/assets/art/sax5.png" alt="sax hoodie">
       <div class="carousel-caption">
         <h3>2023 Marching Saxes</h3>
         <p>Hand-drawn saxophone-playing figures.</p>
