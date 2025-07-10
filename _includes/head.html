@@ -979,6 +979,12 @@ footer {
 
 
 /* Desktop Theme Styles */
+  /* Desktop Container */
+.desktop-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
 .desktop-theme {
   background-image: url('/assets/bg/desktop.png');
   background-size: cover;
@@ -1027,7 +1033,7 @@ footer {
 }
 
 .taskbar {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0; /* Add this */
@@ -1041,7 +1047,6 @@ footer {
   z-index: 1000;
   color: white;
   /* Remove any margin/padding that might be pushing it down */
-  margin: 0;
 }
 
 .start-button {
