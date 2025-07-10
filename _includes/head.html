@@ -1171,10 +1171,11 @@ footer {
 
 .art-piece {
   background: white;
-  padding: 20px;
+  padding: 0; /* Remove padding since frame will be on image */
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
   position: relative;
+  overflow: visible; /* Allow frame to extend beyond card */
 }
 
 /* Museum frame effect */
@@ -1197,11 +1198,35 @@ footer {
 }
 
 /* Spotlight hover effect */
-.art-piece:hover {
+.art-piece:hover .art-piece-image-container::before {
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37,
+    0 0 0 2px #D4AF37,
+    0 0 20px rgba(212, 175, 55, 0.6); /* Gold glow on hover */
+}
+
+  .art-piece:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.1), 
-              0 0 0 10px rgba(255,255,255,0.8),
-              0 0 40px 20px rgba(255,255,255,0.4);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.art-piece:hover .art-piece-image-container {
+  box-shadow: 0 0 40px 20px rgba(255,255,255,0.4);
+}
+/* Actual frame styling */
+.art-piece-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 12px solid #000; /* Black frame */
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37, /* Inner gold lining */
+    0 0 0 2px #D4AF37; /* Outer gold lining */
+  pointer-events: none;
+  z-index: 2;
 }
 
 .art-piece-image {
@@ -1218,6 +1243,7 @@ footer {
   padding: 15px;
   border-left: 3px solid #6C63FF;
   font-size: 0.9rem;
+  margin: 0 15px 15px 15px; /* Match frame padding */
 }
 
 .art-piece-plaque h3 {
