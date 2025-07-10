@@ -1164,20 +1164,42 @@ footer {
 
 .art-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 40px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+  .art-piece-image {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
 }
 
 .art-piece {
   background: white;
-  padding: 0; /* Remove padding since frame will be on image */
+  padding: 15px; /* Padding around the entire card */
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
   position: relative;
-  overflow: visible; /* Allow frame to extend beyond card */
 }
-
+  .art-piece-image-wrapper {
+  position: relative;
+  display: inline-block; /* Makes wrapper fit image exactly */
+  line-height: 0; /* Removes space under image */
+  margin-bottom: 15px;
+}
+.art-piece-image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 6px solid #000; /* Black frame */
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37, /* Inner gold lining */
+    0 0 0 2px #D4AF37; /* Outer gold lining */
+  pointer-events: none;
+  z-index: 2;
+}
 /* Museum frame effect */
 .art-piece::before {
   content: "";
@@ -1230,12 +1252,12 @@ footer {
 }
 
 .art-piece-image {
-  width: 100%;
-  height: 300px;
-  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
   background: white;
-  margin-bottom: 15px;
-  border: 1px solid #f0f0f0;
+  display: block; /* Remove space under image */
 }
 
 .art-piece-plaque {
@@ -1243,7 +1265,7 @@ footer {
   padding: 15px;
   border-left: 3px solid #6C63FF;
   font-size: 0.9rem;
-  margin: 0 15px 15px 15px; /* Match frame padding */
+  margin-top: 15px;
 }
 
 .art-piece-plaque h3 {
