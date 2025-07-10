@@ -1140,9 +1140,8 @@ footer {
 
 
 /* ===== MUSEUM-STYLE ART GALLERY ===== */
-/* ===== MUSEUM-STYLE ART GALLERY ===== */
 .art-gallery-exhibit {
-  background-color: #f8f5f2;
+  background-color: #f8f5f2; /* Museum off-white wall color */
   padding: 40px 20px;
   margin: 40px -20px;
   border-top: 1px solid #e0d9d1;
@@ -1150,28 +1149,63 @@ footer {
 }
 
 .art-collection {
-  margin-bottom: 80px; /* Increased for spotlight space */
-  position: relative;
+  margin-bottom: 60px;
 }
 
-/* Consolidated h2 styles with spotlight */
 .art-collection h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   color: #333;
   border-bottom: 2px solid #e0d9d1;
-  padding: 50px 0 10px 0; /* Added top padding for spotlight */
-  margin: 0 auto 30px auto; /* Centered */
+  padding-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
+}
+  /* ===== MUSEUM SPOTLIGHTS ===== */
+.art-collection h2 {
   position: relative;
-  width: fit-content;
+  padding-top: 40px; /* Make space for spotlight */
 }
 
-/* Spotlight bulb */
+.art-collection h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 30px;
+  background: 
+    radial-gradient(ellipse at center, 
+      rgba(255,255,255,0.8) 0%,
+      rgba(255,255,255,0) 70%);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+  .art-collection {
+  position: relative;
+}
+
+.art-collection::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    rgba(255,255,255,0.1) 0%,
+    rgba(255,255,255,0) 60%);
+  pointer-events: none;
+  z-index: 0;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
 .art-collection h2::after {
   content: "☀";
   position: absolute;
-  top: 10px;
+  top: -15px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
@@ -1180,76 +1214,79 @@ footer {
   z-index: 2;
 }
 
-/* Light beam */
-.art-collection::after {
-  content: "";
-  position: absolute;
-  top: 60px;
-  left: 20%;
-  right: 20%;
-  height: 300px;
-  background: linear-gradient(to bottom, 
-    rgba(255,255,255,0.15) 0%,
-    rgba(255,255,255,0) 70%);
-  pointer-events: none;
-  z-index: 0;
-  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-  filter: blur(5px);
+.art-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
 }
-
-/* Frame styling - simplified */
-.art-piece {
-  background: white;
-  padding: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
-  position: relative;
-  z-index: 1; /* Above light beam */
-}
-
-.art-piece-image-container {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.art-piece-image-container::after {
-  content: "";
-  position: absolute;
-  top: -12px;
-  left: -12px;
-  right: -12px;
-  bottom: -12px;
-  border: 12px solid #000;
-  box-shadow: 
-    inset 0 0 0 3px #D4AF37,
-    0 0 0 3px #D4AF37;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.art-piece-image {
+  .art-piece-image {
   width: 100%;
   height: 280px;
   object-fit: contain;
-  display: block;
-  position: relative;
-  z-index: 1;
+}
+
+.art-piece {
   background: white;
+  padding: 15px; /* Padding around the entire card */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  position: relative;
 }
-
-/* Hover effects */
-.art-piece:hover {
-  transform: translateY(-5px);
+  .art-piece-image-wrapper {
+  position: relative;
+  display: inline-block; /* Makes wrapper fit image exactly */
+  line-height: 0; /* Removes space under image */
+  margin-bottom: 15px;
 }
-
-.art-piece:hover .art-piece-image-container::after {
+.art-piece-image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 12px solid #000; /* Black frame */
   box-shadow: 
-    inset 0 0 0 3px #D4AF37,
-    0 0 0 3px #D4AF37,
-    0 0 20px rgba(212, 175, 55, 0.6);
+    inset 0 0 0 2px #D4AF37, /* Inner gold lining */
+    0 0 0 2px #D4AF37; /* Outer gold lining */
+  pointer-events: none;
+  z-index: 2;
+}
+/* Museum frame effect */
+.art-piece::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #e0d9d1;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-/* Rest of your existing styles... */
+.art-piece:hover::before {
+  opacity: 1;
+}
+
+/* Spotlight hover effect */
+.art-piece:hover .art-piece-image-container::before {
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37,
+    0 0 0 2px #D4AF37,
+    0 0 20px rgba(212, 175, 55, 0.6); /* Gold glow on hover */
+}
+
+  .art-piece:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.art-piece:hover .art-piece-image-container {
+  box-shadow: 0 0 40px 20px rgba(255,255,255,0.4);
+}
 /* Actual frame styling */
 .art-piece-image-container::before {
   content: "";
@@ -1344,7 +1381,6 @@ footer {
     height: 250px;
   }
 }
-
   
   
   
