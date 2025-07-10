@@ -18,8 +18,9 @@ hide_desk: true
     
       <!-- 4-color Color Pencil Study -->
       <div class="art-piece" id="color-pencil-study">
+      <div class="art-piece-image-container">
         <img src="/assets/art/IMG_7048 (1).jpg" alt="Color Pencil Study" class="art-piece-image" loading="lazy">
-        
+        </div>
         <div class="art-piece-plaque">
           <h3>4-color Color Pencil Study</h3>
           <span class="medium">Color Pencil on Paper</span>
@@ -31,8 +32,9 @@ hide_desk: true
       
       <!-- Black Ink -->
       <div class="art-piece" id="solitude-in-stone">
+      <div class="art-piece-image-container">
         <img src="/assets/art/IMG_7049 (1).jpg" alt="Solitude in Stone" class="art-piece-image" loading="lazy">
-        
+       </div> 
         <div class="art-piece-plaque">
           <h3>Solitude in Stone</h3>
           <span class="medium">Black Ink on Paper</span>
@@ -55,8 +57,9 @@ hide_desk: true
     
       <!-- Acrylic Paint Collection -->
       <div class="art-piece" id="acrylic-collection">
+      <div class="art-piece-image-container">
         <img src="/assets/art/IMG_7077 (1).jpg" alt="Acrylic Paint Collection" class="art-piece-image" loading="lazy">
-        
+       </div> 
         <div class="art-piece-plaque">
           <h3>Acrylic Paint Collection</h3>
           <span class="medium">Acrylic on Paint Chips</span>
