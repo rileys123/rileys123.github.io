@@ -1299,8 +1299,20 @@ footer {
   box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 
-.art-piece:hover .art-piece-image-container {
-  box-shadow: 0 0 40px 20px rgba(255,255,255,0.4);
+/* Permanent spotlight effect */
+.art-piece-image-container::after {
+  box-shadow: 
+    inset 0 0 0 3px #D4AF37,
+    0 0 0 3px #D4AF37,
+    0 0 20px rgba(212, 175, 55, 0.3); /* Reduced opacity for permanent glow */
+}
+
+/* Enhanced effect on hover */
+.art-piece:hover .art-piece-image-container::after {
+  box-shadow: 
+    inset 0 0 0 3px #D4AF37,
+    0 0 0 3px #D4AF37,
+    0 0 30px rgba(212, 175, 55, 0.6); /* Stronger glow on hover */
 }
 /* Actual frame styling */
 .art-piece-image-container::before {
