@@ -1059,9 +1059,6 @@ footer {
 /* Window Styles */
 .project-window {
   position: fixed;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
   background: white;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
@@ -1069,6 +1066,14 @@ footer {
   min-width: 400px;
   max-width: 80%;
   display: none;
+  /* Remove the transform properties from here */
+}
+
+/* Add this new class for centered windows */
+.window-centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .window-header {
