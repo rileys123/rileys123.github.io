@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: home_layout
 title: Projects
 permalink: /projects/
+nav_order: 1
+hide_desk: true
 ---
 
 <div class="desktop-theme"> 
