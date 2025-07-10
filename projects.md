@@ -61,7 +61,6 @@ hide_desk: true
   
   <!-- Taskbar -->
   <div class="taskbar">
-    <button class="start-button">Start</button>
     <div class="time" id="current-time"></div>
   </div>
   
