@@ -141,11 +141,11 @@ hide_desk: true
 function openWindow(windowId) {
   const window = document.getElementById(windowId);
   window.style.display = 'block';
-  // Position window randomly but within viewport
-  const x = Math.floor(Math.random() * (window.innerWidth - 400));
-  const y = Math.floor(Math.random() * (window.innerHeight - 300));
-  window.style.left = `${x}px`;
-  window.style.top = `${y}px`;
+  
+  // Center the window
+  window.style.left = '50%';
+  window.style.top = '50%';
+  window.style.transform = 'translate(-50%, -50%)';
   
   // Bring to front
   document.querySelectorAll('.project-window').forEach(w => {
@@ -175,6 +175,7 @@ document.querySelectorAll('.window-header').forEach(header => {
     function moveWindow(e) {
       window.style.left = `${e.clientX - offsetX}px`;
       window.style.top = `${e.clientY - offsetY}px`;
+      window.style.transform = 'none'; // Remove centering when dragging
     }
     
     document.addEventListener('mousemove', moveWindow);
@@ -189,6 +190,7 @@ document.querySelectorAll('.window-header').forEach(header => {
 function updateTime() {
   const now = new Date();
   document.getElementById('current-time').textContent = now.toLocaleTimeString();
+  document.getElementById('current-time').style.color = 'white';
 }
 setInterval(updateTime, 1000);
 updateTime();
