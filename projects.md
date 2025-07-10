@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="desktop-theme">
+<div class="desktop-theme"> 
   <div class="desktop-icons">
     <!-- Cultura App Icon -->
     <div class="desktop-icon" onclick="openWindow('cultura-window')">
