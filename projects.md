@@ -140,30 +140,36 @@ hide_desk: true
 
 <script>
 // Window management functions
-  let activeWindow = null;
+let activeWindow = null;
 let isDragging = false;
 let offsetX, offsetY;
-  
+let originalWidth, originalHeight;
+
 function openWindow(windowId) {
   const window = document.getElementById(windowId);
   window.style.display = 'block';
   
+  // Store original dimensions
+  originalWidth = window.offsetWidth;
+  originalHeight = window.offsetHeight;
+  
   // Center the window
- window.classList.add('window-centered');
+  window.classList.add('window-centered');
   
   // Bring to front
   document.querySelectorAll('.project-window').forEach(w => {
     w.style.zIndex = '100';
   });
   window.style.zIndex = '101';
+  activeWindow = window;
 }
 
 function closeWindow(windowId) {
   document.getElementById(windowId).style.display = 'none';
+  activeWindow = null;
 }
 
 function minimizeWindow(windowId) {
-  // Simple minimization - just hide the content
   const window = document.getElementById(windowId);
   const content = window.querySelector('.window-content');
   content.style.display = content.style.display === 'none' ? 'block' : 'none';
@@ -173,30 +179,42 @@ function minimizeWindow(windowId) {
 document.querySelectorAll('.window-header').forEach(header => {
   header.addEventListener('mousedown', function(e) {
     const window = this.parentElement;
-    let offsetX = e.clientX - window.getBoundingClientRect().left;
-    let offsetY = e.clientY - window.getBoundingClientRect().top;
+    activeWindow = window;
+    isDragging = true;
     
-    function moveWindow(e) {
-      window.style.left = `${e.clientX - offsetX}px`;
-      window.style.top = `${e.clientY - offsetY}px`;
-      window.style.transform = 'none'; // Remove centering when dragging
-    }
+    // Store current position and remove centering
+    const rect = window.getBoundingClientRect();
+    window.classList.remove('window-centered');
+    window.style.left = `${rect.left}px`;
+    window.style.top = `${rect.top}px`;
+    window.style.width = `${originalWidth}px`; // Maintain original width
+    window.style.height = 'auto'; // Allow height to adjust to content
     
-    document.addEventListener('mousemove', moveWindow);
+    offsetX = e.clientX - rect.left;
+    offsetY = e.clientY - rect.top;
     
-    document.addEventListener('mouseup', function() {
-      document.removeEventListener('mousemove', moveWindow);
-    }, { once: true });
+    e.preventDefault();
   });
+});
+
+// Handle mouse movement for dragging
+document.addEventListener('mousemove', function(e) {
+  if (!isDragging || !activeWindow) return;
+  
+  activeWindow.style.left = `${e.clientX - offsetX}px`;
+  activeWindow.style.top = `${e.clientY - offsetY}px`;
+});
+
+// Stop dragging when mouse is released
+document.addEventListener('mouseup', function() {
+  isDragging = false;
 });
 
 // Update time in taskbar
 function updateTime() {
   const now = new Date();
   document.getElementById('current-time').textContent = now.toLocaleTimeString();
-  document.getElementById('current-time').style.color = 'white';
 }
 setInterval(updateTime, 1000);
 updateTime();
 </script>
-
