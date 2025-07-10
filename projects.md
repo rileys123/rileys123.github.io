@@ -5,6 +5,8 @@ permalink: /projects/
 nav_order: 1
 hide_desk: true
 ---
+# Welcome to Riley's Desktop!
+<p>Click the icons to see all the apps and games I've programmed!</p>
 
 <div class="desktop-theme"> 
   <div class="desktop-icons">
