@@ -778,20 +778,16 @@ footer {
 /* Carousel Track - Horizontal Scroller */
 .carousel-track {
   display: flex;
-  animation: scrollCarousel 20s linear infinite; 
+  transition: transform 0.5s ease;
   will-change: transform;
   gap: 20px;
   padding-top: 70px;
   padding-bottom: 10px; /* Space for scrollbar */
 }
-  .carousel-track:hover {
-  animation-play-state: paused;
-}
-
 /* Auto-scroll Animation */
-@keyframes scrollCarousel {
+@keyframes autoScroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* Scrolls exactly half the track's width */
+  100% { transform: translateX(-50%); }
 }
 
 /* Pause on hover */
@@ -876,6 +872,9 @@ footer {
     display: none;
   }
 }
+
+
+
 
 
 
