@@ -9,7 +9,10 @@ hide_desk: true
 <p>Below is a gallery of all the merchandise I've designed.</p>
 
 <div class="carousel-container">
-
+<div class="carousel-nav">
+    <button onclick="moveCarousel(-1)">❮</button>
+    <button onclick="moveCarousel(1)">❯</button>
+  </div>
   <div class="carousel-track">
     <!-- Apparel Item 1 -->
     <div class="carousel-slide">
