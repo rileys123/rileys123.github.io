@@ -19,7 +19,7 @@ hide_desk: true
       <img src="/assets/art/GJCL3.png" alt="GJCL tshirt">
       <div class="carousel-caption">
         <h3>2025 NJCL Convention Georgia State T-Shirt</h3>
-        <p>Georgia symbols: peaches, Coca-Cola, GA Aquarium, marta, etc</p>
+        <p>65 sold; Georgia symbols: peaches, Coca-cola, marta, etc. </p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag vector">Vector</span>
@@ -53,7 +53,7 @@ hide_desk: true
       <img src="/assets/art/sax5.png" alt="sax hoodie">
       <div class="carousel-caption">
         <h3>2023 Marching Saxes</h3>
-        <p>Hand-drawn saxophone-playing figures.</p>
+        <p>30+ sold; Hand-drawn saxophone-playing figures.</p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
@@ -70,7 +70,7 @@ hide_desk: true
       <img src="/assets/art/clarinet1.png" alt="clarinet hoodie">
       <div class="carousel-caption">
         <h3>2024 Marching Clarinets Hoodie</h3>
-        <p>Cute character design graphics</p>
+        <p>30+ sold; cute characters playing clarinet </p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
@@ -89,7 +89,7 @@ hide_desk: true
       <img src="/assets/art/latin5.png" alt="latin club tee">
       <div class="carousel-caption">
         <h3>2024-25 Latin Club T-shirt</h3>
-        <p>Oath of the Horatii with Pencils</p>
+        <p>30+ sold; Oath of the Horatii with Pencils</p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
@@ -106,7 +106,7 @@ hide_desk: true
       <img src="/assets/art/totoro.png" alt="sax crewneck">
       <div class="carousel-caption">
         <h3>2022 Marching Saxes Crewneck</h3>
-        <p>Totoro playing the saxophone</p>
+        <p>20+ sold; Totoro playing the saxophone</p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
@@ -160,12 +160,13 @@ hide_desk: true
     <h4>Merch Info:</h4>
     <ul>
       <li>Made for National Latin Convention, Georgia State t-shirt</li>
-      <li>80+ t-shirts sold</li>
+      <li>65 t-shirts sold</li>
       <li>Designed on Concepts</li>
     </ul>
     
     
-      <img src="/assets/art/GJCL.png" alt="Sax Screenshot" class="project-screenshot">
+      <img src="/assets/art/GJCL.png" alt="GJCL Screenshot" class="project-screenshot">
+      <img src="/assets/art/GJCL1.png" alt="GJCL Screenshot" class="project-screenshot">
     
   </div>
 </div>
@@ -180,7 +181,8 @@ hide_desk: true
       <li>30+ hoodies sold to saxophonists and other students and teachers</li>
       <li>Designed on paper and digitized</li>
     </ul>
-    
+
+    <img src="/assets/art/saxes.png" alt="Sax Screenshot" class="project-screenshot">
      <img src="/assets/art/sax.png" alt="Sax Screenshot" class="project-screenshot">
 
   </div>
@@ -212,6 +214,8 @@ hide_desk: true
     </ul>
     
      <img src="/assets/art/latin4.png" alt="Latin Club Screenshot" class="project-screenshot">
+     <img src="/assets/art/latin24.png" alt="Latin Club Screenshot" class="project-screenshot">
+
 
   </div>
 </div>
@@ -223,11 +227,11 @@ hide_desk: true
     <h4>Merch Info:</h4>
     <ul>
       <li>Made for 2022 Marching Saxophone Section</li>
-      <li>30+ crewnecks sold to marching saxophone section</li>
+      <li>20+ crewnecks sold to marching saxophone section</li>
       <li>Designed on paper and digitized</li>
     </ul>
     
-     <img src="/assets/art/1684.jpg" alt="Sax Screenshot" class="project-screenshot">
+     <img src="/assets/art/1684.JPG" alt="Sax2 Screenshot" class="project-screenshot">
 
   </div>
 </div>
