@@ -122,10 +122,12 @@ hide_desk: true
       </div>
 
       
-      <!-- Marker 4 -->
+      
+
+      <!-- Marker 2 -->
       <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7071.jpg" alt="Marker 4" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
           <h3>Marker Collection</h3>
@@ -179,10 +181,10 @@ hide_desk: true
       </div>
 
 
-      <!-- Marker 2 -->
+     <!-- Marker 4 -->
       <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7071.jpg" alt="Marker 4" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
           <h3>Marker Collection</h3>
