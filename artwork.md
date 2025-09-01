@@ -30,17 +30,17 @@ hide_desk: true
         </div>
       </div>
 
-      <!-- Marker 5 -->
-      <div class="art-piece" id="marker">
+      <!-- Black Ink -->
+      <div class="art-piece" id="solitude-in-stone">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7072.jpg" alt="Marker 5" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7049 (1).jpg" alt="Solitude in Stone" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection</h3>
-          <span class="medium">Color Marker</span>
-          <span class="date">Feb 2025</span>
-          <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <h3>Solitude in Stone</h3>
+          <span class="medium">Black Ink on Paper</span>
+          <span class="date">July 2024</span>
+          <p class="description">14x17 in. Black ink rendering of a Caryatid with geometric patterns.</p>
+          <a href="#ink-details" class="details-link">View Process & Details</a>
         </div>
       </div>
 
@@ -58,17 +58,19 @@ hide_desk: true
         </div>
       </div>   
       
-      <!-- Black Ink -->
-      <div class="art-piece" id="solitude-in-stone">
+      
+
+      <!-- Marker 5 -->
+      <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7049 (1).jpg" alt="Solitude in Stone" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7072.jpg" alt="Marker 5" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Solitude in Stone</h3>
-          <span class="medium">Black Ink on Paper</span>
-          <span class="date">July 2024</span>
-          <p class="description">14x17 in. Black ink rendering of a Caryatid with geometric patterns.</p>
-          <a href="#ink-details" class="details-link">View Process & Details</a>
+          <h3>Marker Collection</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
       </div>
 
