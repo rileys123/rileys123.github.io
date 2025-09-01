@@ -36,7 +36,7 @@ hide_desk: true
         <img src="/assets/art/IMG_7072.jpg" alt="Marker 5" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection (pt2)</h3>
+          <h3>Marker Collection</h3>
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
@@ -121,7 +121,7 @@ hide_desk: true
         <img src="/assets/art/IMG_7069.jpg" alt="Marker 3" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection (pt2)</h3>
+          <h3>Marker Collection</h3>
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
@@ -150,7 +150,7 @@ hide_desk: true
         <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection (pt2)</h3>
+          <h3>Marker Collection</h3>
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
