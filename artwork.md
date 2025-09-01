@@ -93,7 +93,7 @@ hide_desk: true
         <img src="/assets/art/IMG_7071.jpg" alt="Marker 4" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection (pt2)</h3>
+          <h3>Marker Collection</h3>
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
@@ -248,4 +248,24 @@ hide_desk: true
   </div>
 </div>
 
+
+
+
+<div id="acrylic-details" class="art-process-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>Acrylic paint on free paint samples obtained from Home Depot</li>
+      <li>study of various pins and pictures on my pinterest feed</li>
+      <li>mouse inspired by Stuart Dunkel</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7078 (1).jpg" alt="Acrylic Screenshot1" class="project-screenshot">
+    <img src="/assets/art/IMG_7073 (1).jpg" alt="Acrylic Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7077 (1).jpg" alt="Acrylic Screenshot3" class="project-screenshot">
+    <img src="/assets/art/IMG_7079 (1).jpg" alt="Acrylic Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7080 (1).jpg" alt="Acrylic Screenshot5" class="project-screenshot">
+  </div>
+</div>
 <!-- Continue with other detail sections -->
