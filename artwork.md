@@ -361,6 +361,7 @@ hide_desk: true
                         targetSection.style.display = 'none';
                     } else {
                         targetSection.style.display = 'block';
+                        targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
                 }
             });
