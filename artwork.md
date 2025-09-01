@@ -43,6 +43,20 @@ hide_desk: true
           <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
       </div>
+
+      <!-- Acrylic Paint Collection -->
+      <div class="art-piece" id="acrylic-collection">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7078 (1).jpg" alt="Acrylic 1" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Acrylic Paint Collection</h3>
+          <span class="medium">Acrylic on Paint Chips</span>
+          <span class="date">Nov 2024</span>
+          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
+          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>   
       
       <!-- Black Ink -->
       <div class="art-piece" id="solitude-in-stone">
@@ -58,7 +72,20 @@ hide_desk: true
         </div>
       </div>
 
-
+      <!-- Acrylic Paint Collection -->
+      <div class="art-piece" id="acrylic-collection">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7073 (1).jpg" alt="Acrylic 2" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Acrylic Paint Collection</h3>
+          <span class="medium">Acrylic on Paint Chips</span>
+          <span class="date">Nov 2024</span>
+          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
+          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>  
+      
       <!-- Angel -->
       <div class="art-piece" id="solitude-in-stone">
       <div class="art-piece-image-wrapper">
@@ -87,6 +114,21 @@ hide_desk: true
         </div>
       </div>
 
+      <!-- Acrylic Paint Collection -->
+      <div class="art-piece" id="acrylic-collection">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7079 (1).jpg" alt="Acrylic 4" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Acrylic Paint Collection</h3>
+          <span class="medium">Acrylic on Paint Chips</span>
+          <span class="date">Nov 2024</span>
+          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
+          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>  
+
+      
       <!-- Marker 4 -->
       <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
@@ -157,6 +199,21 @@ hide_desk: true
           <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
       </div>
+
+      <!-- Acrylic Paint Collection -->
+      <div class="art-piece" id="acrylic-collection">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7080 (1).jpg" alt="Acrylic 5" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Acrylic Paint Collection</h3>
+          <span class="medium">Acrylic on Paint Chips</span>
+          <span class="date">Nov 2024</span>
+          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
+          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+        </div>
+      </div> 
+
       
     </div>
   </div>
