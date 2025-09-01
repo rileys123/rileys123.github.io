@@ -1236,10 +1236,14 @@ footer {
   transition: opacity 0.3s ease;
 }
 .art-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) /*repeat(auto-fill, minmax(280px, 1fr));*/
-  grid-auto-rows: min-content;
-  gap: 30px;
+  
+  columns: 3;
+  column-gap: 30px;
+  
+  /*display: grid;*/
+  /*grid-template-columns: repeat(3, 1fr) repeat(auto-fill, minmax(280px, 1fr));*/
+  /*grid-auto-rows: min-content;
+  gap: 30px;*/
 }
   .art-piece-image {
   width: 100%;
@@ -1248,11 +1252,16 @@ footer {
 }
 
 .art-piece {
-  background: white;
-  padding: 15px; /* Padding around the entire card */
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px; /* Add bottom margin for spacing between cards */
+  
+  /*background: white;*/
+  /*padding: 15px; /* Padding around the entire card */ */
+  /*box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
-  position: relative;
+  position: relative;*/
 }
   .art-piece-image-wrapper {
   position: relative;
