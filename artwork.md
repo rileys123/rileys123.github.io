@@ -29,6 +29,20 @@ hide_desk: true
           <a href="#color-details" class="details-link">View Process & Details</a>
         </div>
       </div>
+
+      <!-- Marker 5 -->
+      <div class="art-piece" id="marker">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7072.jpg" alt="Marker 5" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Marker Collection (pt2)</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
       
       <!-- Black Ink -->
       <div class="art-piece" id="solitude-in-stone">
@@ -73,7 +87,19 @@ hide_desk: true
         </div>
       </div>
 
-
+      <!-- Marker 4 -->
+      <div class="art-piece" id="marker">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7071.jpg" alt="Marker 4" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Marker Collection (pt2)</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
       
       <!-- Acrylic Paint Collection -->
       <div class="art-piece" id="acrylic-collection">
@@ -87,7 +113,51 @@ hide_desk: true
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
           <a href="#acrylic-details" class="details-link">View Process & Details</a>
         </div>
-      </div>      
+      </div>    
+
+      <!-- Marker 3 -->
+      <div class="art-piece" id="marker">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7069.jpg" alt="Marker 3" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Marker Collection (pt2)</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
+
+      <!-- Architecture -->
+      <div class="art-piece" id="arch">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7059.jpg" alt="Ink Architecture" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Architectural Study</h3>
+          <span class="medium">Black Ink</span>
+          <span class="date">July 2021</span>
+          <p class="description">Black ink architectural sketch study</p>
+          <a href="#arch-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
+
+
+      <!-- Marker 2 -->
+      <div class="art-piece" id="marker">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Marker Collection (pt2)</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
+      
     </div>
   </div>
   
@@ -161,6 +231,20 @@ hide_desk: true
     <img src="/assets/art/IMG_7068 (1).jpg" alt="Marker Screenshot3" class="project-screenshot">
     <img src="/assets/art/IMG_7071.jpg" alt="Marker Screenshot4" class="project-screenshot">
     <img src="/assets/art/IMG_7072.jpg" alt="Marker Screenshot5" class="project-screenshot">
+  </div>
+</div>
+
+
+<div id="arch-details" class="art-process-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>Black ink on copy paper</li>
+      <li>Architectural study</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7059.jpg" alt="Architecture Screenshot" class="project-screenshot">
   </div>
 </div>
 
