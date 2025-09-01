@@ -26,7 +26,7 @@ hide_desk: true
           <span class="medium">Color Pencil on Paper</span>
           <span class="date">July 2023</span>
           <p class="description">14x17 in. Still life study using only 4 colors (yellow, brown, teal, and red).</p>
-          <a href="#color-details" class="details-link">View Process & Details</a>
+          <a href="#color-details" class="details-link" data-target="color-details">View Process & Details</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ hide_desk: true
           <span class="medium">Black Ink on Paper</span>
           <span class="date">July 2024</span>
           <p class="description">14x17 in. Black ink rendering of a Caryatid with geometric patterns.</p>
-          <a href="#ink-details" class="details-link">View Process & Details</a>
+          <a href="#ink-details" class="details-link" data-target="ink-details">View Process & Details</a>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ hide_desk: true
           <span class="medium">Acrylic on Paint Chips</span>
           <span class="date">Nov 2024</span>
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
-          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+          <a href="#acrylic-details" class="details-link" data-target="acrylic-details">View Process & Details</a>
         </div>
       </div>   
       
@@ -70,7 +70,7 @@ hide_desk: true
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <a href="#marker-details" class="details-link" data-target="marker-details">View Process & Details</a>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ hide_desk: true
           <span class="medium">Graphite Pencil on Paper</span>
           <span class="date">April 2023</span>
           <p class="description">14x17 in. Graphite pencil sketch of statue in clouds.</p>
-          <a href="#angel-details" class="details-link">View Process & Details</a>
+          <a href="#angel-details" class="details-link"  data-target="angel-details">View Process & Details</a>
         </div>
       </div>
 
@@ -107,7 +107,7 @@ hide_desk: true
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <a href="#marker-details" class="details-link"  data-target="marker-details">View Process & Details</a>
         </div>
       </div>
 
@@ -124,7 +124,7 @@ hide_desk: true
           <span class="medium">Black Ink</span>
           <span class="date">July 2021</span>
           <p class="description">Black ink architectural sketch study</p>
-          <a href="#arch-details" class="details-link">View Process & Details</a>
+          <a href="#arch-details" class="details-link"  data-target="arch-details">View Process & Details</a>
         </div>
       </div>
       
@@ -138,7 +138,7 @@ hide_desk: true
           <span class="medium">Acrylic on Paint Chips</span>
           <span class="date">Nov 2024</span>
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
-          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+          <a href="#acrylic-details" class="details-link"  data-target="acrylic-details">View Process & Details</a>
         </div>
       </div>    
 
@@ -152,7 +152,7 @@ hide_desk: true
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <a href="#marker-details" class="details-link"  data-target="marker-details">View Process & Details</a>
         </div>
       </div>
 
@@ -168,7 +168,7 @@ hide_desk: true
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <a href="#marker-details" class="details-link"  data-target="marker-details">View Process & Details</a>
         </div>
       </div>
 
@@ -183,7 +183,7 @@ hide_desk: true
           <span class="medium">Color Marker</span>
           <span class="date">Feb 2025</span>
           <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <a href="#marker-details" class="details-link"  data-target="marker-details">View Process & Details</a>
         </div>
       </div>
 
@@ -197,7 +197,7 @@ hide_desk: true
           <span class="medium">Acrylic on Paint Chips</span>
           <span class="date">Nov 2024</span>
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
-          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+          <a href="#acrylic-details" class="details-link"  data-target="acrylic-details">View Process & Details</a>
         </div>
       </div> 
 
@@ -213,7 +213,7 @@ hide_desk: true
           <span class="medium">Acrylic on Paint Chips</span>
           <span class="date">Nov 2024</span>
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
-          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+          <a href="#acrylic-details" class="details-link"  data-target="acrylic-details">View Process & Details</a>
         </div>
       </div>  
       
@@ -328,3 +328,42 @@ hide_desk: true
   </div>
 </div>
 <!-- Continue with other detail sections -->
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Find all the links with the class "details-link"
+        const detailLinks = document.querySelectorAll('.details-link');
+
+        detailLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                // Prevent the default link behavior (e.g., jumping to the section)
+                event.preventDefault();
+
+                // Get the ID of the target section from the data-target attribute
+                const targetId = this.getAttribute('data-target');
+
+                // Find the target section by its ID
+                const targetSection = document.getElementById(targetId);
+
+                // If the section exists, toggle its visibility
+                if (targetSection) {
+                    // Check if the section is currently visible
+                    const isVisible = targetSection.style.display === 'block';
+
+                    // Toggle the display property
+                    if (isVisible) {
+                        targetSection.style.display = 'none';
+                    } else {
+                        targetSection.style.display = 'block';
+                    }
+                }
+            });
+        });
+    });
+</script>
