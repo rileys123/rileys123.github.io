@@ -59,7 +59,19 @@ hide_desk: true
         </div>
       </div>
 
-
+      <!-- Marker -->
+      <div class="art-piece" id="marker">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7068.jpg" alt="marker" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Marker Collection</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
 
 
       
@@ -132,6 +144,24 @@ hide_desk: true
   </div>
 
 
+</div>
+
+
+<div id="marker-details" class="art-process-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>collection of Crayola marker on standard 3x5 in. index cards</li>
+      <li>linework done with black ink</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7070.jpg" alt="Marker Screenshot1" class="project-screenshot">
+    <img src="/assets/art/IMG_7069.jpg" alt="Marker Screenshot2" class="project-screenshot">
+    <img src="/assets/art/IMG_7068 (1).jpg" alt="Marker Screenshot3" class="project-screenshot">
+    <img src="/assets/art/IMG_7071.jpg" alt="Marker Screenshot4" class="project-screenshot">
+    <img src="/assets/art/IMG_7072.jpg" alt="Marker Screenshot5" class="project-screenshot">
+  </div>
 </div>
 
 <!-- Continue with other detail sections -->
