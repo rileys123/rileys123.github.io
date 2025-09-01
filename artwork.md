@@ -43,6 +43,25 @@ hide_desk: true
           <a href="#ink-details" class="details-link">View Process & Details</a>
         </div>
       </div>
+
+
+      <!-- Angel -->
+      <div class="art-piece" id="solitude-in-stone">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Sketch" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Angel with the Holy Lance</h3>
+          <span class="medium">Graphite Pencil on Paper</span>
+          <span class="date">April 2023</span>
+          <p class="description">14x17 in. Graphite pencil sketch of statue in clouds.</p>
+          <a href="#angel-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
+
+
+
+
       
       <!-- Acrylic Paint Collection -->
       <div class="art-piece" id="acrylic-collection">
@@ -93,6 +112,25 @@ hide_desk: true
     
     <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
   </div>
+
+</div>
+
+
+
+
+<div id="angel-details" class="art-process-details">
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>Graphite pencil sketch</li>
+      <li>4th Place National Latin Convention</li>
+      <li>reference of Angel with the Holy Lance of Longinus</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Screenshot" class="project-screenshot">
+  </div>
+
 
 </div>
 
