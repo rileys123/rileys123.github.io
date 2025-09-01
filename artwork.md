@@ -74,19 +74,7 @@ hide_desk: true
 
       
       
-      <!-- Angel -->
-      <div class="art-piece" id="solitude-in-stone">
-      <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Sketch" class="art-piece-image" loading="lazy">
-       </div> 
-        <div class="art-piece-plaque">
-          <h3>Angel with the Holy Lance</h3>
-          <span class="medium">Graphite Pencil on Paper</span>
-          <span class="date">April 2023</span>
-          <p class="description">14x17 in. Graphite pencil sketch of statue in clouds.</p>
-          <a href="#angel-details" class="details-link">View Process & Details</a>
-        </div>
-      </div>
+      
 
       <!-- Marker -->
       <div class="art-piece" id="marker">
@@ -101,6 +89,21 @@ hide_desk: true
           <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
       </div>
+
+      <!-- Angel -->
+      <div class="art-piece" id="solitude-in-stone">
+      <div class="art-piece-image-wrapper">
+        <img src="/assets/art/IMG_7055 (1).jpg" alt="Angel Sketch" class="art-piece-image" loading="lazy">
+       </div> 
+        <div class="art-piece-plaque">
+          <h3>Angel with the Holy Lance</h3>
+          <span class="medium">Graphite Pencil on Paper</span>
+          <span class="date">April 2023</span>
+          <p class="description">14x17 in. Graphite pencil sketch of statue in clouds.</p>
+          <a href="#angel-details" class="details-link">View Process & Details</a>
+        </div>
+      </div>
+
 
       <!-- Acrylic Paint Collection -->
       <div class="art-piece" id="acrylic-collection">
