@@ -114,17 +114,17 @@ hide_desk: true
       
       
 
-      <!-- Marker 2 -->
-      <div class="art-piece" id="marker">
+      <!-- Architecture -->
+      <div class="art-piece" id="arch">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7059.jpg" alt="Ink Architecture" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection</h3>
-          <span class="medium">Color Marker</span>
-          <span class="date">Feb 2025</span>
-          <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <h3>Architectural Study</h3>
+          <span class="medium">Black Ink</span>
+          <span class="date">July 2021</span>
+          <p class="description">Black ink architectural sketch study</p>
+          <a href="#arch-details" class="details-link">View Process & Details</a>
         </div>
       </div>
       
@@ -156,17 +156,19 @@ hide_desk: true
         </div>
       </div>
 
-      <!-- Architecture -->
-      <div class="art-piece" id="arch">
+      
+
+      <!-- Marker 2 -->
+      <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7059.jpg" alt="Ink Architecture" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7070.jpg" alt="Marker 2" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Architectural Study</h3>
-          <span class="medium">Black Ink</span>
-          <span class="date">July 2021</span>
-          <p class="description">Black ink architectural sketch study</p>
-          <a href="#arch-details" class="details-link">View Process & Details</a>
+          <h3>Marker Collection</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
       </div>
 
