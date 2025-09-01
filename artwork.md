@@ -12,7 +12,7 @@ hide_desk: true
 
   <!-- Curated Collection: Traditional Media -->
   <div class="art-collection">
-    <h2>✏️ Traditional Media</h2>
+    <h2>Gallery</h2>
     
     <div class="art-gallery-grid">
     
@@ -44,17 +44,6 @@ hide_desk: true
         </div>
       </div>
       
-      <!-- Continue with other pieces in this collection -->
-      
-    </div>
-  </div>
-  
-  <!-- Curated Collection: Paintings -->
-  <div class="art-collection">
-    <h2>🎨 Paintings</h2>
-    
-    <div class="art-gallery-grid">
-    
       <!-- Acrylic Paint Collection -->
       <div class="art-piece" id="acrylic-collection">
       <div class="art-piece-image-wrapper">
@@ -67,12 +56,11 @@ hide_desk: true
           <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
           <a href="#acrylic-details" class="details-link">View Process & Details</a>
         </div>
-      </div>
-      
-      <!-- Continue with other painting pieces -->
-      
+      </div>      
     </div>
   </div>
+  
+
   
 </div>
 
