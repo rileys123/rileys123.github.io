@@ -66,11 +66,34 @@ hide_desk: true
 
 <!-- Process Details Sections (keep your existing detail sections) -->
 <div id="color-details" class="art-process-details">
-  <!-- Your existing detail content -->
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>4-color Color Pencil Study using yellow, brown, teal, and red</li>
+      <li>7th Place National Latin Convention</li>
+      <li>rendition of Still Life and Woman by Perkilis Pantazis</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7048.jpg" alt="Color Screenshot" class="project-screenshot">
+  </div>
+
 </div>
 
 <div id="ink-details" class="art-process-details">
-  <!-- Your existing detail content -->
+  <h3>Illustration Process</h3>
+  <div class="details-content">
+    <h4>Details:</h4>
+    <ul>
+      <li>Black ink sketch</li>
+      <li>1st Place National Latin Convention</li>
+      <li>Scholastic Drawing & Illustration Regional Honorable Mention</li>
+      <li>reference to lone Caryatid from Erechtheion temple on Athens Acropolis, currently in British Musuem</li>
+    </ul>
+    
+    <img src="/assets/art/IMG_7049 (1).jpg" alt="Ink Screenshot" class="project-screenshot">
+  </div>
+
 </div>
 
 <!-- Continue with other detail sections -->
