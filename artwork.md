@@ -76,19 +76,19 @@ hide_desk: true
       
       
 
-      <!-- Marker -->
-      <div class="art-piece" id="marker">
+      <!-- Acrylic Paint Collection -->
+      <div class="art-piece" id="acrylic-collection">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7068.jpg" alt="marker" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7079 (1).jpg" alt="Acrylic 4" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Marker Collection</h3>
-          <span class="medium">Color Marker</span>
-          <span class="date">Feb 2025</span>
-          <p class="description">Collection of architecture scenes on index cards</p>
-          <a href="#marker-details" class="details-link">View Process & Details</a>
+          <h3>Acrylic Paint Collection</h3>
+          <span class="medium">Acrylic on Paint Chips</span>
+          <span class="date">Nov 2024</span>
+          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
+          <a href="#acrylic-details" class="details-link">View Process & Details</a>
         </div>
-      </div>
+      </div>  
 
       <!-- Angel -->
       <div class="art-piece" id="solitude-in-stone">
@@ -105,19 +105,21 @@ hide_desk: true
       </div>
 
 
-      <!-- Acrylic Paint Collection -->
-      <div class="art-piece" id="acrylic-collection">
+      
+
+      <!-- Marker -->
+      <div class="art-piece" id="marker">
       <div class="art-piece-image-wrapper">
-        <img src="/assets/art/IMG_7079 (1).jpg" alt="Acrylic 4" class="art-piece-image" loading="lazy">
+        <img src="/assets/art/IMG_7068.jpg" alt="marker" class="art-piece-image" loading="lazy">
        </div> 
         <div class="art-piece-plaque">
-          <h3>Acrylic Paint Collection</h3>
-          <span class="medium">Acrylic on Paint Chips</span>
-          <span class="date">Nov 2024</span>
-          <p class="description">Collection of miniature acrylic paintings on paint sample chips.</p>
-          <a href="#acrylic-details" class="details-link">View Process & Details</a>
+          <h3>Marker Collection</h3>
+          <span class="medium">Color Marker</span>
+          <span class="date">Feb 2025</span>
+          <p class="description">Collection of architecture scenes on index cards</p>
+          <a href="#marker-details" class="details-link">View Process & Details</a>
         </div>
-      </div>  
+      </div>
 
       
       <!-- Marker 4 -->
