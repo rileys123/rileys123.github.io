@@ -31,8 +31,14 @@ hide_desk: true
 
     <!-- Roman Myth or Fact -->
     <div class="desktop-icon" onclick="openWindow('roman-window')">
-      <img src="/assets/img/roman.png" alt="Cook the Fish">
-      <div class="desktop-icon-label">Roman Myth-or-Fact</div>
+      <img src="/assets/img/roman.png" alt="Roman">
+      <div class="desktop-icon-label">Roman Myth or Fact</div>
+    </div>
+
+    <!-- Galactic Garden -->
+    <div class="desktop-icon" onclick="openWindow('star-window')">
+      <img src="/assets/img/star.png" alt="Star">
+      <div class="desktop-icon-label">Galactic Garden</div>
     </div>
     
     <!-- Crab Game Icon -->
@@ -177,7 +183,7 @@ hide_desk: true
   <!-- Roman App Window -->
   <div id="roman-window" class="project-window">
     <div class="window-header">
-      <div class="window-title">📱 Cultura App</div>
+      <div class="window-title">Roman Myth or Fact Website</div>
       <div class="window-controls">
         <button onclick="minimizeWindow('roman-window')">_</button>
         <button onclick="closeWindow('roman-window')">×</button>
@@ -189,12 +195,12 @@ hide_desk: true
       </div>
       
       <div class="project-meta">
-        <span class="tech-tag android">Android</span>
-        <span class="tech-tag java">Java</span>
+        <span class="tech-tag android">Website</span>
+        <span class="tech-tag java">HTML</span>
         <span class="date">Aug 2025</span>
       </div>
       
-      <p>A fun myth-or-fact quiz to test your knowledge of Roman culture and history!</p>
+      <p>A fun myth-or-fact quiz to test your knowledge of Roman culture and history</p>
       
       <div class="project-links">
         <a href="https://rileys123.github.io/Roman-Myth-or-Fact/" target="_blank">
@@ -205,7 +211,36 @@ hide_desk: true
   </div>
 
 
-
+  <!-- Galaxy App Window -->
+  <div id="star-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Galactic Garden</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('star-window')">_</button>
+        <button onclick="closeWindow('star-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/star1.png" alt="Galaxy Website Screenshot" loading="lazy">
+        <img src="/assets/img/star2.png" alt="Galaxy Website Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">Website</span>
+        <span class="tech-tag java">HTML</span>
+        <span class="date">Aug 2025</span>
+      </div>
+      
+      <p>An interactive simulation where you can cultivate your own cosmic ecosystem. Attract particles to form stars, watch them grow into supernovas and black holes, and even name your own constellations!</p>
+      
+      <div class="project-links">
+        <a href="https://rileys123.github.io/Roman-Myth-or-Fact/" target="_blank">
+          <i class="fas fa-play"></i> Play
+        </a>
+      </div>
+    </div>
+  </div>
 
 
 
