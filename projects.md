@@ -367,7 +367,7 @@ hide_desk: true
 
 
 <!-- Dance App Window -->
-  <div id="patient-window" class="project-window">
+  <div id="dance-window" class="project-window">
     <div class="window-header">
       <div class="window-title">AI Dance App</div>
       <div class="window-controls">
