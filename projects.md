@@ -78,7 +78,6 @@ hide_desk: true
       </div>
     </div>
     <div class="window-content">
-      <!-- Copy your existing project card content here -->
       <div class="project-screenshot-container">
         <img src="/assets/img/cultura1.png" alt="Cultura App Screenshot" loading="lazy">
         <img src="/assets/img/cultura.png" alt="Cultura App Flashcards" loading="lazy">
@@ -100,7 +99,6 @@ hide_desk: true
     </div>
   </div>
   
-  <!-- Repeat for other projects -->
   <!-- Animal Kingdom Window -->
   <div id="animal-window" class="project-window">
     <div class="window-header">
@@ -134,8 +132,39 @@ hide_desk: true
     </div>
   </div>
   
-  <!-- Add windows for all your other projects following the same pattern -->
-  
+  <!-- Repeat for other projects -->
+  <!-- Cook the Fish -->
+  <div id="animal-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Cook the Fish</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('cook-window')">_</button>
+        <button onclick="closeWindow('cook-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <!-- Copy your existing project card content here -->
+      <div class="project-screenshot-container">
+        <img src="/assets/img/cook1.png" alt="cook Screenshot" loading="lazy">
+        <img src="/assets/img/cook2.png" alt="cook Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag game">Game</span>
+        <span class="tech-tag java">Java</span>
+        <span class="tech-tag android">IntelliJ</span>
+        <span class="date">Dec 2024</span>
+      </div>
+      
+      <p>A life-or-death choose your own adventure cooking game!</p>
+      
+      <div class="project-links">
+        <a href="https://replit.com/@rosalinalina100/CYOA-Game-Riley-S?v=1" target="_blank">
+          <i class="fab fa-github"></i> Code
+        </a>
+      </div>
+    </div>
+  </div>  
 </div>
 
 <script>
