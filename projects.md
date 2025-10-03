@@ -134,7 +134,7 @@ hide_desk: true
   
   <!-- Repeat for other projects -->
   <!-- Cook the Fish -->
-  <div id="animal-window" class="project-window">
+  <div id="cook-window" class="project-window">
     <div class="window-header">
       <div class="window-title">Cook the Fish</div>
       <div class="window-controls">
@@ -153,7 +153,7 @@ hide_desk: true
         <span class="tech-tag game">Game</span>
         <span class="tech-tag java">Java</span>
         <span class="tech-tag android">IntelliJ</span>
-        <span class="date">Dec 2024</span>
+        <span class="date">July 2023</span>
       </div>
       
       <p>A life-or-death choose your own adventure cooking game!</p>
