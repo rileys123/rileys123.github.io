@@ -28,6 +28,12 @@ hide_desk: true
       <img src="/assets/img/cook1.png" alt="Cook the Fish">
       <div class="desktop-icon-label">Cook the Fish</div>
     </div>
+
+    <!-- Roman Myth or Fact -->
+    <div class="desktop-icon" onclick="openWindow('roman-window')">
+      <img src="/assets/img/roman.png" alt="Cook the Fish">
+      <div class="desktop-icon-label">Roman Myth-or-Fact</div>
+    </div>
     
     <!-- Crab Game Icon -->
     <div class="desktop-icon" onclick="openWindow('crab-window')">
@@ -147,6 +153,7 @@ hide_desk: true
       <div class="project-screenshot-container">
         <img src="/assets/img/cook1.png" alt="cook Screenshot" loading="lazy">
         <img src="/assets/img/cook2.png" alt="cook Screenshot" loading="lazy">
+        <img src="/assets/img/cook3.png" alt="cook Screenshot" loading="lazy">
       </div>
       
       <div class="project-meta">
@@ -165,6 +172,45 @@ hide_desk: true
       </div>
     </div>
   </div>  
+
+
+  <!-- Roman App Window -->
+  <div id="roman-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">📱 Cultura App</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('roman-window')">_</button>
+        <button onclick="closeWindow('roman-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/roman1.png" alt="Roman Website Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">Android</span>
+        <span class="tech-tag java">Java</span>
+        <span class="date">Aug 2025</span>
+      </div>
+      
+      <p>A fun myth-or-fact quiz to test your knowledge of Roman culture and history!</p>
+      
+      <div class="project-links">
+        <a href="https://rileys123.github.io/Roman-Myth-or-Fact/" target="_blank">
+          <i class="fas fa-play"></i> Play
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
 </div>
 
 <script>
