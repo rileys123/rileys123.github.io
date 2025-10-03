@@ -13,13 +13,13 @@ hide_desk: true
   <div class="desktop-icons">
     <!-- Cultura App Icon -->
     <div class="desktop-icon" onclick="openWindow('cultura-window')">
-      <img src="/assets/img/cultura.png" alt="Cultura App">
+      <img src="/assets/img/col.png" alt="Cultura App">
       <div class="desktop-icon-label">Cultura App</div>
     </div>
     
     <!-- Animal Kingdom Icon -->
     <div class="desktop-icon" onclick="openWindow('animal-window')">
-      <img src="/assets/img/animal.png" alt="Animal Kingdom">
+      <img src="/assets/img/tiger.png" alt="Animal Kingdom">
       <div class="desktop-icon-label">Animal Kingdom</div>
     </div>
     
