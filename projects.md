@@ -43,19 +43,19 @@ hide_desk: true
     
     <!-- Crab Game Icon -->
     <div class="desktop-icon" onclick="openWindow('crab-window')">
-      <img src="/assets/img/crab1.png" alt="Crab Game">
+      <img src="/assets/img/crabs.png" alt="Crab Game">
       <div class="desktop-icon-label">Crab Game</div>
     </div>
     
     <!-- Map App Icon -->
     <div class="desktop-icon" onclick="openWindow('map-window')">
-      <img src="/assets/img/map1.png" alt="Map App">
+      <img src="/assets/img/maps.png" alt="Map App">
       <div class="desktop-icon-label">Map App</div>
     </div>
     
     <!-- Shopping App Icon -->
     <div class="desktop-icon" onclick="openWindow('shop-window')">
-      <img src="/assets/img/shop1.png" alt="Shopping App">
+      <img src="/assets/img/bags.png" alt="Shopping App">
       <div class="desktop-icon-label">Shopping App</div>
     </div>
     
@@ -242,6 +242,100 @@ hide_desk: true
       </div>
     </div>
   </div>
+
+
+ <!-- Crab Window -->
+  <div id="crab-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Crab Collection Game</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('crab-window')">_</button>
+        <button onclick="closeWindow('crab-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <!-- Copy your existing project card content here -->
+      <div class="project-screenshot-container">
+        <img src="/assets/img/crab1.png" alt="Crab" loading="lazy">
+        <img src="/assets/img/crab2.png" alt="Crab" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag game">Game</span>
+        <span class="tech-tag java">Javascript</span>
+        <span class="tech-tag android">Replit</span>
+        <span class="date">July 2023</span>
+      </div>
+      
+      <p>A collection style game where you catch crabs with your arrow keys to score points.</p>
+      
+      <div class="project-links">
+        <a href="https://replit.com/@rosalinalina100/Collection-Style-Game-Riley-S?v=1" target="_blank">
+          <i class="fab fa-github"></i> Code
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- Map App Window -->
+  <div id="map-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Voice to Directions Map App</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('map-window')">_</button>
+        <button onclick="closeWindow('map-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/map1.png" alt="Map App Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">MIT App Inventor</span>
+        <span class="date">Feb 2024</span>
+      </div>
+      
+      <p>A navigation app: speak your destination and receive directions.</p>
+      
+      <div class="project-links">
+        <a href="https://gallery.appinventor.mit.edu/?galleryid=3a021838-9cfd-4f6d-a591-4f4d20414a0e" target="_blank">
+          <i class="fas fa-play"></i> Play
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- Shop App Window -->
+  <div id="shop-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Shopping List App</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('shop-window')">_</button>
+        <button onclick="closeWindow('shop-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/shop1.png" alt="Map App Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">MIT App Inventor</span>
+        <span class="date">Dec 2024</span>
+      </div>
+      
+      <p>Create a shopping list by entering or removing your groceries.</p>
+      
+      <div class="project-links">
+        <a href="https://gallery.appinventor.mit.edu/?galleryid=3f84f8be-97ae-49f2-8729-a8a799db493b" target="_blank">
+          <i class="fas fa-play"></i> Play
+        </a>
+      </div>
+    </div>
+  </div>
+
+
 
 
 
