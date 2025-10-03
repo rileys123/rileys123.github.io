@@ -61,13 +61,13 @@ hide_desk: true
     
     <!-- Patient App Icon -->
     <div class="desktop-icon" onclick="openWindow('patient-window')">
-      <img src="/assets/img/patient1.png" alt="Patient App">
+      <img src="/assets/img/aid.png" alt="Patient App">
       <div class="desktop-icon-label">Patient App</div>
     </div>
     
     <!-- Dance App Icon -->
     <div class="desktop-icon" onclick="openWindow('dance-window')">
-      <img src="/assets/img/dance1.png" alt="Dance App">
+      <img src="/assets/img/maracas.png" alt="Dance App">
       <div class="desktop-icon-label">Dance App</div>
     </div>
   </div>
@@ -300,7 +300,7 @@ hide_desk: true
       
       <div class="project-links">
         <a href="https://gallery.appinventor.mit.edu/?galleryid=3a021838-9cfd-4f6d-a591-4f4d20414a0e" target="_blank">
-          <i class="fas fa-play"></i> Play
+          <i class="fas fa-play"></i> Code
         </a>
       </div>
     </div>
@@ -329,7 +329,36 @@ hide_desk: true
       
       <div class="project-links">
         <a href="https://gallery.appinventor.mit.edu/?galleryid=3f84f8be-97ae-49f2-8729-a8a799db493b" target="_blank">
-          <i class="fas fa-play"></i> Play
+          <i class="fas fa-play"></i> Code
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!-- Patient App Window -->
+  <div id="patient-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">Patient App</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('patient-window')">_</button>
+        <button onclick="closeWindow('patient-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/patient1.png" alt="Map App Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">MIT App Inventor</span>
+        <span class="date">Jan 2024</span>
+      </div>
+      
+      <p>Uses an accelerometer to detect patient motion with a text-to-speech and phone number function to alert for help.</p>
+      
+      <div class="project-links">
+        <a href="https://gallery.appinventor.mit.edu/?galleryid=649fac42-9f83-4543-9cd4-1d1eefe1c80a" target="_blank">
+          <i class="fas fa-play"></i> Code
         </a>
       </div>
     </div>
@@ -337,7 +366,34 @@ hide_desk: true
 
 
 
-
+<!-- Dance App Window -->
+  <div id="patient-window" class="project-window">
+    <div class="window-header">
+      <div class="window-title">AI Dance App</div>
+      <div class="window-controls">
+        <button onclick="minimizeWindow('dance-window')">_</button>
+        <button onclick="closeWindow('dance-window')">×</button>
+      </div>
+    </div>
+    <div class="window-content">
+      <div class="project-screenshot-container">
+        <img src="/assets/img/dance1.png" alt="Map App Screenshot" loading="lazy">
+      </div>
+      
+      <div class="project-meta">
+        <span class="tech-tag android">MIT App Inventor</span>
+        <span class="date">May 2024</span>
+      </div>
+      
+      <p>Uses PoseNet AI to detect when you hit the right dance moves and earn points.</p>
+      
+      <div class="project-links">
+        <a href="https://drive.google.com/drive/folders/1SqR6YDnZWx2HVlgiavufVzGMnurGnmQ-?usp=drive_link" target="_blank">
+          <i class="fas fa-play"></i> Code
+        </a>
+      </div>
+    </div>
+  </div>
 
 
   
