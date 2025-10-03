@@ -164,8 +164,8 @@ hide_desk: true
       
       <div class="project-meta">
         <span class="tech-tag game">Game</span>
-        <span class="tech-tag java">Java</span>
-        <span class="tech-tag android">IntelliJ</span>
+        <span class="tech-tag java">Javascript</span>
+        <span class="tech-tag android">Replit</span>
         <span class="date">July 2023</span>
       </div>
       
@@ -224,6 +224,7 @@ hide_desk: true
       <div class="project-screenshot-container">
         <img src="/assets/img/star1.png" alt="Galaxy Website Screenshot" loading="lazy">
         <img src="/assets/img/star2.png" alt="Galaxy Website Screenshot" loading="lazy">
+        <img src="/assets/img/star3.png" alt="Galaxy Website Screenshot" loading="lazy">
       </div>
       
       <div class="project-meta">
