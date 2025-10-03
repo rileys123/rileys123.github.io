@@ -117,7 +117,24 @@ hide_desk: true
         </a>
       </div>
     </div>
-    
+
+
+    <!-- Apparel Item 7 -->
+    <div class="carousel-slide">
+      <img src="/assets/art/latins.png" alt="latin tshirt">
+      <div class="carousel-caption">
+        <h3>2025-26 Latin Club</h3>
+        <p>20+ sold; Apollo playing the lyre to sheep.</p>
+        <div class="project-meta">
+          <span class="tech-tag apparel">Apparel</span>
+          <span class="tech-tag digital">Digital</span>
+          <span class="date">Sept 2025</span>
+        </div>
+        <a href="#sheep-details" class="details-link">
+          <i class="fas fa-info-circle"></i> Details
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -170,7 +187,22 @@ hide_desk: true
     
   </div>
 </div>
-
+<div id="sheep-details" class="project-details">
+  <h3>Latin Club 25 Details</h3>
+  <div class="details-content">
+    <h4>Merch Info:</h4>
+    <ul>
+      <li>Made for Northview Latin Club hosting Fall Forum</li>
+      <li>20+ t-shirts sold</li>
+      <li>Designed on Concepts</li>
+    </ul>
+    
+    
+      <img src="/assets/art/latin26.jpg" alt="GJCL Screenshot" class="project-screenshot">
+      <img src="/assets/art/latins (1).png" alt="GJCL Screenshot" class="project-screenshot">
+    
+  </div>
+</div>
 
 <div id="sax-details" class="project-details">
   <h3>2023 Marching Saxes Details</h3>
