@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+<style>
+:root {
+  --accent: #6C63FF;
+  --dark-accent: #4A42CC;
+  --light-accent: #E0DDFF;
+  --fun-pink: #FF6B9E; /* New fun pink color */
+  --pink-glow: 0 0 15px rgba(255, 107, 158, 0.5); /* Pink glow effect */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 2rem 0;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--accent);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.emoji-icon {
+  font-size: 1.5rem;
+}
+
+.project-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.tech-tag {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.android { background: #3ddc84; color: white; }
+.java { background: #5382a1; color: white; }
+.game { background: #ff6b6b; color: white; }
+
+.date {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: auto;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: var(--light-accent);
+  color: var(--dark-accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.project-links a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* Project Details Sections */
+.project-details {
+  grid-column: 1 / -1;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin-top: 1rem;
+  display: none;
+}
+
+.project-details:target {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+.project-screenshot {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Homepage Styles */
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Global Styles */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Project Screenshots */
+/* ===== Project Screenshot Styles ===== */
+/* Container for grid layout screenshots */
+.project-screenshot-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+/* Container for horizontal scrolling screenshots */
+.screenshot-showcase {
+  display: flex;
+  gap: 15px;
+  padding: 10px 5px;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+/* Base image styles */
+.project-details img,
+.screenshot-showcase img,
+.project-screenshot-container img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #eee;
+  transition: transform 0.3s ease;
+}
+
+/* Specific styles for showcase images */
+.screenshot-showcase img {
+  height: 160px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Hover effects */
+.project-details img:hover,
+.screenshot-showcase img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Featured screenshot style */
+.featured-screenshot {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid var(--accent);
+}
+
+/* Scrollbar styling */
+.screenshot-showcase::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-showcase::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.screenshot-showcase::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-screenshot-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .screenshot-showcase img {
+    height: 120px;
+  }
+  
+  .featured-screenshot {
+    max-width: 95%;
+  }
+}
+
+.project-screenshot-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  transition: transform 0.3s ease;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.project-screenshot-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* For single screenshot */
+.project-screenshot-single {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Enhanced Screenshot Styles */
+.project-screenshot-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.screenshot-showcase {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0;
+  margin: 1.5rem 0;
+}
+
+.screenshot-showcase img {
+  height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.screenshot-showcase img:hover {
+  transform: scale(1.05);
+}
+
+.highlight {
+  border: 3px solid var(--accent);
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .project-screenshot-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .screenshot-showcase img {
+    height: 140px;
+  }
+}
+
+/* ===== ARTWORK GALLERY ===== */
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 2rem 0;
+}
+
+.art-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.art-item:hover {
+  transform: translateY(-5px);
+}
+
+.art-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.art-info {
+  padding: 1.2rem;
+}
+
+.art-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.art-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 0.8rem 0;
+}
+
+.art-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Tag Styles */
+.tag-apparel { background: #6C63FF; color: white; }
+.tag-vector { background: #3ddc84; color: white; }
+.tag-digital { background: #ff6b6b; color: white; }
+.tag-traditional { background: #5382a1; color: white; }
+.tag-concept { background: #ffa502; color: white; }
+.tag-landscape { background: #2ed573; color: white; }
+
+/* Store Grid */
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 3rem 0;
+}
+
+.store-item {
+  text-align: center;
+}
+
+.store-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.store-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.store-link {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: var(--light-accent);
+  color: var(--dark-accent);
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.store-link:hover {
+  background: var(--accent);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .art-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .art-item img {
+    height: 220px;
+  }
+  
+  .store-actions {
+    flex-direction: column;
+  }
+}
+
+/* ===== ARTWORK SECTIONS ===== */
+.art-section {
+  margin-bottom: 3rem;
+}
+
+.art-section h2 {
+  color: var(--dark-accent);
+  border-bottom: 2px solid var(--light-accent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Apparel-specific styles */
+.tag-apparel { background: #6C63FF; } /* Purple */
+.tag-hoodie { background: #8A2BE2; } /* Darker purple */
+.tag-tshirt { background: #9370DB; } /* Lighter purple */
+
+/* Illustration-specific styles */
+.tag-traditional { background: #FF6347; } /* Tomato */
+.tag-digital { background: #20B2AA; } /* Light sea green */
+.tag-concept { background: #FFA500; } /* Orange */
+
+/* Detail layouts */
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 1rem 0;
+}
+
+.detail-single img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .art-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Artwork Tags */
+.tech-tag.apparel { background: #6C63FF; } /* Purple */
+.tech-tag.digital { background: #3ddc84; } /* Green */
+.tech-tag.vector { background: #5382a1; } /* Blue */
+.tech-tag.traditional { background: #ff6b6b; } /* Red */
+.tech-tag.landscape { background: #2ed573; } /* Mint */
+
+/* Artwork-specific styles */
+.artwork-preview {
+  margin: 0 -1.5rem;
+}
+
+.artwork-preview img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.artwork-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 1.5rem 0;
+}
+
+.artwork-gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .artwork-preview img {
+    height: 220px;
+  }
+  
+  .artwork-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .artwork-gallery img {
+    height: 140px;
+  }
+}
+
+/* Desk Container */
+.desk-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh; /* Keep fixed height or adjust as needed */
+  width: 100%
+  overflow: hidden; /* Keep this if you want to prevent scrollbars */
+  padding: 20px; /* Add padding here for a border effect */
+  box-sizing: border-box; /* Ensures padding is included in the 50vh height */
+}
+
+.desk-bg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  object-fit: cover; /* Change from 'cover' to 'contain' */
+  object-position: center bottom; /* Keep or change to 'center' or 'top' if you want */
+}
+
+/* Desk Items - Precise Positioning */
+.desk-item {
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 3; /* Increased z-index to ensure it's above other elements if any conflict */
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+
+}
+
+.desk-item:hover {
+  transform: scale(1.1); /* This is the actual hover effect */
+  filter: drop-shadow(0 6px 12px rgba(255,107,158,0.5));
+}
+
+/* Add this new rule for the images inside the clickable items */
+.desk-item img {
+  pointer-events: none; /* Crucial: Allows clicks to pass through the image to the <a> tag */
+}
+
+/* Specific Positions - Adjust these values to match your desk image */
+.laptop {
+  top: 32%;
+  left: 11%;
+}
+
+.tshirt {
+  top: 23%;
+  left: 33%;
+}
+
+.sketchbook {
+  top: 99%;
+  left: 79%;
+}
+
+/* Content Area */
+/* Styles specifically for the main content when the desk is present
+  .home-main-content {
+  position: relative; /* Keep this */
+  margin-top: 50vh; /* This should match the desk-container height */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+  z-index: 1; /* Ensure it overlaps the fixed desk background visually */
+}*/
+.home-main-content {
+  padding-top: 0; /* Remove extra top padding */
+  margin-top: 70vh; /* Should match desk height */
+}
+
+/* If there's still space, add this */
+body > main.home-main-content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Make sure the existing 'main' rule looks like this (without margin-top or z-index)
+   as it will now be applied only when NOT on the home_layout */
+main {
+  line-height: 1.6; /* Keep general body/text styles */
+  color: #333; /* Keep general body/text styles */
+  max-width: 800px; /* Keep general body/text styles */
+  margin: 0 auto; /* Keep general body/text styles */
+  padding: 20px; /* Keep general body/text styles */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .project-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  footer a:hover {
+    transform: scale(1.1);
+  }
+  
+  .home-main-content {
+    padding-bottom: 70px;
+  }
+
+    .apparel-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .apparel-preview img {
+    height: 220px;
+  }
+  
+  .store-cta {
+    padding: 1.5rem;
+  }
+}
+
+
+  /* Add these footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 1rem 0;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+  footer a:hover {
+  color: var(--fun-pink);
+  transform: scale(1.2);
+  text-shadow: var(--pink-glow);
+}
+
+/* Make sure your social links have this structure in HTML */
+<footer>
+  <a href="https://github.com/rileys123"><i class="fab fa-github"></i></a>
+  <a href="https://linkedin.com/in/rileys1"><i class="fab fa-linkedin"></i></a>
+</footer>
+
+  @keyframes pinkPulse {
+  0% { box-shadow: 0 0 0 rgba(255,107,158,0); }
+  50% { box-shadow: 0 0 15px rgba(255,107,158,0.5); }
+  100% { box-shadow: 0 0 0 rgba(255,107,158,0); }
+}
+
+.project-card:hover,
+.art-item:hover {
+  animation: pinkPulse 2s infinite;
+}
+
+
+
+
+
+
+
+
+
+/* Apparel-specific styles */
+.apparel-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 2rem 0;
+}
+
+.apparel-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-top: 4px solid var(--fun-pink);
+}
+
+.apparel-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255,107,158,0.3);
+}
+
+.apparel-preview {
+  padding: 1rem;
+  text-align: center;
+}
+
+.apparel-preview img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+.store-cta {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: var(--light-accent);
+  border-radius: 12px;
+}
+
+.store-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--fun-pink);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.store-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255,107,158,0.4);
+}
+
+
+
+
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-image: url('/assets/art/closet.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* Carousel Track - Horizontal Scroller */
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+  gap: 20px;
+  padding-top: 70px;
+  padding-bottom: 10px; /* Space for scrollbar */
+}
+/* Auto-scroll Animation */
+@keyframes autoScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Pause on hover */
+.carousel-container:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* Carousel Slides */
+.carousel-slide {
+  min-width: 220px;
+  height: 350px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px
+  position: relative;
+}
+
+/* Caption (hidden by default) */
+.carousel-caption {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.carousel-slide:hover .carousel-caption {
+  bottom: 0;
+}
+
+/* Navigation Arrows */
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-nav button {
+  pointer-events: auto;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--dark-accent);
+  margin: 0 15px;
+  transition: all 0.2s ease;
+}
+.carousel-nav button:hover {
+  background: var(--fun-pink);
+  color: white;
+}
+  
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-slide {
+    min-width: 250px;
+    height: 300px;
+  }
+  
+  .carousel-nav {
+    display: none;
+  }
+}
+
+
+
+
+
+
+  /* Add to your existing CSS */
+.no-desk {
+  margin-top: 0 !important;
+  padding-top: 2rem;
+}
+
+/* Hide desk container when hide_desk is true */
+
+
+/* Adjust footer position when no desk */
+.no-desk + footer {
+  position: static;
+  margin-top: 3rem;
+  box-shadow: none;
+}
+
+/* Artsy Header Styles */
+.artsy-header {
+  text-align: center;
+  padding: 2rem 0;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.artsy-header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.artsy-header h1 a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Artsy Text Styles for Apparel Page */
+.apparel-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.apparel-subtitle {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--accent);
+}
+
+  /* Artsy Text Elements */
+.artsy-text {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.8;
+}
+
+.artsy-caption {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+
+/* Artsy Button */
+.artsy-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to right, var(--fun-pink), #ff8e8e);
+  color: white;
+  border-radius: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2rem;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.artsy-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Theme Styles */
+  /* Desktop Container */
+.desktop-container {
+  position: relative;
+  min-height: 90vh;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.desktop-theme {
+  background-image: url('/assets/bg/desktop.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.desktop-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 30px;
+  padding: 20px;
+  height: calc(100vh - 100px);
+}
+
+.desktop-icon {
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.desktop-icon:hover {
+  background-color: rgba(108, 99, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.desktop-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.desktop-icon-label {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  font-size: 12px;
+  word-break: break-word;
+}
+
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; /* Add this */
+  height: 50px; /* Fixed height */
+  background-color: rgba(0,0,0,0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align time to right */
+  padding: 0 20px;
+  z-index: 1000;
+  color: white;
+  /* Remove any margin/padding that might be pushing it down */
+}
+
+.start-button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* Window Styles */
+.project-window {
+  position: fixed;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 100;
+  width: 700px; /* Or your preferred fixed width */
+  min-width: 400px; /* Prevent shrinking */
+  max-width: 80%; /* Optional maximum width */
+  resize: none; /* Prevent user resizing */
+  display: none;
+  /* Remove the transform properties from here */
+}
+
+/* Add this new class for centered windows */
+.window-centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.window-header {
+  background: var(--accent);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+
+.window-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.window-controls button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.window-content {
+  padding: 15px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .desktop-icon {
+    width: 70px;
+  }
+  
+  .project-window {
+    min-width: 90%;
+    left: 5% !important;
+    top: 10% !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== MUSEUM-STYLE ART GALLERY ===== */
+.art-gallery-exhibit {
+  background-color: #f8f5f2; /* Museum off-white wall color */
+  padding: 40px 20px;
+  margin: 40px -20px;
+  border-top: 1px solid #e0d9d1;
+  border-bottom: 1px solid #e0d9d1;
+}
+
+.art-collection {
+  margin-bottom: 60px;
+}
+
+.art-collection h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 2px solid #e0d9d1;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+  /* ===== MUSEUM SPOTLIGHTS ===== */
+.art-collection h2 {
+  position: relative;
+  padding-top: 40px; /* Make space for spotlight */
+}
+
+.art-collection h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 30px;
+  background: 
+    radial-gradient(ellipse at center, 
+      rgba(255,255,255,0.8) 0%,
+      rgba(255,255,255,0) 70%);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+  .art-collection {
+  position: relative;
+}
+
+.art-collection::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    rgba(255,255,255,0.1) 0%,
+    rgba(255,255,255,0) 60%);
+  pointer-events: none;
+  z-index: 0;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.art-collection h2::after {
+  content: "☀";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #D4AF37;
+  text-shadow: 0 0 10px #D4AF37;
+  z-index: 2;
+}
+/* Light beam */
+.art-collection::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 20%;
+  right: 20%;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    rgba(255,255,255,0.15) 0%,
+    rgba(255,255,255,0) 70%);
+  pointer-events: none;
+  z-index: 0;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  filter: blur(5px);
+  opacity: 1; /* Ensure it's always visible */
+  transition: opacity 0.3s ease;
+}
+.art-gallery-grid {
+  
+  columns: 3;
+  column-gap: 30px;
+  
+  /*display: grid;*/
+  /*grid-template-columns: repeat(3, 1fr) repeat(auto-fill, minmax(280px, 1fr));*/
+  /*grid-auto-rows: min-content;
+  gap: 30px;*/
+}
+  .art-piece-image {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+.art-piece {
+  
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px; /* Add bottom margin for spacing between cards */
+  
+  /*background: white;*/
+  /*padding: 15px; /* Padding around the entire card */ */
+  /*box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  position: relative;*/
+}
+  .art-piece-image-wrapper {
+  position: relative;
+  display: inline-block; /* Makes wrapper fit image exactly */
+  line-height: 0; /* Removes space under image */
+  margin-bottom: 15px;
+}
+.art-piece-image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 12px solid #000; /* Black frame */
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37, /* Inner gold lining */
+    0 0 0 2px #D4AF37; /* Outer gold lining */
+  pointer-events: none;
+  z-index: 2;
+}
+/* Museum frame effect */
+.art-piece::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #e0d9d1;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.art-piece:hover::before {
+  opacity: 1;
+}
+  
+<!--/* Spotlight hover effect */
+.art-piece:hover .art-piece-image-container::before {
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37,
+    0 0 0 2px #D4AF37,
+    0 0 20px rgba(212, 175, 55, 0.6); /* Gold glow on hover */
+}
+
+  .art-piece:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+} -->
+
+/* Permanent spotlight effect */
+.art-piece-image-container::after {
+  box-shadow: 
+    inset 0 0 0 3px #D4AF37,
+    0 0 0 3px #D4AF37,
+    0 0 20px rgba(212, 175, 55, 0.3); /* Reduced opacity for permanent glow */
+}
+
+/* Enhanced effect on hover */
+.art-piece:hover .art-piece-image-container::after {
+  box-shadow: 
+    inset 0 0 0 3px #D4AF37,
+    0 0 0 3px #D4AF37,
+    0 0 30px rgba(212, 175, 55, 0.6); /* Stronger glow on hover */
+}
+/* Actual frame styling */
+.art-piece-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 12px solid #000; /* Black frame */
+  box-shadow: 
+    inset 0 0 0 2px #D4AF37, /* Inner gold lining */
+    0 0 0 2px #D4AF37; /* Outer gold lining */
+  pointer-events: none;
+  z-index: 2;
+}
+
+.art-piece-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  background: white;
+  display: block; /* Remove space under image */
+}
+
+.art-piece-plaque {
+  background: #f8f5f2;
+  padding: 15px;
+  border-left: 3px solid #6C63FF;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.art-piece-plaque h3 {
+  margin: 0 0 5px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+}
+
+.art-piece-plaque .medium {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.art-piece-plaque .date {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.art-piece-plaque .description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Process details styling */
+.art-process-details {
+  display: none;
+  
+  
+  /*background: white;
+  padding: 30px;
+  margin-top: 30px;
+  border-left: 4px solid #6C63FF;*/
+}
+
+.art-process-details h3 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  margin-top: 0;
+}
+
+.process-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.process-images img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .art-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .art-piece-image {
+    height: 250px;
+  }
+}
+  
+  
+  
+</style>
+
+
+<script src="/assets/js/carousel.js"></script>
+
+  <title>Home | Riley Shen</title>
+</head>
+<body>
+
+    <!-- Only show desk if hide_desk isn't true -->
+    <div class="desk-container">
+      <img src="/assets/art/desk1.jpg" class="desk-bg" alt="Illustrated desk">
+      
+      <a href="/projects/" class="desk-item laptop">
+        <img src="/assets/art/laptop.png" alt="Coding Projects" style="width: 160px;">
+      </a>
+      
+      <a href="/apparel/" class="desk-item tshirt">
+        <img src="/assets/art/shirt.png" alt="Artwork" style="width: 260px;">
+      </a>
+      
+      <a href="/artwork/" class="desk-item sketchbook">
+        <img src="/assets/art/sketchbook.png" alt="About Me" style="width: 140px;">
+      </a>
+    </div>
+  
+
+  <main class="home-main-content">
+    
+
+  </main>
+
+  <footer>
+    
+      <a href="mailto:rileys435123@gmail.com"><i class="fab fa-envelope"></i></a>
+    
+      <a href="https://github.com/rileys123"><i class="fab fa-github"></i></a>
+    
+      <a href="https://linkedin.com/rileys1"><i class="fab fa-linkedin"></i></a>
+    
+  </footer>
+  
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const carousels = document.querySelectorAll('.carousel-container');
+  
+  carousels.forEach(carousel => {
+    const track = carousel.querySelector('.carousel-track');
+    const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+    const prevBtn = carousel.querySelector('.carousel-nav button:first-child');
+    const nextBtn = carousel.querySelector('.carousel-nav button:last-child');
+    
+    let currentIndex = 0;
+    const slideWidth = slides[0].offsetWidth + 20; // Include gap
+    
+    // Clone slides for infinite effect
+    slides.forEach(slide => {
+      track.appendChild(slide.cloneNode(true));
+    });
+    
+    // Navigation functions
+    function moveToSlide(index) {
+      track.style.transform = `translateX(-${index * slideWidth}px)`;
+      currentIndex = index;
+    }
+    
+    function moveCarousel(direction) {
+      const slidesCount = slides.length;
+      currentIndex = (currentIndex + direction + slidesCount) % slidesCount;
+      moveToSlide(currentIndex);
+    }
+    
+    // Auto-scroll
+    let autoScroll = setInterval(() => moveCarousel(1), 3000);
+    
+    carousel.addEventListener('mouseenter', () => clearInterval(autoScroll));
+    carousel.addEventListener('mouseleave', () => {
+      autoScroll = setInterval(() => moveCarousel(1), 3000);
+    });
+    
+    // Button events
+    if (prevBtn) prevBtn.addEventListener('click', () => moveCarousel(-1));
+    if (nextBtn) nextBtn.addEventListener('click', () => moveCarousel(1));
+  });
+});
+  </script>
+</body>
+</html>
