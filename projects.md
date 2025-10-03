@@ -235,7 +235,7 @@ hide_desk: true
       <p>An interactive simulation where you can cultivate your own cosmic ecosystem. Attract particles to form stars, watch them grow into supernovas and black holes, and even name your own constellations!</p>
       
       <div class="project-links">
-        <a href="https://rileys123.github.io/Roman-Myth-or-Fact/" target="_blank">
+        <a href="https://rileys123.github.io/Galactic_Garden/" target="_blank">
           <i class="fas fa-play"></i> Play
         </a>
       </div>
