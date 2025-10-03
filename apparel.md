@@ -121,10 +121,10 @@ hide_desk: true
 
     <!-- Apparel Item 7 -->
     <div class="carousel-slide">
-      <img src="/assets/art/latins.png" alt="latin tshirt">
+      <img src="/assets/art/ugh.png" alt="latin tshirt">
       <div class="carousel-caption">
         <h3>2025-26 Latin Club</h3>
-        <p>20+ sold; Apollo playing the lyre to sheep.</p>
+        <p>20+ sold; Apollo playing the lyre to sheep</p>
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
