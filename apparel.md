@@ -6,7 +6,7 @@ nav_order: 3
 hide_desk: true
 ---
 # Welcome to Riley's Closet!
-<p>Below is a gallery of all the merchandise I've designed.</p>
+<p>Below is a gallery of some of the merchandise I've designed.</p>
 
 <div class="carousel-container">
 <div class="carousel-nav">
