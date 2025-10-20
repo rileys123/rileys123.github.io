@@ -57,7 +57,7 @@ hide_desk: true
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
-          <span class="date">April 2024</span>
+          <span class="date">Sept 2023</span>
         </div>
         <a href="#sax-details" class="details-link">
           <i class="fas fa-info-circle"></i> Details
@@ -74,7 +74,7 @@ hide_desk: true
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
-          <span class="date">April 2024</span>
+          <span class="date">Sept 2024</span>
         </div>
         <a href="#clarinet-details" class="details-link">
           <i class="fas fa-info-circle"></i> Details
@@ -93,7 +93,7 @@ hide_desk: true
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
-          <span class="date">April 2024</span>
+          <span class="date">April 2025</span>
         </div>
         <a href="#latin-details" class="details-link">
           <i class="fas fa-info-circle"></i> Details
@@ -110,7 +110,7 @@ hide_desk: true
         <div class="project-meta">
           <span class="tech-tag apparel">Apparel</span>
           <span class="tech-tag digital">Digital</span>
-          <span class="date">April 2024</span>
+          <span class="date">Sept 2022</span>
         </div>
         <a href="#sax2-details" class="details-link">
           <i class="fas fa-info-circle"></i> Details
