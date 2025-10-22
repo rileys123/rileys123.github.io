@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://rileys123.github.io/advanced-examples/</loc>
+<lastmod>2017-01-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://rileys123.github.io/markdown-examples/</loc>
+<lastmod>2017-02-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://rileys123.github.io/welcome-to-jekyll/</loc>
+<lastmod>2017-03-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://rileys123.github.io/apparel/</loc>
+</url>
+<url>
+<loc>https://rileys123.github.io/artwork/</loc>
+</url>
+<url>
+<loc>https://rileys123.github.io/</loc>
+</url>
+<url>
+<loc>https://rileys123.github.io/projects/</loc>
+</url>
+</urlset>
