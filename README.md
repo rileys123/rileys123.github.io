@@ -1,99 +1,46 @@
+# Riley Shen's Personal Portfolio Website
+
+A fully customized personal website built with JavaScript, HTML, and CSS to showcase my coding projects, artwork, and apparel designs in one interactive space!
+
+**Live demo:** [rileys123.github.io](https://rileys123.github.io/)
+**Codebase:** [GitHub Repository](https://github.com/rileys123/rileys123.github.io)
+
 ---
-title: "About"
-permalink: "/about/"
-layout: page
+
+# Project Overview
+This website serves as a personal project hub, combining my interests in coding, design, and artwork. Each page was designed to express both technical and creative sides through fun designs and concepts.
+
 ---
 
-## Installation
+# Features
+- **Interactive Home Page** - hover over objects (laptop, t-shirt, sketchbook) to explore different pages
+- **Coding Projects Page** - icons link to project descriptions and repositories
+- **Artwork Gallery** - scrollable showcase of my art with design descriptions
+- **Apparel Design Carousel** - rotating gallery of my original closet designs
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+---
 
-## Features
+# Build Process
+1. Forked niklasbuschmann/contrast as a base structure and heavily customized the layout/CSS for a more interactive theme
+2. Digitally drew home page in Concepts and designed hover effects on icons
+3. Designed carousel script for closet navigation, added links to designs
+4. Iterated through visuals and UI layout through trial and error
 
- - supports dark mode on macOS Mojave
- - optional sidebar
- - MathJax support
- - no external ressources
- - included archive page
- - supports pagination
- - feed generation
- - responsive
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+---
 
-## Based on
+# Future Improvements
+- Expand the homepage “desk” with more clickable items like music, writing, etc.
+- Add animations for more fun, personal pop!
 
-- [Hyde](https://github.com/poole/hyde)
-- [Minima](https://github.com/jekyll/minima)
-- [Lagrange](https://github.com/LeNPaul/Lagrange)
-- [Font Awesome](http://fontawesome.io/)
-- [KaTeX](https://katex.org/)
-- [Pygments](https://github.com/richleland/pygments-css)
+# Screenshots
+### Home Page
+![Home Page Screenshot]()
 
-## Installation (jekyll-remote-theme method)
+### Coding Projects Page
+![Coding Projects Screenshot]()
 
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
+### Artwork Gallery Page
+![Artwork Gallery Screenshot]()
 
-```yaml
-remote_theme: niklasbuschmann/contrast@v2.11
-
-plugins:
-  - jekyll-remote-theme
-```
-
-Note: to enable icons you also need to copy over the `_data` folder.
-
-## Config
-
-Your `_config.yml` could for example look like this:
-
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed
-
-```
-
-## MathJax
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
-
-## License
-
-[public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
+### Apparel Carousel Page
+![Apparel Carousel Screenshot]()
