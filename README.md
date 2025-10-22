@@ -34,13 +34,13 @@ This website serves as a personal project hub, combining my interests in coding,
 
 # Screenshots
 ### Home Page
-![Home Page Screenshot]()
+![Home Page Screenshot](assets/img/homepage.png)
 
 ### Coding Projects Page
-![Coding Projects Screenshot]()
+![Coding Projects Screenshot](assets/img/codepage.png)
 
 ### Artwork Gallery Page
-![Artwork Gallery Screenshot]()
+![Artwork Gallery Screenshot](assets/img/artpage.png)
 
 ### Apparel Carousel Page
-![Apparel Carousel Screenshot]()
+![Apparel Carousel Screenshot](assets/img/closetpage.png)
